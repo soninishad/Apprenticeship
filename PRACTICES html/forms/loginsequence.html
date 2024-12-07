@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>login </title>
+    <style>
+        body {
+            margin-top: 150px;
+            color: rgb(212, 32, 176);
+            background-size: 100%;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+            font-style: normal;
+            text-align: center;
+            font-weight: bold;
+        }
+        table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 23px;
+            font-weight: bold;
+        }
+        input[type=username]{
+            font-size: 15px;
+            border-radius: 6px;
+            padding: 4px 6px;
+            /* margin: 5px 0px; */
+        }
+        input[type=button],
+        input[type=forget] {
+            width: 34%;
+            font-size: 16px;
+            padding: 6px 10px;
+            margin: 5px 0px;
+            color: rgb(249, 15, 15);
+            cursor: pointer;  
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body background="3 (2).jpg">
+    <form>
+     <!---------------------------------------------------- NAME--------------------------------------------------->
+        <h1>USER LOGIN</h1>
+        <table align="center">
+            <tr>
+                <th>Username <input type="username" placeholder="Enter your username" required="true"
+                        style="margin-left: 100px"></th>
+            </tr>
+            <tr>
+                <th><br />Password <input type="username" placeholder=" Enter your password" required="true"
+                        style="margin-left: 100px"></th>
+            </tr>
+            <tr>
+                <th><br /><br />
+                    <input type="radio" style="margin-left: 120px;" />Remember me
+                </th>
+            </tr>
+<!----------------------------------------------------- LOGIN ------------------------------------------------------------>
+                <th>
+                    <br /><br />
+                        <input type="button" value="LOGIN" />
+                    <input type="forget" value="forget password ?" />
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

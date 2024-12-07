@@ -1,0 +1,83 @@
+<htm>
+
+    <head>
+        <title> Registration form in a table </title>
+        <style>
+            body {
+                background-size: 100%;
+                margin-top: 150px;
+                font-size: 20px;
+                font-family:"Verdana, Geneva, Tahoma, sans-serif";
+            }
+table{
+    font-size: 20px;
+}
+input[type=submit],input[type=reset],input[type=button]{
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(252, 8, 8);
+            padding: 6px 10px;
+            margin: 5px 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 10px;
+}
+        </style>
+    </head>
+    <body background="3 (4).jpg">
+        <form align="center">
+            <h1> Registration </h1>
+            <table align="center">
+                <tr>
+                    <th>
+                        Name <input type="text" placeholder="Enter your name " required="true"
+                            style="margin-left: 100px" />
+                    </th>
+                </tr>
+                <tr>
+                    <th><br />
+                        DOB
+                        <input type="date" required="true" style="margin-left: 146px" />
+                    </th>
+                </tr>
+                <!-- <tr>
+                    <th>
+                        <br />
+                        Upload pic <input type="file" style="margin-left: 158px" />
+                    </th>
+                </tr> -->
+                    <th><br />
+                        E-Mail <input type="email" placeholder="    Enter your email" required="true"
+                            style="margin-left:141px" />
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <br />
+                        Password <input type="password" placeholder="  Enter your password" style="margin-left:124px" />
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <br />
+                        Mobile no. <input type="number" placeholder="Enter mobile no." style="margin-left:120px" />
+                    </th>
+                </tr>
+                <tr >
+                    <th>
+                        <br />
+                        Gender <input type="radio" name="gender" style="margin-left:140px" />Male
+                        <input type="radio" name="gender" />Female
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <br/><br/>
+                        <input type="submit" />
+                        <input type="Reset"/>
+                        <input type="button" value="print"  onclick="window.print();"/>
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </body>
+</htm>

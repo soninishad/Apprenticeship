@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.js"></script>
+    <style>
+        .outer {
+            height: 700px;
+            /* width: 1000px; */
+            width: 1500px;
+            background-color: aqua;
+            position: relative;
+        }
+
+        .inner {
+            margin-top: 80px;
+            height: 350px;
+            margin-left: 150px;
+            width: 250px;
+            /* background-image: url('img/1\ \(14\).jpg'); */
+            /* background-color: rgb(76, 75, 75); */
+            /* background-size: cover; */
+            /* opacity: 0.5; */
+            border: 3px solid rgba(27, 26, 26, 0.5);
+            position: absolute;
+            border-radius: 12px;
+        }
+
+        .circle {
+            height: 80px;
+            width: 80px;
+            /* background-color: blue; */
+            background-image: url('img/1.jpg');
+            background-size: cover;
+            /* position: relative; */
+            margin-left: 80px;
+            margin-top: 10px;
+            clip-path: circle(50% at 50% 50%);
+            /* position: absolute; */
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- outer s -->
+        <div class="outer">
+            <!-- <div class="row"> -->
+            <div class="col-sm-12 inner ">
+                <div class="col-sm-4 circle">
+                </div>
+                <h3 class="text-center">Flower One</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, officialorem10
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quaerat..</p>
+            </div>
+            <div class="col-sm-4 inner"></div>
+            <div class="col-sm-4 inner"></div>
+            <!-- </div> -->
+            <!-- <div class="inner"></div> -->
+
+
+        </div>
+
+        <!-- outer end -->
+    </div>
+
+
+
+</body>
+
+</html>
