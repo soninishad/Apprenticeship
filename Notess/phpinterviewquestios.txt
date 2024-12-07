@@ -1,0 +1,322 @@
+Database interview questions
+************************************
+1. What is database management system?
+ database is a type of application software  , which is used to manage database , it provides facilities to create , access , and manipulate  data within database.
+
+2. What is SQL ?
+sql stands for structured query language , it used to perform database operations . based on database operations  sql is divided in four parts 
+ ddl, dml , dcl , tcl .
+
+3. What is diffrence between  drop delete and truncate command .
+
+Delete:- it is used to delete record  form table  , it can be rollback .
+
+Truncate:- it used to  delete all data form database object, it cannot be rollback
+
+Drop:- it is used to delete database object 
+
+
+4. What is diffrence between alter and update command?
+
+ Alter :- it is used to modify structure of database object 
+Update :- it is used to update the records  in table.
+
+
+5. What is diffrence between commit and rollback?
+
+commit is used to  save transaction   
+rollback is used to undo the operations
+
+6. What is diffrence between backup and restore
+
+Backup:- it used to take backup of database ,Restore:- it used to  restore or reconstruct database form its  backup.
+
+7.What is table ?
+table is a database object , it is collection of rows and columns.
+
+
+8.What is Primary key ?
+
+Primary key is which is a field in a table , used to identify each record uniquely, it is atomic and not null.
+
+9.What is Foreign key?
+Foreign key is a field in a table , which works  as primary key  in another table, it used to establish  relationship between  two or more
+table , In a single table there can be more than one foriegn key.
+
+10.What is Unique key?
+
+Unique key is a field in a table which is used to identify each record uniquely, it can be  null .  
+
+11.What is Not null ?
+If you make a field in a table  , thne you cant blank that field .
+
+12.What is Candidate key | Composite key ?
+if you create a primary key by using more than one column , then resultant key is called candidate key.
+
+13.What is join operations?
+Join operations is used  to select record form two or more tables  . 
+
+
+14. What is order by ?
+if you want to select record in ascending or desecnding order then you can use  order by .
+
+
+15. Write sql statement to create table
+
+we use create command to fcreate command .
+
+create table <tablename>(
+<colname1> <datatype>,
+<colname2> <datatype>,
+<colname3> <datatype>,
+);
+
+16. Write sql statement to delete a record form table?
+
+to delete a record form a table we use delete command and where  clause to specify the condition.
+
+delete form <tablename> where <condition1> <and|or> <condition2>... .. .. . . . . ..   .;
+
+
+17. Write sql statement to perform update command ?
+
+update <tablename> set <column_name>=<value> where <condition1> <and|or> <condition2>;
+
+
+18.Write sql statement to perform  select operations
+
+1.select * form <tablename>;
+it shows  all records form the table .
+
+2.select (<col1>,<col2>,<col3>.......)form <tablename>;
+it shows  all record  with col1 , col2 , col3 form table .
+
+ 3.select (<col1>,<col2>,<col3>.......)form <tablename>where <condition>;
+it shows  all record  with col1 , col2 , col3 form table which match the condition.
+
+
+
+19 What is view 
+view is a logical table , which is created form another table  , and changes made in this table also effect the main table .
+
+
+20 Write  sql statement to show , record with highest salary?
+
+select *  form  employee where salary = (select max(salary ) form employee );
+ 
+
+21Write  sql statement to show , record with second largest salary?
+
+select *  form  employee where salary = (select max(salary ) form employee where salary <((select max(salary ) form employee )));
+
+
+
+22  What is stored procedure ?
+
+Stored procedure is a pre complied query  which can be  used i frontend   
+
+
+
+23 How many types of join operations?
+
+
+
+24 What is plsql 
+
+pl/sql stands for procedural language / structered query langauge , in plsql , you can write sql statement and programing statement both 
+
+
+
+25 Diffrence btween sql and mysql ?
+
+Sql is a database language where as mysql is database management system.
+
+
+
+
+ Interview questions  of oops
+****************************
+1 What is oops?
+oops is mechanism of software development ,it four pillars
+*Abstraction
+*Encapsulation
+*Inheritance
+*Polymorphism
+ 
+
+2.What is class?
+class is blueprint of object , it is collection of variable and methods .
+
+
+3.What is constructor ?
+ Constructor is special method which is use  to initialize variables , it is automatically invoked as soon as object is created .
+   
+
+
+4.How to create object of class in php?
+$obj = new classname( );
+
+
+eg :
+$emp = new Employee();
+
+
+
+5.How to call a method in php?
+$emp = new Employee();
+$emp ->display()
+
+
+6 What is inheritance?
+ in  Inheritance   you can create a new class by using existing class , and existing class is called base class and newly created class is called derived class
+syntax:
+
+class a {
+//code 
+} 
+
+
+class b extends a {
+// this class inherits all variable and mtehods of class a 
+// code  
+}
+
+
+
+7 What is abstraction?
+Abstraction is a mechanism , to only show essential functionalities  and hide all other functionalities of object.
+
+
+8 What is encapsulation?
+Wrapping of properties(Variables ) and functionaties(Methods) in a single unit  , and that single unit is called is called encapsulation.
+
+
+9 What is polymorphism?
+polymorphism means one thing many forms .
+
+1.Method overloading
+2.Method overriding 
+
+10 What is Object ?
+Object is a real world entity , it has its properties and functionalties.
+
+11 what is method overloading  in java ?
+In java ,   you can give same name to mutiple methods, but thier parameters should be diffrent.
+
+based on methods parameters  it is decided that hwich methods call form where
+this called method overloading
+1. By changing no of paramter 
+2. By changing the datatype  parameter
+
+
+12 What is method overriding?
+RewrIting of base class methods into a devried class is called methods overriding
+
+
+
+13 What is Exception , and how many types of exception is java?
+
+ Exception is Abnormal termination of a program ., in java there are three types of exception
+
+1. Checked exception
+2. Unchecked exception
+3. Error :- error due to system resources .
+
+14 What is package in java ?
+
+Package is a container of  classes , interfaces  and subpackages .
+1. built in package
+2. user defined package.
+
+
+
+15 .What is array?
+array is collection of similar datatypes , means it can store multiple values of similar datatypes.  
+
+
+
+16 How many types of array in php ???
+
+Array is collection of elements
+1. Indexed array: numeric values [0] ..
+2. Associative array  :- key values pairs
+3. Multidimenssional array : nested array
+
+
+
+17 What are functions and syntax in PHP 
+ A function is a block of code which perform a specific task
+Syntax
+*************
+function <function_name>(   parameter if any    ){     // code }
+
+eg :
+function add($x , $y){
+
+return ($x + $y);
+}
+
+
+18. What is recursion?
+When a function call itself then it iscalled recursion
+ 
+
+
+19 explain for each loop?
+Foreach loop is a loop control, whcih is used to travesre a elements of a collection
+
+
+
+
+
+
+20
+
+
+
+
+21
+
+
+
+
+22
+
+
+23
+
+
+
+24
+
+
+25
+
+
+
+26
+
+
+27
+
+
+
+
+28
+
+
+29
+
+
+
+30
+
+
+
+
+
+
+
+
+
+
