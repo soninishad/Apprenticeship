@@ -1,0 +1,668 @@
+ --------APPRENTICESHIP-------BY ROHIT SIR
+
+-----    ----- MEANS HEADINGS
+-         MEANS POINTS
+\\        MEANS EXAMPLES
+
+
+ WHAT IS A WEBSITE?
+ WHAT IS A WEB APPLICATION?
+ DIFF BETWEEN WEB APPLICATION AND WEBSITE??
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+----------WEBSITE----------
+
+- A WEBSITE IS A COLLECTION OF WEB PAGES.
+- A WEBSITE IS STATIC ONLY 
+- A WEBSITE IS MADE FOR VIEWER
+- A WEBSITE DOES NOT INTERACT WITH VIEWER.
+- A GOOD WEBSITE CAN BE CREATED USING  HTML, CSS, JS.
+
+\\    EXAMPLE:- A COLLEGE WEBSITE , IT IS ONLY VISIBLE TO VIEWERS  ABOUT THE COLLEGE,
+     CONTACT US , FACULTY MEMBERS ,  WHAT COURSES ARE THERE FEE STRUCTURE ETC .
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+--- WEB APPLICATION----
+
+- A WEBSITE IS A COLLECTION OF WEB PAGES.
+- A APPLICATION IS STATIC AS WELL AS DYNAMIC . 
+- A WEB APPLICATION IS MADE FOR USER.
+- A WEB APPLICATION  INTERACT WITH USER .
+- A GOOD WEB APPLICATION CAN BE CREATED USING  HTML, CSS, JS , ANY ONE PROGRAMMING LANGUAGE, ONE DATABASE LANGUAGE
+
+\\ EXAMPLE:- AMAZON APP , WHEN YOU ORDER THE GIVEN ITEM NAD THEN CHECK OUT , 
+            THEN DO PAYMENT AND ORDER RECIEVE MEANS THAT APPLICATION INTERACTS WITH USER.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+-----DIFF BEWTEEN WEB APP AND WEBSITE REFER ABOVE---
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+-----HTML------
+
+-HYPER TEXT MARKUP LANGUAGUE
+
+-COLLECTION OF WEBPAGES IS CALLED WEBSITE, USED TO  CREATE  STATIC WEB PAGES 
+
+-IT WORKS ON THE BASIS OF TAGS
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+----- WHAT ARE CALLED TAGS?---
+- ANYTHING WRITTEN IN < > ANGULAR BRAKETS ARE CALLED TAGS.
+- IN HTML ,THE TAGS ARE PREDEFINED.
+- IN XML ,THE TAGS ARE PREDEFINED .
+
+
+
+-----ELEMENTS-------
+
+1. INLINE  LEVEL --------->SAME LINE --------- INLINE TO BLOCK USE BR  TAG
+2. BLOCK LEVEL---------->DIDFFRENT LINE 
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+-------------HISTORY OF HTML--------
+
+
+- IS WAS DEVELOPED IN THE EARLY 90'S
+- DEVELOPED BY SIR TIM BERNER'S LEE. ---> FATHER OF HTML.
+- WAS ALSO THE FOUNDER OF W3C ---> WORLD WIDE WEB CONSORTUIM---> US BASED FIRM.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+- THERE ARE 2 TYPES OF TAGS
+ 
+ 1. CONTAINER TAGS ----> TAGS WHICH OPRNS AND CLOSE IS CALLED PAIR TAGS OR CONTAINER TAGS 
+ /// EXAMPLE - HTML , HEAD , BODY ETC.   
+
+
+
+
+ 2. SELF CLOSING TAGS --->  TAGS WHICH ARE CLOSING SELF   BY ITSELF
+  /// EXAMPLE :- <HR/> ---> HORIZONTAL LINE DRAW, <BR/>---> NEXT LINE 
+
+
+THERE ARE TOTAL 120 ++ TAGS IN HTML.
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+ 
+-----BY DEFAULT PROPERTIES BY BROWSER---- 
+
+- ALIGNMENT IS LEFT 
+- BACKGROUND COLOR  ---> WHITE
+- COLOR---> BLACK
+- TEXT COLOR ----> NOTHING LIKE THAT .
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+1. <HTML> ------->  CONTAINS  HEAD AND BODY TAG,ECAPSULATE ALL HTML CODE IN SINGLE CONTAINER 
+2. <HEAD> ------->  USED TO LINK FILES  HERE , LINKING PART HERE USING LINK TAG----> SELF CLOSING TAG ----> USD TO LINK EXTERNAL CSS
+3. <BODY> ------->  CONTAINS ALL THE TAGS EXCULDING THE 8 TAGS WHHCH ARE METIONED BELOW
+
+
+
+MARK TAG---------------> IT HIGHLIGHTS THE TEXT BY YELLOW COLOR.
+
+
+-----TAGS USED IN HEAD TAG----------
+
+1. < TITLE >     content written in title tag will appear on title bar  </TITLE>
+
+2. < STYLE >     used for writing css code in it. </STYLE> , IF NOT WRITE CSS IN STYLE TAG THEN HTML WILL CONSIDER OUT OF FAMILY NAD CONSIDER IT AS TEXT , AND SIMPLY PRINT IN THE BODY
+
+3. < SCRIPT>     used to write javascript code  </SCRIPT>  ,IF NOT WRITE JAVASCRIPT IN STYLE TAG THEN HTML WILL CONSIDER OUT OF FAMILY AND CONSIDER IT AS TEXT , AND SIMPLY PRINT IN THE BODY
+
+4. < NOSCRIPT>   used to verify wheather javascript works or not in browser , if javascript is off in browser then , we will not be able to find fault in the code-----> so coculsion is that
+  use noscript tag   and write content ,if not work then print that string</NOSCRIPT>
+
+5. < LINK/>  ----->  link tag is used for external  css and javscript
+
+6. < META/> 
+
+7. < BASE >   </BASE >
+8. < COMMAND>   </COMMAND>
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+CSS  ------>  CASCADING STYLESHEET-------------> LEFT IS CALLED PROPERTY OR ATTRIBUTE , AND RIGHT IS CALLED VALUE 
+ 
+ PROPERTY : VALUE ;
+
+HREF -----> HYPER RREFRENCE USED  TO LINK CSS OR JAVASCRIPT 
+REL ------> RELATION OF CSS ------------> STYLESHEET
+TYPE ------> TEXT/ CSS 
+
+
+ FAVICON  -----------> USE TO ADD ICON  ON TITLE BAR -------->  <link href = "SALU.jpg"  rel = "icon"/> -----> used to add icon near the title bar  where SALU.jpg is image and  rel = icon   is value 
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+TASK 4 -----------> SEARCH  ENGINE OPTIMIZATION( SEO )---------> 2 PAGE NOTES---------------> 
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+                                
+                                  ---------------------MARQUEE------------------------------
+
+
+
+- - MARQUEE ------------>  used to scroll of text ------------> container tag  
+
+- 5 -----------> ATTRIBUTES 
+
+-DIRECTION-----> USED TO SET FLOW OF TEXT -------> UP, DOWN, LEFT OR RIGHT------> BY DEFAULT IT IS LEFT
+-BEHAVIOR-----> TEXT  HIT AND COME BACK
+-SCROLLAMOUNT------> USED SET THE SPEED OF MOVING TEXT---------> DEFAULT VALUE IS 10 
+-ONMOUSEOVER-----------> IF MOUSE GO TEXT THEN , STOP ME 
+-ONMOUSEOUT-----------> IS MOUSE  GO OUT OF THE TEXT, THEN TEXT START CONTINUE TO MOVE 
+
+
+CODE FOR REVIEW ----------> attribute for marquee --------> sampe code 
+
+direction =" right"   
+behavior = "alternate"   
+scrollamount = "20"    
+onmouseover = "stop();"   
+onmouseout = "start();"  >  softpro </marquee>
+
+
+onmouseover = "stop();" --------------> if put arrow on moving text then , text will stop
+
+onmouseout = "start();---------------->
+
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+                               --------------TABLE -----------------------
+
+
+
+
+- TABLE TAG ----------------> ATTRIBUTE------------> BORDER = " VALUE "-------------------> ADD BORDER TO TABLE
+                               ATTRIBUTE------------> cellpadding = "...px "------------------> create between txt in data
+                                ATTRIBUTE------------> cellspacing = " ...px "----------------> create bwtenn row and col
+                                 ATTRIBUTE------------> align = " center/left/right"--------------> ALIGNMENT OF DATA
+
+
+-TR TAG ---------------->CREATE SINGLE ROW 
+
+
+
+-TH TAG-------------->  USE FOR HEADING IN TABLE
+
+
+
+
+-TD TAG--------------> USED FOR COLUMN IN THE TABLE  
+
+
+ STRUCTURE  -------> IF 3 ROW AND 4 COL ----> INCLUDING HEADING THEN FOLLOWING CODE WOTH HELP
+
+
+<TR>
+<TH> </TH>
+<TH> </TH>
+<TH> </TH>       ---------------> ONE ROW
+<TH> </TH>
+</TR>
+
+
+<TR>
+<TD> </TD>     
+<TD> </TD>  -------------> SECOND ROW
+<TD> </TD>
+<TD> </TD>
+</TR>
+
+<TR>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>    ------------------> THIRD ROW
+<TD> </TD>
+</TR>
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+                   ---------------HTML FORM------------------
+
+
+
+- FORM---------------> ALL FORM ELEMENTS WILL RESIDE IN THE FORM TAGS.
+
+- <BR> ---------> used to convert inline level element to block level element---------->not line change ---------> wrong  answer
+
+
+- TEXT BOX---------> any type char input , it will accept.--------------> use text
+- RADIO -----------> used for single selection 
+- CHECKBOX---------> used for multiple selection
+- EMAIL BOX--------> used for email , input
+- PASSWORD-----------> used for black dots for assword
+- MOBILE NO----------> used for mobile number 
+- DOB--------------> used for date of birth slection
+- UPLOAD PIC--------> used for image upload
+-  ADRESSES----------> used for addresss input----> use text area tag ---> for area increase
+- DROP DOWN-----------> used for drop down
+
+
+
+
+ 3 BUTTON FIX -----------> SUBMIT , RESET AND CANCEL 
+
+
+
+
+
+----------SYNTAX OF INPUT TYPE ----------
+
+ <INPUT  TYPE = " ANYTHING "  NAME = " RELATED TO CONTENT " -------------> NAME CUZ , TO MAKE DIFFRENCE FOR SERVER 
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+                               -------VALIDATION IN FORM  USING HTML---------
+
+
+
+- REQURIED = TRUE------------> WITHOUT FILL NOT SUBMIT CODE ..
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  
+                        
+                     
+----------LIST IN HTML ----------
+
+ 
+-DEF ----------->
+
+
+---------- TYPES OF LIST -----THEASE ARE BLOCK LEVEL ELMENTS
+
+1. ORDERED LIST-------------> by default order is 1234------for roman type = "I"-------> ATTRIBUTE ----> start = "4"--->4321
+
+    IF START  FROM D THEN -------> <OL  type = "A"  start = "4">---------> CUZ START TAKE INTEGER VALUE .
+
+
+
+
+2. UNORDERED LIST------------->by default order is DISC . . .  -----> ATTRIBUTE TYPE = "CIRCLE/ SQUARE/ DISC"
+
+
+
+3. DEFENTION LIST 
+
+  DT TAG -------> USED FOR HEADING TO DEFINE
+  DD TAG -------> USED TO WRITE DEFNATION 
+
+
+
+
+---------SYNTAX TO WRITE --------
+
+
+ <DL>
+
+   <DT >APPLE  /<DT>
+
+   <DD>  this is apple </DD>
+ 
+  </DL>
+
+
+
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+--------------- HOW TO INSERT IMAGE ON WEBPAGE ---------
+
+
+-IMG TAG ---------> self closing tag  ---------->  src----------->  source of image-----------> location of image 
+                                   height--------->     ...px       ---------->   orignal image doesnt become small ,but appear on browser as small
+                                   width---------->     .. px 
+                                   title----------->   --------------------> define title of image
+                                   alt---> alternative text for an image --------> if image not visible then alt exe 
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@222
+
+
+task4--GALLERY -->freddom fighter 
+                  vegetable 
+                  aeroplane
+                  sport person
+                   flower
+
+ all in one page 
+
+
+222@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+             -----HYPERLINK-----------
+
+
+
+ DEF -------> IS IS THE THE COLLECTION OF  UNDERLINED WORDS , ICONS , IMAGES, SYMBOLS WHICH ARE CONNECTED TO A SPECIFIED LINK.
+
+
+
+
+
+----- HOW TO IDENTIFY  HYPERLINK ----
+ 
+
+- IT IS AN UNDERLINED 
+- IT IS BLUE IN COLOR 
+- IF WE HOVER MOUSE THEN ,HAND SYMBOL COMES
+
+
+
+<a> tag ----------> ANCHOR TAG USED TO MAKE HYPER LINKS ----------> inline lement
+
+                    ATTRIBUTE ------ ----HREF =" link "
+
+                    ATTRIBUTE ------ ----target ="  "
+
+
+
+
+-I tag ------------ self-closing--------> boldfont              /// b , i , u  are inline tag
+-B tag ------------ self-closing--------> italics
+-U tag ------------ self-closing--------> underline
+-STRONG tag ----------> contaniertag---> bold
+-EM tag---------->containertag  ----> italics
+-STRIKE TAG----------> containertag ------->  cut deta hai
+
+
+
+sup tag-----> container tag ----> ki power
+
+sub tag-----> container tag ----> down
+
+
+ex ------>10 <SUP>5 </SUP> ---------> 10 KI POWER 5
+
+          H <SUB>2 </SUB> SO  <SUB>4</SUB>
+
+ 
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+    
+
+       ----- CHARACTERS ENTITIES / HTML ENTITIES--------------
+
+
+--- aise symbols which are not present on keyboard ,but used in website
+
+--trade mark, copyright
+
+
+copyright - &copy;
+  trademark- &trade;
+ registered - &reg;
+  euro    - &euro;
+  pound    - &pound;
+  dollar    - &dollar;
+ rupee  - &#8377;
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2
+         
+
+            ---------------SEO----------------
+
+
+ SEO IS A PROCESS OF OPTIMISING WEBSITES TECHNICAL CONIFGURATION, CONTENT RELEVANCE AND LINK POPULARITY
+
+3 PILLAR-----> TECHNICAL OPTIMISATION -------> SPEED , LOADING OF WEBSITE
+         -----> ON PAGE OPTIMISATION -------->OPTIMISE A PARTICULAR PAGE SO THAT IT IS EASILY FINDABLE ON THE WEBSITE WITH HIGHER RANKING.
+            -----> OFF PAGE OPTIMISATION -------->OPTIMISE  THOSE THAT TAKES PLACE AWAY FROM WEBSITE SUCH AS SOCIAL MEDIA PLATFORMS
+
+
+
+
+
+
+
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+               ------------- META TAG---------
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+          ---------------DIV TAG --------------------
+
+
+- AS P STANDS FOR PARAGRAPH,A STANDS FOR ANCHOR, DIV STANDS FOR NOTHING.
+- DIV HAS NO SMENTIC MEANING,DIV IS ONLY  A CONTAINER TAG OR A  BLOCK LEVEL ELEMENT.
+
+- TO IDENTIFY WE USE ID = "MKJHVFH"
+                      ID = "7HVGG"----> NOT ALLOW
+                      ID = "HVGG BJHJKE"----> NOT ALLOW
+
+
+css used in div ---------->  border: 2px  solid black;-------> same order 
+                       
+                             border: 2px  dotted black;
+                           
+                             border: 2px  dashed black;
+
+
+
+- BLOCK LEVEL TO INLINE --->USE 
+
+
+if 2 then float left and right
+
+ if more than 2 then float left
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+         -----------FONT---------------
+
+CSS FONT 
+- FONT-SIZE
+- FONT - FAMILY
+- TEXT- SHADOW  : DOWN , RIGHT, BLUR, SHADOW COLOR---------> USE -FOR REVERSE
+- 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2
+
+   
+  --------------CSS---------------
+
+
+- WHAT IS CSS?--> ITS STANDS FOR CASCADING STYLE SHEET, WHICH IS RESPONSIBLE 
+  FOR "LOOK AND FEEL" OF THE WEBPAGE..
+
+               OR
+
+- ITS STANDS FOR CASCADING STYLE SHEET,IT IS THE "BEAUTY PARLOUR" OF HTML. 
+
+- TYPES OF CSS 
+
+1.  INLINE CSS----------> STYLE ATTRIBUTE
+2.  INTERNAL CSS---------> STYLE TAG
+3.  EXTERNAL CSS/ EMBEDDED CSS ---------> LINK TAG--------> INDUSTRY CSS
+
+
+   -----PRIORITY OF CSS---
+
+
+ INLINE CSS  > INTERNAL CSS >  EXTERNAL CSS
+
+
+-----SELECTORS IN CSS----
+
+-TAG SELECTING IS CALLED IS SELECTORS
+-
+
+
+
+1.SIMPLE SELECTORS/ TAG SELCTORS(TAG{}) 
+2.ID SELECTORS(#)----------------------->
+3.CLASS SLECTORS(.)---------->BAAR USE THENNUSE CLASS 
+4.COMPOUND SELECTORS( 6 TYPES )------> EXAMPLE ---> #id p{},.class p{}, p #id{}, p .class{}
+
+
+
+
+
+-LIST-STYLE-TYPE:NONE ; NONE MEANS THAT REMOVE THAT BLACK DOT BY SIDES OF LIST
+
+- DISPLAY : INLINE----> MEANS THAT TO ARRAANGE IN LINE THE ELEMENTS IN THE LIST.
+
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+          
+
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+      ------------BOOTSTRAP---------------
+
+
+-BOOTSTRAP IS FRAMEWORK OF FRONTEND.-----> HTML ,CSS AND JS.
+
+-
+
+-CSS REUSABLE ----> EXTERNAL CSS, CLASS, SIMPLE SELECTORS
+
+
+------USE TO GIVE STRUCUTURE OF WEBSITE -----
+
+-CONTAINER / CONTAINER-FLUID----> USED FOR OUTER 
+-ROW---------------> USED TO BREAK ROW WISE 
+-COL-SM-1
+-COL-SM-2
+-COL-SM-3
+-COL-SM-4
+-COL-SM-5-------------------------------------> 
+-COL-SM-6
+-COL-SM-7
+-COL-SM-8
+-COL-SM-9
+-COL-SM-10
+-COL-SM-11
+-COL-SM-12
+
+
+ 
+
+-CONTAINER FLUID---> ROW ME THODA THA 
+
+-EACH  ROWS 12 HISSSO ME THOD HAI COL-SM 1 TO COL-SM 12   TAK.
+
+-WE CANNOT USE A ROW DIRECTLY,YOU CAN USE PART OF ROW ONLY.
+
+
+
+- The .container class provides a responsive fixed width container
+- The .container-fluid class provides a full width container, spanning the 
+  entire width of the viewport.
+
+-Bootstrap, the "row" class is used mainly to hold columns in it. 
+-Bootstrap divides each row into a grid of 12 virtual columns. 
+
+-EXAMPLE ------->  In the following example, the col-.md-6 div 
+                   will have the width of 6/12 of the "row"s div,
+                    meaning 50%. 
+
+ The col-md-4 will hold 33.3%, and the col-md-2 will hold the remaining 16.66%
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+
+

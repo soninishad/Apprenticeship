@@ -1,0 +1,224 @@
+
+                                                              Interview questions 
+															________________________
+
+
+JAVA :-		
+________													
+
+1.) Class and Object   
+     What is jre jvm and jdk
+	 
+2.)  Program on recursion, Fibonacci serious palindrome and string anagrams
+
+3.)  Sorting in array.
+     Explain the following :
+     Encapsulation
+     Inheritance and their types
+     What's has relationship and is relationship
+     What is stack overflow and index of out of.range exception
+
+4.)   What is maximum recursion  depth
+
+5.) Difference between interface and abstract class
+
+6.)  What are abract method and non abstract methods
+
+7.)   Difference between overloading and overiding .
+
+8.)   What is checked expections and unchecked expection
+       Different implicit constructed call and explicit constructor call
+       What do you mean by constructor overloading .
+
+9.)   Perfect number, strong number 
+
+10.)  Do Java support pointer if yes or no then why
+       What is use of singleton class
+       Can constructor be private 
+       Different between super() and this scopes
+       What is wrapped class
+       How mutli threading is different from multi tasking .
+
+11.)  What is use of final, finalise and finally 
+        Explain null pointer exception
+        What are enumeration in Java set
+        Explain public static void main .
+
+12.)  Difference between static calling context and non static context 
+        What are garbage collection in Java
+        What is inner class and explain 23 design pattern from gang of 4.
+
+13.)   Difference between static calling context and non static context 
+What are garbage collection in Java
+What is inner class and explain 23 design pattern from gang of 4
+
+
+
+
+_____________________________________________________________________________________________________________________________________________________
+
+Android questions
+------------------------------
+
+And important Android Question are given below :-
+What is api
+Difference between get and post put and patch delete
+Difference between in get and Post
+Differencr b/w rest and soap
+How do you test api
+What is postman .
+And write the interface class for the above
+What are intent how to pass data using them
+What are shared preferences how to manage shared preferences
+Types of lists
+Custom
+Grid
+Recycler views
+And all adapter
+For spinner
+For auto complete view
+Difference between sp and dp
+Difference between linear layout and constraint layout and relative layout
+Picasso and how to load image from urls
+What is mr gradel and what are dependencies
+What is mr maven
+What are broadcast and services
+What is splash screen how to implement delay using thread interface.
+What is difference fragment and activity
+What is activity life cycle
+What is resource manager and what is R class
+What is latest version of Android today in beta version
+What is use of manifest file
+Difference between ndk,SDK and avd
+What is layout inflator class
+What is recycler view and how many types of grid are supported in it
+What is use of intent filter 
+How to get device ID
+Difference between explicit intent and explicit intent
+What is alert dialog and progress dialogue
+Have you used media interface library or sound pool api.
+
+
+
+
+
+_____________________________________________________________________________________________________________________________________________________
+         
+		                                PHP Interview Questions
+									----------------------------------------------
+
+									
+Question on php are as follows
+Basic program on 
+Palindrome
+Recursion
+Factorial
+Reverse of string
+Angstrom number
+Narcastic number
+Fibonacci
+What is, call by value and call by reference in php
+Take an array and find avg and sum of n elements
+Print pattern of right angled triangles all case
+Diamond stair case pattern
+Difference between = and == and===
+What is flagship operator
+What is difference between echo print sprint and print_r
+Vprintf 
+Difference between var_export and var_dump
+Types of array (indexed and. Associative array
+
+What are super global variables
+Take a array and iterate them using foreach loop 
+What is difference between foreach and for when will you use them
+	
+Difference between $ ans $$
+
+What is difference between import and export
+Study about following functions
+1. Array_chunk
+2. Isarray and inarray difference
+3. What is array_walk function
+4. What is difference between array_combine and array_merge
+5. What is union in array and intersection in array
+6. How will be convert two array into associative array
+7. Array_sum
+8. Array_unique
+9. Write a function and code, such that to get unique elements from array	
+
+Write connection string for MySQL
+What is SQL injection
+How you will get, last_inserted_id 
+Difference between num_rows( ) and fetch_rows()
+
+Difference between fetch_assoc, fetch_object, fetch_rows(MySQL_Both)
+
+Question based on MySQL as follows
+1. What are indexes
+2. How wil you handle large data
+3. Difference innodb and mysam sb
+4. Difference between pk and unique key
+5. How many pk you can make any table
+6. Prepare query for
+Natural join, cross join, self join(manager and employees question pkka), inner, equijoin
+7. Difference between cluster index and non cluster indexes
+8. Write a query for adding bonus to all  employees
+9.*** Third, second and first  highest salary without limit, without order by and using subquery
+10. Difference between pdo and mysqli
+11. What are prepare statements
+12. Difference truncate and update
+13. Query based on case and then 
+14. Write query to find duplicate record from table
+
+Do you know stored procedures ? (Give answer if he ask how can you make crore data find easily)
+
+Php oops questions:-
+1. How to create and object in php.
+2. What is dependency injection
+3. What is scope resolution operators (::)
+4. What is static scope and non static scope in php
+5. What is early static binding and late static binding
+6. What are magic function and magic constant
+7. How can you make multiple inheritance
+8. What is inheritance, and types of inheritance
+ Single,hireirichal,cyclic, multilevel, multiple,hybrid
+9. Difference between public, protected and private
+10. Explain $this 
+11. How to call a method of a class in same class
+12. What is self::?
+13. What is parent::?
+14. What is overriding and how can you call parent method in method overiding
+15. What is final keyword or final class
+16. What is abstract and interface
+17. Explain type hinting in php
+18. What is method chaining
+19. What is pear, stl library, psr autoloading
+20. What is composer
+
+
+Difference between get and post
+How to get up address in php
+How to get server url
+How to get baseurl
+What is filter_var and pregmatch
+Code for file uploading and explain $_file
+What is use of move_uploaded_file
+
+	
+Difference between rest and soap
+Difference between post, get and put and patch request
+What is json_encode and json_decode
+
+Write complete code for session
+
+Difference between session and cookie
+What's by default time of session
+What is php.ini how can you change the file setting dynamically.
+
+What is ___construct and __destruct
+What are namespace (100%)
+
+These question are really very important.
+These question will be 100% asked in, any interview of based on php.
+
+	

@@ -1,0 +1,168 @@
+           
+		                                              Git Hub
+	                                           ******************   
+
+
+SLA :- Service level agreement
+	1. srs : software requirement specification
+	 or known as urs : user requirement specification.
+	 
+	2. Taxation, Invoicing
+	3. Terms and conditions
+	4. security ---> followed by security Audit and verification.
+	
+	Software Ready
+	Security Audit ---> Task ---> Resolve----> developer (30 days)
+	salary : 30000/- 10 days => 10000/-
+	
+	this problem, is not only related to, security audit,
+	but during coding and desiging cycle.
+	
+	Introduction to git:-
+	**********************
+	1. git unix|linux based tool for scm (source code management) or vcs(version
+	control system)
+	 
+	 version : next type or upgraded type 
+	 version here means changes in source code.
+	 
+	 *********************************************************
+	        git  							vs 				github 
+	 *********************************************************
+	 1. command line tool               |         cloud
+	 2. local system                                    server 
+	 3. code manage                                   code upload, code host
+	 4. Linux Torvald (Linux)                    microsoft (Bill Gates)
+	 
+	 
+	Tools other than  git
+	************************
+	svn or tortoise (sub versioning) : centralised
+	git is distributed.
+	
+	Tools other than  git hub
+	**************************
+	other than git hub, we have  gitlab, bitbucket, bitkeeper
+	
+	Important Terms:-
+	donwload => pull,fetch,clone
+	upload => push,upstream
+	
+	Note :: In git, pull,fetch,clone are all used to download but
+	in different cases.
+	
+	All are same as donwload but at different case:-
+	***************************************************
+	
+	git clone <project>
+	git pull <project-part>
+	git fetch --all
+	
+	
+	
+	[ git clone (shift+insert)]
+	
+	
+	git flavours:-
+	****************
+	flavours means git is available in other forms
+	1. cli (command line interface | cmd black and white screen): comamnds
+	2. GUI (graphical User Interface) | GUI no coding or command Require
+	
+	fastest : cli
+	slow : gui
+	***************
+	secure | cli
+	insecure | gui
+	*****************
+	beginner | gui
+	expert | cli
+	*******************
+	dev|designer|coder |dba|tester |bde => Technical line => CLI
+	
+	Repository => project folder
+	
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+31-oct-2022
+****************
+
+profile Url or Account Url or workspace url or  Profile Url
+
+https://github.com/username/project-name  :  Access public	
+https://github.com/username/project-name  :  If private ---->  owner  -----> Login
+
+Key Points :-
+***************
+
+1. default branch  : master or main changes on August , 2021.
+2.) If public repo , add valid License if you have if not, Let it be None , or Unlicensed.
+3.) Public Repository (Repo)	 can be forked (pull) by anyone (pull) .
+4.) Url , it is visible to Everyone in the Universe .
+5.) Your Every Action is recorded as Activity and , Added in Watcher list .
+
+
+Ques : 
+            Repo xyz  owner vibhu  
+	        Url  :-	https://github.com/vibhu/xyz 
+
+
+          Requirement Analysis
+                             Design Analysis
+                                           Developement 
+                                                    ( Design | coding | Database )
+                                                                        Testing
+                                                                                    Deployment ( Release)
+                                                                                                 monitoring
+                                                                                                                feedback																								 
+
+
+Hence, from above discussion it is very clear that git provide complete support from Requirement gathering to feedback cycle.
+	where memeber can contribute there, part.
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+1-nov-2022
+.....................
+
+
+How  to Add members to the Repository
+**************************************************
+Members working together in a team for a Repository is called , collabarators . 
+
+
+Types of Settings :-
+....................................
+Github two types 
+1.) Global level setting  : -  It is locate on profile menu or Account menu All setting applied here , 
+                                            will be applied on the entire project .
+2.) Repo level setting    : -  Repo setting is located on the right hand side of the , each private or public repo , 
+                                            everything you create a repo , you need to edit these setting .
+										   
+										   
+ What is fork How is it important :
+.................................................................
+
+Fork create copy project from different to owner to my account it can be applied on public repo . 
+
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+
+
+ 
+
+
+
+	
+
+
+
+

@@ -1,0 +1,144 @@
+	<-------------------------------------------------WD----------------------------------------------- >
+
+                -----------------------------         HTML              ------------------------
+
+ 
+ 
+ 
+ 
+                ------------------------------        CSS                 -------------------------
+ 
+                
+ 
+ 
+ 
+ 
+  <---------------------Making webpage using html,css,bootstrap--------------------------->
+   
+   a.) container-fluid = ka use outer / box 
+   b.) continer ka use side me space krne ke liye krte h.
+ 
+ ----------------- Margin or Padding
+ 
+        -------  Margin  ------
+ a.)  margin-left (start) : ms-0 ms-5
+ b.)  margin-right(end) : me-0 me-5
+ c.)    my-0 my-5
+ d.)    mx-0 mx-5
+ 
+    x - left and right
+   y - top and bottom
+ 
+     ------------------------------  Padding  ------
+		
+ a.)  padding-top                           :    pt-0 pt-5
+ b.)  padding-bottom                    :   pb-0 pb-5
+ c.)  padding-left     (start)            :   ps-0  ps-5
+ d.)  padding- right  (end)             :   pe-0  pe-5
+ e.)   padding-left                           :   px-0  px-5
+ f.)                        py-0  py-5
+ 
+ 
+ -----------------Bootstrap-----------------
+ 
+ 1. html boiler (quick start)
+     
+	 linking (bootstrap.css , ko css file me bootstrap.js, ko js file me ,.......etc )
+	 
+ 2. outer div (outer start)  =  container-fluid 
+ 3.  navbar (row,col)= bootstrap (navbar)
+ 4.   slider (row, col) = bootstrap (Carousel/ slider)
+ 5.  about ( container , row ,col )
+ 6.  sections
+ 7.  others
+ 8.  Footer 
+ 9. ( outer end ).
+ 
+ --------------------------------------------------------------   MAP adding
+ 
+ map , share ,em... copy paste ,
+ 
+
+  ----------------------------------------------- CSS
+  
+  Clip path = triangle , many different  designed 
+   link = bennettfeely. com/clippy.
+  
+  ---------------------------------------------    For ( ICON )Add
+  
+ 1. font awesome cdn  = Firstly we link  in ( head) section
+ 2. font awesome  =  icon  ( <li> link </li> )
+   a.)facebook
+   b.)instagram
+   c.)twitter , etc ........... any icon .
+   
+ ....................................
+ 
+ For Gradient color  = ColorSpace
+  
+  
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  
+                           Website Making    [ FORMATE]
+                          ..................................
+
+1.)      
+<body>
+
+*    <div class="container-fluid">
+         <!------- outer start  -->
+
+2.)        <!-- navbar -->
+           <div class="row">
+                   
+				   </div>
+
+3.)           <!--  img -->
+               <div class="row">
+			            ..........
+			   </div>
+			   
+4.)            
+        <!----------- our services----------->
+        <div class="container my-3">
+		
+            <div class="row">
+			
+			<div class="col-sm-12">
+					  ...........
+			</div>
+			
+			</div>
+			
+			</div>
+			
+			
+5.)    <!-- our clients -->
+        <div class="row">
+		
+		</div>
+
+6.)   <!-- contact -->
+       <div class="row">
+
+       </div>	
+
+7.)  <!-- footer -->
+      <div class="row">
+	
+	</div>
+	
+8.)   <!-- outer end -->
+             </div>
+			 
+              </body>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,566 @@
+pdo, pdo crud , using oops crud , query builder etc _ for interview 
+
+
+1.Null collaising operator(??)
+
+
+
+
+:
+::
+? ?
+? ==> ternary operator
+
+
+
+
+
+2.Scope resolution operator 
+:- in php called nekodutayayam operator
+
+
+
+Jquery and Ajax
+***************
+Key points of about jquery 
+
+1.  it is small light weight library of  javascript
+2.  it follows the concept of  write less do more 
+
+It can be added in project  to perform  javascript  operation  at less  , line of code .
+
+ Two ways of using  jquery
+1. local linking
+2. using cdn links 
+3. it is more about Dom manipulation .
+
+General syntax of jquery
+
+1. $(selector) .EvenMethod(Anonymous function  or callbacks) .
+
+
+jquery cdn 
+
+
+jquery  libarary file comes in 3 forms
+1. Uncommpressed  ( code : read  , size: larger, ajax : inbuilt)
+2. Minified ( code : not read  , size: smallest, ajax : inbuilt)
+3 Slim minified  ( code : not read  , size:  most smallest due to ajax remove , ajax : excluded)
+
+
+Order of size 
+**************
+slim  <minified < uncommpressed
+
+We will use uncommpressed form  :- Control click, save  as and save it .
+cdn me urol ko copy paste .
+
+Uncommpressed ka cdn 
+***********************
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js"> </script>
+
+
+
+How to check if link or not, file exe then ctrul + u , click on file ,if file open then  cdn chlrehi hai .
+
+ 
+
+
+Javascript
+
+1.  Synchronous and Asynchronous
+ Ajax :Asynchronous  javascript  and yml/sml/ json(Data reprsentation form)
+
+2.   
+
+
+ NOTE :- jquery ka main  code ke upr hi cdn hona chaiye 
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js"> </script>
+
+<script>  CODE OF JQUERY  </script>
+
+
+javascript me jitne bhi event hai jaise 
+
+onclick
+onmouseover
+onload
+onchange
+.
+.
+.
+
+jquery ko padhne ke liye on hata do 
+
+on click hai ==> click()
+onload  ==> load()
+onchange  == > change()                            they can be camelcase or lowercase
+onmouseover  ==>  mouseover()
+
+
+
+
+js me document.getlemnetbyid() ===> #id
+
+js me document.getlemnetbyclassname() ===> .classname
+js me document.getlemnesbytagname() ===> tagname
+
+
+
+js me text
+innerText     then text
+
+jq me text
+ tag with text     .html() 
+
+
+
+js style
+
+.style.propertyname
+.css(propertyname, value)
+.css()
+
+
+a('salem') ==> set hogya 
+
+a() ==> get 
+
+
+in js  attribute ,
+elementName . attributename
+
+in jquery
+
+attr('src', '1.jpg');      => set
+attr('src') ==> get 
+
+forms in value 
+******************
+
+ .value  in js 
+ .val()  => get 
+.val('salem') ==>  set 
+
+
+______________________________________________________________________________________________________________________________________________________
+
+Shorts notes JQUERY:-
+*********************
+
+
+window/document
+_________________
+
+1. reload
+2. resize
+3. load
+4. unload
+5. ready
+6. scroll or scrollTo
+
+selection Event :-
+__________________
+cut 
+copy
+paste
+contextmenu
+
+How to apply
+_________________
+
+$(selector).eventName(function (){
+
+});
+
+
+Otherwise to execute the Query 
+_______________________________
+
+1. $(selector).ready(function (){
+
+}); 
+
+
+2. var soni = $
+
+soni (document).ready(function(){
+
+});
+
+Note : 
+When you are Ajax and jQuery togethor
+$ () => Jquery
+$.ajex() => Ajax
+
+3. $ => JQuery 
+
+jQuery(document).ready(function(){
+
+});
+
+
+4. $(function(){
+                         -----> That is a Fast .
+    });
+
+______________________________________________________________________________________________________________________________________________________
+
+
+pdo, pdo crud , using oops crud , query builder etc _ for interview 
+
+
+1.Null collaising operator(??)
+
+
+
+
+:
+::
+? ?
+? ==> ternary operator
+
+
+
+
+
+2.Scope resolution operator 
+:- in php called nekodutayayam operator
+
+
+
+Jquery and Ajax
+***************
+Key points of about jquery 
+
+1.it is small light weight library of  javascript
+2.  it follows the concept of  write less do more 
+
+It can be added in project  to perform  javascript  operation  at less  , line of code .
+
+ Two ways of using  jquery
+1. local linking
+2. using cdn links 
+3. it is more about Dom manipulation .
+
+General syntax of jquery
+
+1. $(selector) .EvenMethod(Anonymous function  or callbacks) .
+
+
+jquery cdn 
+
+
+jquery  libarary file comes in 3 forms
+1. Uncommpressed  ( code : read  , size: larger, ajax : inbuilt)
+2. Minified ( code : not read  , size: smallest, ajax : inbuilt)
+3 Slim minified  ( code : not read  , size:  most smallest due to ajax remove , ajax : excluded)
+
+
+Order of size 
+**************
+slim  <minified < uncommpressed
+
+We will use uncommpressed form  :- Control click, save  as and save it .
+cdn me urol ko copy paste .
+
+Uncommpressed ka cdn 
+***********************
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js"> </script>
+
+
+
+How to check if link or not, file exe then ctrul + u , click on file ,if file open then  cdn chlrehi hai .
+
+ 
+
+
+Javascript
+
+1.  Synchronous and Asynchronous
+ Ajax :Asynchronous  javascript  and yml/sml/ json(Data reprsentation form)
+
+2.   
+
+
+ NOTE :- jquery ka main  code ke upr hi cdn hona chaiye 
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js"> </script>
+
+<script>  CODE OF JQUERY  </script>
+
+
+javascript me jitne bhi event hai jaise 
+
+onclick
+onmouseover
+onload
+onchange
+.
+.
+.
+
+jquery ko padhne ke liye on hata do 
+
+on click hai ==> click()
+onload  ==> load()
+onchange  == > change()                            they can be camelcase or lowercase
+onmouseover  ==>  mouseover()
+
+
+
+
+js me document.getlemnetbyid() ===> #id
+
+js me document.getlemnetbyclassname() ===> .classname
+js me document.getlemnesbytagname() ===> tagname
+
+
+
+js me text
+innerText     then text
+
+jq me text
+ tag with text     .html() 
+
+
+
+js style
+
+.style.propertyname
+.css(propertyname, value)
+.css()
+
+
+a('salem') ==> set hogya 
+
+a() ==> get 
+
+
+in js  attribute ,
+elementName . attributename
+
+in jquery
+
+attr('src', '1.jpg');      => set
+attr('src') ==> get 
+
+forms in value 
+******************
+
+ .value  in js 
+ .val()  => get 
+.val('salem') ==>  set 
+
+
+
+______________________________________________________________________________________________________________________________________________________
+
+
+Shorts Notes of JQuery :
+***************************
+JQUERY : light library for javascript .
+Any task done injavascript in large Number of Lines .
+Same Task can be performed using JQUery in less no of lines.
+
+Main Aim :
+__________
+               Write less do More .
+			   
+Flavours of JQuery :
+1. Core JQuery  : you will get core js file .
+
+2. Jquery UI  : core js + UI + Css.(JQuery plug ).
+
+How to link Jquery :
+*********************
+
+1. Using CDN  link 
+2. using local link 
+
+Blur print of JQUERY 
+**********************
+
+<?php 
+?>
+
+$(document) . ready ( function() {
+
+         // any code 
+});
+
+When : page loading is finished , then run our event .		 
+			   
+$()  ==> Selector 			   
+ready () => event
+
+$ ( 'selector') . event ( function () {
+
+});
+
+
+Jquery js files types :-
+**********************
+1. uncompressed : size larger  : readable  : loading time large  ( code koi bhi remove nhi kiya jata )
+2. commpressed (minified) : smaller in size : all enter and spaces are removed size smaller . loading time less .
+3. slim : uncompressed file with Ajex code is removed .
+4. slim : minified : compressed without Ajex code .
+
+1. Using CDN link  :
+********************
+
+<body>
+ <script type="text/javascript" src="Jquery-wala-link"> 
+ </script>
+ 
+ <script> //code </script>
+ </body>
+ 
+ ==> jab file sever pr hoti h tb cdn
+ 
+ 
+ 2. using locally link :
+ **********************
+Download the file and keep in the same folder 
+
+<body>
+ <script type="text/javascript" src="js/jquery-wala-link"> 
+ </script>
+              
+ <script> 
+ $ (document ) . ready (function ()
+{
+window.alert('JQUERY loaded form local.....');
+});
+ </script>
+ 
+ </body>
+ 
+ 
+ CDN : content delivery network 
+ this will work only when internet connection available .
+ but , for the first time : internet connection .
+ if hard refresh : Jquery will be loaded from cache memory .
+ 
+ Otherwise : Error : $ declareation undefined 
+ 
+ 
+ How to target in JQUERY :
+ ***************************
+ 
+ in js we target using
+ 1. document.getElementById () = > Id 
+ 2. document.getElementByClassName () => classname
+ 3. document.getElementByTagName () => TagName
+ 4. document.querySelector () => CSS selector target one Element
+ 5. document.querySelectorAll () ==> 
+ 
+ Types of Css Selector :-
+*************************
+1. Tag selector : p , div , input , span , form , h1 , h2 ,h3........n  
+
+
+
+
+Compound selector :
+*********************
+
+1.)
+<div>
+<ul>
+<li>Maggie</li>
+<li>Tea</li>
+</ul>
+</div>
+
+$("div ul ") => ul inside div tag => 1st wala target.
+
+2.)
+<div>
+<ul>
+<li>Maggie</li>
+<li>Tea</li>
+</ul>
+</div>
+
+
+ 
+ $ ( "ul")  => 2nd wala target 
+ 
+ 
+ Events : 
+*********
+ js => onclick , .....
+ 
+ 
+ Jquery : remove on and ther may a chance , that they can be in lowercase or calemcase .
+ 
+ mouseEvent :
+ **************
+ onmouseover
+ onmouseenter
+ onmouseexit
+ onmouseleave
+ onmouseout 
+ --> hover <---
+ mouseup  : left or middle or right button is clicked and released .
+ mousedown : left or middle or right button is pressed and released .
+ 
+ 
+KeyBoard :
+*************
+ keypress
+ keyup
+ keydown
+  
+form or Button  
+
+
+______________________________________________________________________
+
+key points About Jquery :-
+
+
+_______________________________________________________________________  27/01/2023 _________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

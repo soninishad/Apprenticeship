@@ -1,0 +1,770 @@
+29-11-2022
+.........................
+	
+	          [ MERN TECHno.]
+	
+	                                   REACT JS
+									 ........................
+					
+					
+					
+What is SPA ?					
+SPA : single page Application.
+
+React js two types of Application -
+
+Interview Question
+1. SPA :   single page application
+2. PWP : progressive web pages (  pwf => progressive web framework )									 
+
+Technology Required/ to be in covered In ReactJs
+-----------------------------------------------------------------------------
+
+1. Spa = single page application
+2. PWP = progressive web page (pwf = progressive web framework )
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+multipages websites : collection of webpages
+single-page websites : collection of views/templates 
+
+SPA  a=>  AngularJs ( Google) , 0.x to 1.9x
+2.x     =>  Angular ( framework )
+React Js => facebook                
+vue js  => Quasar  --> (framework)  => web / mobile
+
+Angular => ionic => code => web / android / ios
+react => native  => code  => web / android / ios
+
+JAVA => Advance => web
+Android  => Android App
+Shift Objective => IOS app
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                           Working
+										............................   
+										   
+                                                    SPA Vs MPA 
+                                                 ................................
+
+spa = costly
+
+  ............................
+  |  pic:{} ,         | 
+  |  profile : {},  |        =>
+  |  post : {},     |       Component binding 
+  |..........................|
+
+props Or state Or data 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
+ 4-12-2022
+------------------
+
+How to install ReactJS 
+************************
+1. Library        : AngularJs  ==> Library light weight source code , which is pre-build contains inbuild functions .
+                                                 Ready made  ------->  code   -------->  Library
+												 Library  :--  helps on functinality .
+                                                    dance => dance 												 
+												 
+									decoration => different
+                                    halwai  => food
+                                    Tent  => tent
+                                    Marraige Hall  = Stay and other .... 									
+												 
+												 
+2. Framework  : Angular is a framework .
+		                 1. dance => dance
+						 2. character => character
+						 3. decoration => decoration
+
+                    Event management 
+					
+    Library is a collection of functions and functinality.
+    While ,Framework is a , collections multiple library.
+      Eg :
+            React - JS Install => service => create-react-app  ---------> bat
+               using this we install, a package using node
+			   folder  => node modules
+			                      __
+							     15k , libraries   
+			   
+     
+	 
+How to install React-JS
+*************************
+
+1. Two  way 
+       a) using cdn :  cloud / content  delivery Network .	   
+       b) download/install  and use
+	                   for this we have to use npm .
+
+___________________________________________ 5/ Dec / 2022 ___________________________________________
+
+					   
+Question :
+....................   We are using react js then why we are installing , node js we are using Node js because 
+                  it  provides the server runtime Environment.
+				 
+				 
+What is the meaning of Server Side Runtime Environment ?
+**************************************************************
+    In order to explain , this we need to review the client and server Architecture .
+    When Ever we say a client  is requesting server it actually means that , request is send from client to 
+	 DNS server ( Domain Name Server ) , after that each request is hopper from one server to another server .
+	 this way one server which send the request to another server becomes a client for the another server .
+	 ( based on IP ADDRESS connection mode )	.  
+
+     Hence  Any system can me made to behave as a server , but there are certain criteria .
+	 hence our client cannot send the request to server to directly download/install package from server .
+	 hence instead of making the entire system server , we try to provide the environment to the , system .
+	 
+	 Hence the server side environment which enables the JS as be used as Backend service , that runtime 
+	  environment is nothing but NodeJS .
+
+     
+	 Architecture of Node Js
+	 *************************
+	 Google Chrome => Dev Tools  => Environment Developer , easy developer .
+	                                  |
+									 v1 Engine ( Runtime Js and Runtime , DOM change )   
+									 
+      Virtual changes  ( All changes , which  is generated at runtime but does not extist )   => virtual Dom  => V8 dev tool
+                            V8 Dev Tool ( exe)   --------> Node js .exe js.exe 							 
+									  
+	 V8 Engine Archt.
+	 
+     2.  Non - Blocking Mechanism  ( Asynchronous)   -----> Parallel Execution
+     3.  
+
+
+     How to check node is installed
+***************************************	 
+     open cmd => type check  ---->  node -v
+      open cmd =>   version  ----->  npm -v
+            
+     
+     How to Run using node
+	 ***************************
+	 node filename.js
+	 
+	 
+	 How to run using npm
+	 *************************
+	 
+	 you can directly run js file , for that you have declare file as package ( module) Every file , in node in module.
+     collection of one or mode module is called package.
+      and every package can executed using npm , and package.json .
+
+    What is package.Json
+  ***********************
+    It is spectial file which tells everything about package.
+    it is static file.
+    It  include information like , title , description , author name , dependecies ( other package) .
+
+    dependecies => if package is depent other package then , as soon as you download/install one package all the package releted to other will be installed .
+    
+   websites  name , license , repo , name , git, url , jira , url ........
+   and it also includs, scripts (used to run command)
+
+     How to make package.json
+   ********************************
+   
+    make a file using name package.json
+    and write code in pure Json format .
+    {
+	   " title" : " My first package " ,
+	   " dependecies " : " This is demo package " ,
+	   " license " : " MIT /ISC " ,
+	  "author": "Soni NISHAD",
+      "dependencies": [ ],
+      "scripts": {
+        "dev" : "node p1.js"
+        }
+      }
+     
+	 2nd method 
+	 npm init -y ==> dummy package.json
+	   or 
+	 npm init 
+        you will be asked file details and confirm .
+       automatically package		
+	 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2
+ 
+    6-12-2022
+   .......................
+   
+   Types of Envoirenment Scopes in NodeJS .
+   ********************************************
+   
+   1. local scope : to the current folder
+   2. global scope : to the global folder
+                                    ~ /users/nodesjs/........node_modules/..........
+									|
+							 ( tild [ root path ] )		
+									
+									
+        When ever a packages is Installed , it is either installed al local space or global space .
+
+
+    [ 
+         command :-
+                             $ npm install
+                                        ( package.json exist )
+ 
+        -------> why , because all packages sub packages details are stored in , package.json
+                              ===>  package.json 
+                                                "dependecies": [
+                                                 "uuid":"latest",
+                                                 "mongoose":"5.0.1" ,					--------------> npm 							 
+                                                  .........
+												  "express":"latest"
+												  ]
+												  
+												  
+    What are dependencies :-
+	..................................................
+    1.) These are packageor sub package which will install , as soon as  we run npm install command.
+         dependencies 	are also called as packages  which dependent , otherr packages for running . 
+    
+	    Consider a example :-
+	   .......................................         	
+         in the paint.
+		 
+		what is npmrc ?
+		npmrc is a , npm configuration file 
+		inside npmrc is only , written that package file name should be "package.json"
+		  
+     ----> npm config --json
+    
+    How many types of memory scopes ---
+    1. local
+    2. global
+ 
+    Command to find where any service installed
+     where < service-name>
+     EG :
+           where npm 
+                Or
+           where node
+
+    How to install any package
+    ****************************
+
+     npm install<packagename>	
+
+
+      [ tailwind ]
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+   7/12/2022
+  .........................
+                        
+     Starting first App in React 
+	..........................................................
+       In order to make first project of react .
+       we need a service called create-react-app . cmd or create-react-app bat
+       file for creating first app.
+
+    gallery page => gallery.html
+    faq page  => page.html
+    contact page => contact.html
+      ......
+      ......
+	  ......
+    Every project is a App . , and every time to build new app you need to download react App from scratch( )	.  
+      
+	 1. dev  => developer point of view .( dev Environment)
+	 2. out of the box => by default .
+	 3. scratch  => from starting 
+	 4. boyler plate => starting template ( some prexisting theme OR code )
+     5. hunch  => curiosity 	 
+     6. KT  => knowledge Transfer .
+	 7.  On Bench  => No  project Alignment . 
+     8.  test  => tester point of view .  
+     
+	 How to install React :-
+	 ...........................................
+	 npm  install --global create-react-app   <= first time process .
+	 
+	 How to create React App
+	 .................................................
+	 npx create-react-app <app-name or project-name>
+	 
+	 What is the difference Between npm and npx ?
+	 ..........
+	  npm  : :  node package manager.  -----> install package from cloud server 
+	  https://nodejs.org
+	   Or
+	  https://www.npmjs.com/  => cloud repository , all package of node are  installed 
+	  
+	  
+	  npx  : :  node package  executable .
+	                         npm ----------> JS ------------> execute .
+                                                   |
+												   |
+												package.json 
+                                                      ( declare this Js is module )
+                                       npx => execute this package
+     
+      	 
+	 Note : :    Every time you download app you will need , internet connection ( + data pack )    						  
+	 
+	 1.  npm init
+	 2.  file name 
+	 3.  .......
+	 4.  .......
+	 
+	 
+	 php -----> constant salary rhtii
+	 
+	 fast.com  ---> for checking data speed
+     https://www.npmjs.com/package/create-react-app
+    
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  9/12/2022
+ ........................                                         
+                                         
+//cmd
+// runing -- npm start filename (logo)
+	
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+   10/12/2022
+   .........................
+
+                                                             Starting with first Project
+                                                           ............................................................
+
+     														   
+
+________________________________________________________________________________________
+
+13/12/2022
+
+In cmd : 
+
+1. npm start 
+2. 
+
+
+
+1. create-react-app app2 
+2.  src 
+        in this all files are delete
+		then add 
+		index.js
+		index.css
+		
+3.  code index.js and index.css ........
+
+4.  run cmd ---
+
+5. output .......
+		
+
+// shortcut
+ctrl f  ----> find
+ctrl h  ----> replace
+
+
+
+
+__________________________________________________REACT NOTSSS_______________________________________________________________________
+____________________________________________________________________________________________________________
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+=========================================Date :- 28-11-2022====================================
+***********************************************************************************************
+
+
+Welcome to React-js
+************************
+What is SPA?
+SPA : Single page application
+
+React-js teo types of application
+
+Interview Question:-
+1. SPA :- Single Page Application
+2. PWP :- Progressive Web Pages (PWF => Progressive web framework)
+
+
+==========================================Date :- 29-11-2022===================================
+***********************************************************************************************
+Technology Required / to be in Covered In React-js
+**********************************************************
+1. Core and Adv.js
+2. SPA and Pwf.
+
+===========================================Date :- 04-12-2022=================================
+**********************************************************************************************
+How to install React-js
+****************************
+1. Library : Angular Js is Library light weight source code, which is pre-built contains in-built functions.
+	Ready made ------->  code  -------> library
+	Library :- helps on functionality.
+		dance => dance
+		
+	
+2. Framework : Angular is a framework
+	1. dance => dance
+	2. character => character
+	3. decoration => decoration
+	
+	Library is a collection of Function and Functionality.
+	while, Framework is a, collection multiple library.
+	Eg:-
+	React-js Install => Service => create-react-app----->bat file
+	using this we install, a package using node
+	folder => node_modules
+				15k, libraries
+			
+			
+How to install React-js:-
+*****************************
+1. Two way
+	a) using cdn :- cloud/content delivery Network.
+	b) download/install and use
+		for this we have to use npm
+		
+		
+===========================================Date :- 05-12-2022===============================
+********************************************************************************************
+Question :-(marng stack)
+	we are using react-js then why we are installing, node js
+	we are using Node Js because it provides the server runtime Environment.
+	
+	What is meaning of the server side runtime Environment?
+	***********************************************************
+	In order to explain, this we need to review the client and server Architecture. When ever we say a client is requesting server it actually means that, request is sent from client to DNS server (Domain Name Server), after that, each request is hopped from one server to another server.
+	This way one server which send the request to another server becomes a client for the another server.
+	(based on IP Address connection made.)
+	
+	Hence Any system can be made to behave as a server, but there are certain criteria.
+	Hence our client cannot send the request to server to directly download/install package from server.
+	Hence instead of making the entire system server, we try provide the environment to the, system.
+	Hence the server side environment which enables the JS as be used as backend service. that runtime environment is nothing but NodeJs.
+	
+	
+	Architecture of Node JS :-
+	**********************************
+	Google chrome => Dev Tools => Environment provide Developer, easy development.
+						|
+						v1 Engine (run time JS and runtime, DOM Manage/Change).
+						
+	virtual Changes(All changes, which is generated at runtime but donot exist) => virtual Dom => V8 Dev Tool(exe) ------------> Node JS .exe
+	
+	1. V8 Engine
+	2. Non blocking mechanism (Asynchronous)
+		parallel execution.
+	
+	physical exist(Memory alocation) 
+
+	How to check node is installed
+	**********************************
+	open cmd => type node -v => version 18.x
+	open cmd => type npm -v => version 8.19.2
+	
+	How to Run using node
+	*************************
+	node filename.js
+	
+	How to Run using npm 
+	*************************
+	you can directly run JS file, for that you have declare file as package( module ) Every file, in Node is module.
+	collection of one or more module is called package.
+	and every package can executed using npm, and package.json
+	
+	What is package.json
+	*************************
+	it is special file which tells everything about package.
+	it is static file.
+	it include information like, title, description, author name, dependencies(Other package)
+	
+	dependencies :: if package is dependent another package then, as soon as you download/install one package all the package related to other will be installed.
+	
+	website name, license, repo name, git url, jira url,.........................
+	and it also includes, script (used to run commands)
+	
+	How to make package.json
+	****************************
+	make a file using name package.json and write code in pure Json formate.
+	{
+		"title":"My First Package",
+		"description": "This is demo package",
+		"license": "MIT",
+		"author": "Awnish kumar",
+		"dependencies": {},
+		"scripts": {
+			"start":"node p1.js"
+		}
+	}
+	
+	2nd method :-
+	npm init -y : dummy package.json
+	or
+	npm init
+	You will be asked file details and confirm automatically package.json will be created.
+	
+	
+=====================================Date :- 06-12-2022======================================
+*********************************************************************************************
+What are dependencies:-
+*************************
+1. These are package or sub packages which will install, as soon as we run npm install command.
+	dependencies are also called as packages which dependent, other packages for running.
+	
+	Consider a Example:-
+	in the paint
+	
+	where command bata rahahai ke npm file kanha hai
+	
+	npm config list --json
+	
+	What is npmrc?
+	******************
+	npmrc is a, npm configuration file
+	inside npmrc is only, written that package file name should be 'package.json'
+	
+	How many types of memory scopes
+	1. local
+	2. global
+	
+	Command to find where any service installed 
+	**************************************************
+	where <service-name>
+	Eg : where npm
+	or
+	where node
+	
+	How to install any package
+	***************************
+	npm install <packagename>
+	
+
+===================================Date:- 07-12-2022========================================
+********************************************************************************************
+	Starting first App in React
+	****************************
+	in order to make first project of react.
+	we need a service called create-react-app.cmd or create-react-app bat file for creating first app.
+
+	gallery page => gallery.html
+	faq page => page.html
+	contact page => contact.html
+	...
+	...
+	...
+
+	Every project is a App., and every time to build new app you need to download react App from scratch()
+
+	Common Terms used in development
+	*********************************
+	1. dev => Developer point of view.
+	2. out of the box => by default.
+	3. scratch => from Starting.
+	4. boyler plate => Starting template (some prexisting theme or code)
+	5. hunch => curiosity
+	6. KT => Knowledge Transfer
+	7. On Bench => No Project Alignment.
+	8. test => tester point of view.
+
+	How to install React:-
+	***************************
+	npm global install create-react-app <= first time process.
+
+	How to create React App
+	***************************
+	npx create-react-app <app-name or project-name>
+
+	What is difference B/w npm and npx?
+	-----------------------------------------
+	npm : node package manager : install package from cloud server
+			https://nodejs.org
+			and
+			https://www.npmjs.com/ => cloud repository, all package of node are installed.
+
+	npx : node package executable.
+						npm ------> p1.js ------> execute.
+									 |
+									 |
+									 package.json
+									 (declare this Js is module)
+						npx => execute this package.
+
+	Note :: Every time you download app you will need, internet connection(+ data pack)
+
+
+==================================Date :- 08-12-2022========================================================
+************************************************************************************************************
+	npm install --global create-react-app
+
+	How to create app
+	******************************
+	npx create-react-app <app-name>
+	Boyler plate code will be added to local folder.
+
+	How to Run react App
+	**********************
+	npx create-react-app app1
+	cd app1
+
+	package.json
+	{
+		"title":"",
+		"version":"",
+		"description":"",
+		"license":"",
+		"author":"",
+		"keywords":"",
+		"script":"",
+		"git-repository":"",
+		"test":"",
+		"main":"index.js" => this is main script for running any app.
+		"dependencies":{
+			"packagename":"version"
+			...
+		}
+	}
+
+	folder Structure of React App
+	********************************
+	1. git folder :: All commits and git level command will be done here itself.
+
+	2. node_modules :: It is main folder for packages, all packages are included this folder only.
+						All dependencies, are installed inside this folder.
+						npm install command All new packages will get added in node_modules folder.
+
+	Note :: node_modules folder is never sent to server.
+
+	server like horko server, apachenode server, beanstalk server(AWS server), Lamda service(GCP, Azure, AWS cloud).
+	As you create node or react app inside server. automatically server will check package.json file and it will run npm install command and all the dependencies will be installed by server itself.
+
+	3. public :: All public files are kept
+				css, js, images, or html files, normal-docs.
+
+	4. src :: src folder is main folder which contains entire code of react.
+
+	5. .gitignore :: its ignore which files not to send to server.
+
+	Question :-
+	************
+	How to stop node_modules sending to server, while using git push.
+	git add .
+	git commit -m "Upload react file to server"
+	git push origin master
+
+	.gitignore
+	    /node_modules
+		*.php
+		*.jpeg
+
+	6. package.json  :: already discussed
+	7. package-lock.json :: already discussed
+
+	8. readme.md :: md(markdown)
+			|
+			as package.json tells information of packages, dependencies and other packages related information.
+
+			similarly, in order to git repo information, readme.md file is made.
+
+	why this file is special
+	****************************
+	### h3
+	## h2
+	# h1
+
+	*This is Heading* => Bold.
+	md => formatting.
+	.txt => No formatting.
+
+	Working with src and public folder:-
+	*************************************
+		public folder :
+		*******************
+			1. favicon.ico : its icon shown title.
+			2. index.html : its SPA
+			3. pics
+			4. manifest.json : Browser Management.
+			5. robots.txt : used for SEO.
+
+			Is robots.txt good for SEO?
+			The robots.txt plays an essential role from a SEO point of view. It tells search Engines how they can best crawl your website.
+
+		Lets us postmortem of src :
+		****************************
+			App.js
+			App.css
+			index.js
+
+=======================================Date :- 09-12-2022=========================================================
+******************************************************************************************************************
+	Starting with Hot Loading/Reloading
+	***************************************
+	Live changes you need no to refresh.
+	and will clear cache, and automatically reload the components, and view
+
+	secret menu : in developer Tools
+	console -> right click ->
+	1. Normal reload
+	2. Hard reload
+	3. Empty Cache and Hard reload
+
+	or
+	clear site data menu :-
+	ctrl + shift + I or inspect -> Application -> storage
+	Right hand side
+	checkbox : including third party cookies
+	clear site data.
+
+	Important Extension used during React development
+	*******************************************************
+	1. postman App or thunderbird client extension Vs code.
+	2. react-dev tools in chrome.
+	3. cookies-editor in chrome
+	4. wappalyzer in chrome
+
+	postman App : world's biggest tool, for testing REST-API.
+		postman have lot of tools for collaboration, testing, documentation security restapi with team.
+		It is a heavy tool.
+
+	thunderbird client : very light weight extension for testing Restapi.
+		it is light version (sasta) postman.
+
+	Difference B/w Virtual Dom and Real Dom
+	***********************************************
+	1. Real Dom : Actual Dom or Tags , predefined Tags or Dom
+		Virtual Dom : its uses, custom Tags and virtual Tags which are called components/Nodes.
+
+	2. Real Dom : Foundation => Tag
+		Virtual Dom : Foundation => Nodes/components
+
+	3. Real Dom : Data transfer -> sequential
+		Virtual Dom : Data transfer -> parent to child.
+		This features is called props. (properties or attributes)
+
+	4. Real Dom : Statically changed.
+		Virtual Dom : Greater than real dom?
+		in order to change child we need to change parent.
+		and in order to change this parent (since this parent is a child of another parent you need change that parent and in order to change that parent in need his parent.......)
+
+ Note :: if you want to transfer the data from child to parent in React it is not possible, for that we need, Redux.
+
+
+
+
+
+
+
+

@@ -1,0 +1,142 @@
+
+23/Sept/2022
+..............................
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BOOTSTRAP  Notes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ What is BOOTSTRAP ?
+ ...........................................
+                                                           
+											         			   BOOTSTRAP
+													        	            |
+															        		|
+																	      \|/
+										            	CSS based Front-end Framework	
+													                       |
+                                                                           |
+                                                                           |
+                                                                         \|/																		   
+														Faster and easier web development
+                                                                            |
+                                                                            |
+                                                                            |
+                                                         Easily create Responsive web layouts																			
+																										        
+ 
+     *  CSS based Front-end Framework :-
+	 ......................................................................    [ jab hum websites bnate hai to kuch chije common hoti hai , jaise               
+											                            usme layouts bante hai ( layouts ---->ka matlab dhacha website ka) vo layouts alag alg ho sakte hai ,magar layouts hum banate jarur hai websites me , uske andar typography hoti hai
+																		 ( typography--->font vagera ki styling) , navigation menu.............etc . ]
+	
+   1. Layout
+   2. Typography
+   3. Navigation Menu
+   4. Form Layout
+   5. Buttons
+   6. Pagination
+   7. Icon Fonts
+   8. Responsiveness   
+   
+    BOOTSTRAP main features :- Faster , create responsive ----> ye dono main features hai.
+    ~~~~~~~~~~~~~~~~~~~~~~~   
+   
+   Advantages of Using Bootstrap :-
+   ............................................................
+   
+   1.  Save lots of time
+   2.  Responsive features
+   3.  Consistent design      -----------> Re-use ----> same chij baar - baar use kr skte hai.
+   4.  Easy to use 
+   5.  Compatible with browsers
+   6.  Open Source   ---------> ( Openily kahi bhi padh sakte hai , or usme changes bhi kar skte hai )
+   
+   
+   
+                      Bootstrap CSS Features & Components :
+	 ...................................................................................................................
+   
+     * Multi-column layouts 
+	 * Form layouts
+	 * Button groups
+	 * Button dropdowns
+	 * Input groups
+	 * Navs
+	 * Navbar
+	 * Dropdowns
+	 * Breadcrumbs
+	 * Pagination       ---------> product /news dikhane
+	 * Labels               ---------> Hightlight krne ke liye.
+	 * Badges
+	 * Jumbotron        ---------> header ko hightlights karne ke liye
+	 * Page header
+	 * Thumbnails      ----------> Responsive images banane ke liye 
+	 * Alerts
+	 * Progress bars
+	 * List group
+	 * Panels
+	 * Media object
+	 * Responsive embed
+	 * Wells
+	 * Glyphicons  ...... etc .
+	 
+	 
+	                                          Bootstrap JS Components :
+     .........................................................................................................................................
+
+	 *  Model Box
+     *  Dropdown
+     *  Scrollspy
+     *  Tab 
+	 *  Tooltip                         ---------------------------------------------------> jQuery Plugins
+	 *  Popover
+	 *  Alerts
+	 *  Collapse
+	 *  Carousel
+	 *  Affix
+      	 
+     
+     	 
+	                                       Bootstrap 3 VS. Bootstrap 4  
+     ....................................................................................................................... 
+   
+    *  Flexbox Layout
+    *  New component
+	*  Faster
+	*  More Responsiveness
+	
+	 
+	                                             Bootstrap 4  Compatiblity
+	 .............................................................................................................................
+	 
+	 *  Supports all major browsers and platforms .
+	 *  Internet Explorer 9 and down is not supported .
+	     ( purane windows me support nhi karta )
+	 
+	 
+	 ------------------------------------------------ Other Popular CSS Framework 
+	 
+	 *  Materialize CSS
+	 *  Foundation
+	 *  Bulma
+	 *  Semantic UI
+	 *  Pure.CSS
+	 *  Tailwind CSS
+	 *  Skeleton
+	 *  Uikit
+	 *  Bootflat
+	 *  Groundwork
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 

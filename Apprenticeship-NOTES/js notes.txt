@@ -1,0 +1,2334 @@
+---------------------------------------- JAVASCRIPT ,
+ 
+ Awinash sir = 8299502081
+ 
+ 
+ 1. Type1:
+ 
+   if(x%2==0)
+    {
+    printf("even")
+    }
+   else{
+   printf("odd")
+   }
+ 
+ 
+ 2. Type-2 :
+ 
+  if(x%2){
+  prinft("odd")
+  }
+  else{
+  printf("even")
+}
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 13-sep-2022
+ .......................
+ 
+ Introduction to JS :-
+ .........................................
+ 1.  JS = Ka matlab  hai javascript.
+ 2. Javascript = Java sey utni hi close hai , jitna car carpet sey hain.
+ 3. Plain Js is called as Vanilla JS. ( new name)
+    >>>>>>>                 >>>>>>>>>
+    
+ Oldest name of JS : chai mocha
+ JS  -- Livescript.
+ JS  -- Ecma Script.
+ 
+ 4.  JS is only technology jo ki 10 Din (Days) starting : (  21-Dec-1994 to 1-Jan-1995. )
+           1-Jan-1996 js => First version launch kiya gaya.
+	 
+* Writer/founder/developer  => Breinden Eiech
+	 
+* Netscape Navigator  : UT /Ux => No resource Available...
+ javascript does not have Interactivity. 
+
+UI  : User-Interface    ( dekhna)
+UX : user-experience
+	
+Netscape 1 = me UX nhi tha , sirf UI tha jo user ko pasan nhi aaya tha . isliye dubara launch kiya gya.
+	
+Netscape navigator relaunch 2nd attempt.
+Netscape2 : javascript.
+
+All official ,work of database.
+
+**************************************************************************************************************************	 
+
+Gprs = General Packet Radio Service
+GSM =  Global System for Mobile Communications (2G)	
+UMTS = Universal Mobile Telecommunications System (3G)
+LTE =Long-Term Evolution (4G) 
+MIMO = Multiple-Input Multiple-Output
+EDGE =  Enhanced Data for Global Evolution
+GSA = Global mobile Suppliers Association 
+CDMS = Centralized Data Management System
+
+
+Do you know about w3c and whatwg?
+...............................................................................
+
+W3c  :  Word-Wide-Web consortium ( organisation ) : Team of Sir Timberner's lee .
+            Market or Internet new Website or web-application html use webpages design.
+
+
+What is role of w3c?
+...............................................
+
+1. Verify the standard of the web.
+2. All the version of html and thier development strictly taken care by w3c.
+3. All older  version of html and later version ( html 6 > version) will be launced by w3c.
+4. All the web-related protocol are cross checked by w3c.
+5. W3c maintains the list of , blacklist and whitelist domain(websites).
+   which has to be ranked in search Engines (crawlers) for SEO.
+6. Maintains the security policies for http over https , networks .
+
+
+Explianation 4 :
+1. Internet different services we have different types of protocols
+2. For mail : smtp ( simple mail transfer protocol)
+3. for http : http protocol (hyper text transfer protocol).
+4. http services over secure networks : https { http + s (secure) }
+5. ftp : file transfer protocol.
+6. bdtp : binary data transfer protocol.
+. . .
+. . .
+. . .
+7. ssl protocol : secure socket layer  protocol.
+8. file : file protocol.
+9. tel : telecom protocol (telephone).
+10. mailto : mailto protocol.
+
+Syntax :-
+.........................
+1. protocol : /
+ex = ssh:/
+2. bdtp:/
+or
+3. protocol : //
+ex =  ssl://
+        http://
+        ftp://
+        https://
+	
+Examp = http://xyz.com/index.html	
+or
+4. protocol : ///
+ex  : file:///
+
+Examp = file:///xyz.com/index  (locolhost)
+ or
+5. protocol : 
+ex = mailto:
+         tel:
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+14-sep-2022
+************
+
+Q-What is Whatwg ?
+..................................
+Sol- Web hypertext Application Technology working group.
+     1. Ux : User-experience
+	 2. whatwg is group 4 major companies ,
+          a) Microsoft cooperation
+		  b) Apple Incooperation
+		  c) Mozilla Firebox
+		  d) Opera s/w3c
+		  
+3. Whatwg has given web-form of version 1.0/2.0/3.0 to html14/html15 respectively.		  
+
+Major difference b/w W3c and whatwg :-
+....................
+W3c : major  changes after major interval time.
+whatwg : Little changes in every little time : changes directly propotional User-Experiences.
+ world first browser : mozak publically available.
+ public browser : netscape navigator .
+ 
+ UI/Ux
+ netscape navigator : 1st version 1994 complete failure.
+ 21-dec-1995 Breinden Eiech => 2nd version Launch Netscape2 => ui/ux loved by public.
+ 
+ Netscape navigator 2 launching 1 Jan in , 10 Day Breinden Eiech powerful progamming language , Js was made.
+ Js Html CSS => DHTML .( Dynamic html)
+ 
+ JS : 1996 to 2000 JS language worked fine.
+       2000 to 2009 Js major changes did not happen.
+	   2022 : Js No. of Technology.
+	JS => product => Netscape
+    1998 => Ecma share sales Ecma organisation.
+    European Computer Manufacturing Association.
+    Non Profitable Organization ,Js R&D explore.
+    2000 JS 1.0 version. ( Ecma script 1).
+    Today Js is owned by Mozilla Cooperation.
+    Ecma is a part of wing of  Mozilla Cooperation.	
+	   
+	   
+Js two forms
+.........................
+1. Before Ecma standards ( Traditional )
+2. After Ecma standards. (Modern JS).
+    Base founder/freamwork : ReactJS , NodeJs ,Angular , VueJs	   
+
+Syntax wise similarity JAVA : camelcase
+Javascript  : camelcase
+Some keywords are java and javascript same.
+Super and this  are same in java and javascript.
+Class and Object concept java and js.
+
+Note : -
+........
+Js object based progamming language.
+Java Object Oriented Language .
+Js everthing is class then , object.
+
+In CS , A-Z Language  most popular Cases or style of programming while writing the code.
+ 
+1. Kebab case : my girl friend is katreena.                  
+                         my-girl-friend-is-Katreena.              ---------------> CSS property
+2. Snake case : my wife is aliya.
+                         my_wife_is_aliya.                             ----------------> Variable decleare krte h tb 
+						 
+3. Lower case and Uppercase Combination -
+tajmahal  : lowercase
+Tajmahal : [T] is Uppercase [ajmahal ] is lowercase.
+Block case : TAJMAHAL ( All letter in Uppercase).
+
+Kebab uppercase : MY-GF-NAME-IS-KATREENA.
+Snake uppercase : MY_WIFE_IS_ALIYA.
+
+4.camelcase : my name is khan.
+                       Every first letter of word will be capital with no space.
+					   also first letter of the word will be small.
+					   
+					   myNameIsKhan.
+					   
+5.PascelCase : same as camelcasefirst letter that is  also capital.
+                           myNameIsKhan : camelcase
+						   MyNameIsKhan : pascelCase
+
+What are keyword?
+......................................
+These are reserved keywords which have some speacial meaning related to any language.
+Keyword have a complete  sense.
+				    					   
+Class : class is a Logical Entity ( Indentity/Thing/).   
+              & 
+Object  is a Physical Entity ( Indentity/Thing /cheejii).
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+15-sep-022
+************
+
+~ JAVASCRIPT IS OBJECTBASED .
+~ BASED ON IS GENERALLY USED  WHEN WE ARE MORE DEPENDENT ON THE CURRENT SCENARIO, 
+   RATHER THAN PERMANENT...
+~ JS IS BROWSER DEPEMDENT, GOOGLE ME POPUP TOP PE, MOZILLA PE POPUP WILL BE IN CENTER.
+~ JAVASCRIPT SE ROOT HI OBJECT HAI.
+
+Introduction to Traditional Js
+.........................................................
+~ The traditional js is called as Vanilla js.
+
+a) Vanilla Js plain/pure JS ---> jaise hai waise hi hota hai.
+b) Vanilla JS , client side.
+
+Web technology :- Client and Server Model.
+
+PER TO PEER---> INSTANT TWO WAY COMMUNICATION
+BROADCASTING----> NOT INSTANT, BUT ONE WAY COMMUNICTION.
+
+CLIENT--> REQUEST
+SERVER--> PROCRSS AND SERVE AND SEND RESPNSE
+
+IN CS,CLIENT KO BROWSER KHA JATA HAI.
+
+Client Side : Browser side.
+client send the req. to the server  and server recieve request process and return response.
+server response : 
+ok : 200
+cancel : 404
+These 200 and 404 are called as http status code.
+	
+A class   : 100 - 199  : initial or processsing res.
+B Class  :  200 - 299  : ok response or success responce.
+C class   : 300 - 399   : redirection res.
+D class   : 400 - 499   : failed or cancel res.
+E  class   : 500 - 599   : 500: server error , internal server error
+
+How to see req. and res. in browser :-
+
+Browser ----> search any url -----> responce ----> (result)
+
+~ RIGHT CLICK+INSPECT--> N/W LAYER.
+
+~ CLIENT JAB SERVER KE PAAS JATA HAI  TOH HEADER LEKE JATA HAIHEADER ME SARRI NESAAARY INFO HOTI HAI JAISE IP  
+    ADDRESS  ETC TAB ACCCEPT OTHERWISE ERROE 404.
+
+~ REQUEST TIME OUT APROX --> 20- 25 SECOND.
+
+How to write first JS code :-
+ ....................................................
+BOM and DOM Manipulation.
+ 
+BOM : BROWSER OBJECT Model   (Not allow)
+DOM : DOCUMENT Object Model   (Manipulation allowed)
+
+JS is Object Based Pl.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mantra of coding in js ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Target or focus the element.
+2. Decide the event.  (  >PLAN  )
+3. Get the value or set the value.
+4. Finish.
+
+Concept of Id and name :-
+*****************************
+kaise tag ko target kare
+paragraph :
+1. p : tagname or element
+2. id : 'para'  : id
+3. class = 'paraclass'  : class
+
+How to target :-
+
+1. document . getElementById() ;        : dom : clientside
+2. document . getElementByClassName() ;   : dom  :  clientside
+3. document.getElementByTagName() ;      : dom  :  clientside
+4. document.getElementByName()  ;           : dom  :  serverside
+
+Html in order to target any element
+1.clientside    : id, class, tag,
+2.serverside   : name
+
+~ Attribute are also called as propertyname : 2types
+~ property or attribute two type --
+
+    1.Local attribute  / private attribute
+        img tag ----> src
+        script ----> src
+        link -----> href
+        anchor ----> href
+
+        img ----> href x
+        script ---> href  x
+
+        link ----> src  x
+        anchor ---> src  x
+
+       value ---> form elements or tags
+       heading or paragraph  ------> value -----> x
+
+    2.Global attribute / public attribute : class, id , name, style.
+     
+	 style  
+	 title   
+	 align 
+	 id            --------------------------------> attribute  use in any tag
+	 class  
+	 data  
+     hidden 
+	 ........
+	 .......etc.
+
+Two Improtant concept :-
+******************
+Object (Single)         :  Js  --------> Object  ---------> Both are different.
+Array  (Collection)  :   Js --------> Object  ---------> Both are different.
+
+
+                                                         document.getElementByName()   
+                                                            |
+<input type="text"  id= 'text_box1' name= 'name' class = 'form-control'>
+<input type="text"  id= 'text_box2' name= 'email' class = 'form-control'>
+      |                            |                                                  | 
+	  |							document.getElementById	()	      | 	 
+      |                                                                               |  
+                                                                                      | 
+                                                                                document.getElementByClassName()
+      |        
+      |         
+document.getElementByTagName ('input')
+
+
+
+
+
+
+
+
+Every Tag is a Object here.
+
+getting and setting :-
+.......................................
+
+<input type="text"  id= 'text_box1' name= 'name' class = 'form-control' >
+
+TYPE ,ID , CLASS , NAME ARE ATTRIBUTE  OF TAG.
+
+EK BAAR AAAPNE TAG KO ACCCESS KRLIYA,TAG KE ANDR JO KUCH HAI SAB TUMHRA
+
+-----GET-------
+TAG.PROPERTYNAME 
+OR
+OBJECT.PROPERTYNAME
+
+TAG.NAME    --------> 
+TAG.ID          ------------->
+TAG.CLASS   --------------->
+
+----SET-------------
+TAG.PROPERTYNAME= VALUE; 
+RIGHT ASSIGN TO LEFT 
+
+IF CHANGE TYPE FROM TEXT TO PASSWORD
+
+input.type= password;
+
+TAG .PROPERTY ME JO HOGA USKI NEW VALUE VALUE HOGI
+
+
+get 
+************
+Tag.propertyname;
+
+set
+*******************
+Tag.propertyname = value ;
+
+How to convert this value input box to password box.
+Q :<input type="text"  id= 'text_box1' name= 'name' class = 'form-control' >
+Sol :
+
+tag.type = password
+
+Q : <img src='karina.png' height='200px' weight='100px' />
+Sol :
+
+img.height = 400px  ----------> image inc height
+img.weight = 400px
+
+img.height = 50px
+img.weight = 50px
+
+img src = 'kareena.png'
+img src = 'aliya.png'
+img src = 'priyanka.png'
+img src = 'maduri.png'
+
+
+~ jiske through pakadte ho useko change matt kro
+~ katreena ke through propety tumhari, toh katreena ko matt change kro.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+17-sep-022
+~~~~~~~~~
+
+~ inner Text --> means only TEXT 
+
+~ innerHTML --> TEXT + TAGS
+
+
+Events in javascripts :-
+..........................................
+1.Event ----> attach ------> Tag -------> event is a attribute.
+2. Every event ki suruaat , (on) sey hogi.
+
+ oncopy---->copy krne prr  oncopy="return false"
+ onpaste----> paste krne prr    onpaste="return false"
+ oncut-----> cut kre pr           oncut="return false"
+ onclick----> click krne prr       
+ onmouseover--> mouse lekr jane pr
+ onmouseout--> muse hatanay prr
+ onmouseenter---> mouse andr lekr jane prr
+ onmouseleave---> mluse bhr lekr anany pr
+ onfocus---->focus
+ onblur------> dhayan hatanay pr 
+ onkeypress---> key dabany pr
+ onkeydown--> key neechay  dabany pr
+ onkeyup---> key upr dabany pr
+ onload-->load  honay pr
+ onunload-->unload  honay pr
+
+~ on hta do jquery hogyi
+
+ How many ways you can write JS in HTML ?
+ **************************************
+
+ 1. WITHIN SAME LINE/INLINE
+ 2.INSIDE 
+    <script>
+            // Js code......
+    </script>
+
+    Internal Js
+
+ 3. External Js
+
+        dil kahi or dimag kahi .
+		Js code
+        xyz.js 
+               document.getElementById()
+               ........
+               .......
+
+        p1.html
+
+        xyz.js ----------------> attach or link ---------------> p1.html
+                                     <script src='xyz.js'   type='text/javascript > </script>
+
+  ~ kaise pta layage ki js file link huyi hai nahi.
+     ctrl+U -----> js ka code milega---
+     <script src='xyz.js'  type='text/javascript></script>
+                  .....................
+                  Blue color line
+		
+    ~ Agr open hoajae toh link hogya
+    ~ Agr open nii huav toh file not found--> link nii hai	
+       click agar xyz.js open ho jaye to file link hui haii or agr msg aaye ki filenot found to mtlb .  
+
+           OR
+
+
+ MIX MODE OR HYBRID MODE
+
+ 1. EXTERNAL+ INTERNAL + INLINE
+
+jab usii line me js alagana ho tb targe  t rne ki 
+
+onpaste="return false"
+oncopy=" return  false"
+oncut="return false"
+	
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@             
+        18/sep/2022
+     ----------------------------   
+
+     How to get Output in js :-
+  *******************************	 
+	 
+	 1. console.log()
+	 2. window.alert() OR alert()
+	 3. document.write()
+
+    
+     CONSOLE.LOG() : BOM
+   ..................................................
+   
+	 data show in console screen.
+	 console screen ---> Browser in tab, Right click on the document go to inspect menu and goto console option or tab and you will output.
+	 
+	 console has 4 measure parts
+	 1. info     ----> general msg ---> 
+	 2. debug  ----> dikkat ka pta lagana is called testing ----> sovling is problem is called debugging.
+	 3. warn        
+	 4. verbose or error
+
+
+
+     console.log('hy');
+     console.log("hyy");
+
+     In JS ' ' or " " both are called string literals meaningin order to Identify as String any thing which is inside ' ' or " " are called  
+	 string.
+	 
+	 10    : interger
+	 11    : interger                    ---------> all are number
+	 11.2 : float     
+     
+    '10'
+    "10"            ------------------> now it is string cuz inclose within " " , ' '.
+    "11"
+  
+    ~ JS is programer friendly language.
+1.	Semicolon is not mandatery / compulsorly ----> ; lagao ya nai lagao ----> koi dikkat nahi.
+	
+2.	Type decleration is not  mandatery ---> flexible or adjusting.
+	
+	"hello"
+       OR                         -----------------> koi dikkt nii.
+	'hello'   
+
+IN C language : single quote ------> character
+IN C language : double quote ------> character
+
+3. Strict typing (Mode) is by default disabled in JAVASCRIPT
+    meaning : Js me default strict mode off  hota hai.
+  
+    " use strict" --> JS strict mode on.   -------> Is mode ke on rhne pr js flexible nhi rhti ()
+	
+	 x=10; Interger
+	 
+	 In C  (main changes karne par error show krta)
+	 int x=10;  interger
+	 x='a';        --->  error
+	 x="soni"   ---> error
+   
+    In JS ( main changes karne par error show nhi krtaa)
+	x=10; interger
+	x=10.5;  ok
+	x='a' ;  ok
+	x="abc" ok
+	x=object; ok
+	
+	
+	Note : Dynamic Sementics (weakly typed) and Static Sementics ( rigid or strict typed ).
+  *********
+    
+    Dynamic Sementics : typed changing is allowed.
+	Static Sementics : type changing is not allowed.
+	
+	How to check type in js
+	...........................................
+	type of(any-value)  ------> type kya hai
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+19/Sep/022
+
+  Types of Operators in Generals :-
+ ...............................................................
+  
+  //  forms
+ 1. Single morphic operator  ------> single behaviour.
+  ex : shipi
+ 2. Polymorphic operator     --------> multiple behaviour.
+    ex : 
+	This classifiation (difference) , can be different in different programming language.
+    
+     Python :-
+   ...................
+   
+    * : multiply  : 10*5 => 50                                     ------------------> polymorphic
+	* : string repeat : 5*"hi" => hihihihihi
+	
+	
+	+ : addtion and concatenation
+	+ : 10+5 => 15
+	+ : "hi" +5 =>hi5 (concatenation : one must in string)
+       
+	   Note :
+	...............  int + int => sum
+				   string + string => concatenation
+				   int + string => concatenation
+				   string + int => concatenation
+
+				  
+		_ :  name convention		  
+		_ :  Buffer Operator
+     _ = :  Variable                          -------------------------> polymorphic	
+        _ :  name mangeling            ------------------------>	( In mangeling [ _ lagane pr private , __ double pr ] )
+				  
+         / => single division
+ 
+         In C language :
+	....................................
+ 
+      * : polymorphic ----------> multiply and pointer
+     % : polymorphic ----------> remainder and formatspecifier %c ,%d ,%i ,%u , %f , %s .
+	 
+	 \ => polymorphic => escape character :  \n ,\t ,\v , \f in case of  pointer.
+	 
+	 String and Array :-
+	 String -----------------> last character : Null pointer ' \0 ' .
+	 & polymorphic : Address of memory in internal pointer.  
+    	                       Bitwise Operator
+							   Logical Operator. 
+							   
+	 						   
+     Console .log()  :  you can pass any number(string , char , boolean ,numbers ,.........etc) of inputs or paramenters or arguments.
+	 Console.log()   :  support CSV (comma sperated values).
+
+        // 
+		
+		Alt 3 =♥
+		
+	// convertion
+     10 + 20 => 30 
+     10 -------------------> Binary(Encoding)		
+	 20 -------------------> Binary 	(Encoding)
+	 Binary + Binary Or operation 
+     Output ----------> Binary
+	 Binary  ----------> num. decimal or interger (decoding)
+	 
+	 a,b,c -----------------> Binary ?
+	 In apkey keyboard 104 keys , character 
+	 Number  -------------------- (Num System ) ----------------> Binary
+	 
+	1word (byte)----------->8bits 
+
+     a -------------------------> ASCII  code (integer) -----------------------------> Number system ---------------------> Binary
+	 0 - 255  -------------->
+	 
+	 // for small letters
+	 a - 97 +32
+	 a = 97 + 25 => 122
+	 a => 97
+	 z => 122
+
+   // for  capital
+    97 - 32 =>65 =>A + 25 => 90
+	A => 65
+	Z => 90
+
+ASCII code for [0-9] = [(0-48)(48-57)]
+    0 - 48                        // 
+	1 - 49 + 8 => 57
+	9 - 57 
+
+    # => 35
+	space => 32
+	Enter => 10
+	
+	ANSI  = American National Standards Institute .
+	ASCII = American Standard Code for Information Interchange.
+     https://www.asciitable.com/
+     
+	Concept of function and language Construct :-
+  *************************************************
+
+  language construct : are special kind of Identifier. which can be used as function and as function and as an expression. 
+  In this brackets are not mendatory ie , you can use the brackets and you can also avoid the brackets.
+
+  NOTE :
+              Identifier -- name given to anything is called Identifier.
+
+              Eg :  Identifier : variables ,function, constants , classname ,objectname , language constuct ........., packeage , filename.....
+
+
+ Note : 
+           
+            BOM / DOM  --  JAB bom chalti hai dom nhi chlti  & bom and dom ek sath nhi excute ho skta . & and 2nd ko block kr deta hai  [ window.alert (); ] me
+                                       and console block nahi krta.
+
+JS is interpreted scripting lang.
+
+Few important Points :-
+************************
+
+1. Javascript  Interpreted in Nature.
+   Excution  hoga vo  Line by line .
+   meaning if Excution is in line 5 and JS line 5 excuteion blockline after 5 wont excute.
+
+ 2. Js can handel one Obect at a time.
+    BOM OR DOM
+
+ 3. DOM and BOM mey , blocking nature is of BOM.      
+     this is called Object Blocking Mechanism in JS.
+
+* Bhai bhai ka Dusman is Applicable in JS.
+
+  window.alert ( ) ---------------> BOM
+  window.alert ( ) ---------------> BOM
+
+Reason Interpreted is JAVASCRIPT .
+
+ JAVASCRIPT is a single threaded . ( Synchronouse)
+ or multithreaded both . ( in concept of  modern js ).
+
+
+Vanilla JS is Synchronouse and SingleThreaded.
+ Synchronouse - One event dependent on another event for some operation.
+
+
+Problem  of js - waiting state and pending state.
+
+ Promises => JS most most valuable.                          
+	
+Wierd part of JS 
+******************
+
+1. JS lin by line execute.
+2. This excution is not according to progamming excution according OBJECT MODEL TREE [BMT ]
+
+
+                                                [ Object ]   ancestor of browser , parent of browser
+			                                                      [ Browser ]     ancestor of document , parent of document
+			                                                                    [ Document ]   ancestor of html , parent of html
+                                                                                          [ html ] parent of head and body
+                                                     [ head ]  child of html                                                         [ body ] child of html
+                                                     . . . . . .                                                                                   . . . . . .
+                                                     . . . . . .                                                                                   . . . . . .
+                                                                                                                                    
+                                                    Excution Top to Bottom
+                                                    Loading Object ----------------> BOM ----------------> DOM
+
+
+ 
+ NAN => Not A Number
+
+ What is type of Nan ?
+ ........................................
+ typeof NAN  --> number
+ IEEE Standard  NAN -------> number
+
+ Example :-
+
+ >'a ' + 10
+ > ' a10 '
+ > ' a ' * 10 
+ > NaN
+ > typeof ( NaN) ;
+ > ' number '
+
+
+document.write/ window.alert ----> 
+
+
+EXCEPTION IN JS :-
+console.log ()  :  can be used to print anything .
+window.alert () : string output.
+document.write() : string output.
+
+
+*  alert me scroll bar hota hai.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    21 / sep/ 022
+
+
+Working user define functions in js :-
+............................................................................
+
+Functions -  are block of code ,which perform some special task.
+
+functiom are classified into 2 types -
+1. Read-made or systemdefined or predefined or library functions. 
+*  Already made by Some One used by Us.
+Eg :-
+2. Userdefined or Custom functions.
+*   Made by US and used by US.
+
+NOTE : :  Functions are used ,when these is a requirement of repeatative task to be done.
+.............    
+
+NOTE : : Every predefined function is , user defined when it is made for the firsttime. 
+
+EX of predefined :-
+ ........................................
+
+1. window.alert()
+2. document.getElementById()
+3. document.getElementByClassName ()
+4. document.getElementByName()
+5. console.log()
+6. eval ()
+ ..........
+ .........
+ .........
+
+ EG  : of Userdefined :-
+...........................................
+
+ 1.  display
+ 2.  dosomething ()
+ 3.  dance ()
+ 4.  xyz()
+     ............
+     ..............
+
+* In JS we have lot of functions 
+***************************************
+
+1. Normal function : function xya ( )
+2  Arrow functions ( ) => { }
+3. IIFE : Immediatly Invoked function.
+4. factory functions
+5. methods
+6. Higher Order funtion
+7. closures
+8. callbacks
+9. Anonymous functions.
+   ............
+   ..............
+
+Syntax of userdefined functions  :-
+................................................................................
+
+Normal function syntax -
+
+php or js : normal function same.
+
+// Making
+function xyz ( ) {
+
+                 // code.......
+
+                   }
+ // using
+  
+  xyz ( );  // one time use.    // calling of a function
+  xyz ( );  // two time use.    // calling of a function
+  xyz ( );  // three time use.    // calling of a function
+  xyz ( );  // 4th time use.    // calling of a function
+
+
+ trigger the functions :-
+ ................................................
+
+// soni 
+ function gun ( ) {
+
+ }
+
+A gun ( )  : call => excute ---> Trigger 
+B gun ( ) 
+C gun ( )
+soni  gun ( )
+
+Arguments and parameters passing in a functions 
+.........................................................................................................
+
+What are agruments or parameters ?
+
+Any value or input passed to a function is called , as argument , or parameters.
+
+For  example : bullet ( input ,parameter , argument ) in gun ( function ) is a input .
+~~~~~~~~~~~
+
+How to pass inputs :
+...............................................
+
+                                                  input 
+                                                      |
+              output  <---- function xyz ( )
+
+Eg : add ( 10, 20 ) : 10 and 20 are input to the function add .
+
+    10 , 20 ------- INPUT ------------> ADD ------------> OUTPUT ---------> 30
+
+
+  How to take output from the functions :-       [ output left side aayega / right to left ]
+  ......................................................................................
+ 
+  
+ EX 1 :-  
+  var result = 30 ;
+  console.log ( result ) ; // 30
+
+EX 2 :-
+
+                   30                input   input
+               <-----                 |          |
+             var result = add ( 20  ,   30 ) ;
+             console.log ( result ) ; // 30 
+
+
+NOTE : IN ORDER TO TAKE BACK OUTPUT .
+~~~~~     return keyword 
+
+             return 10 ;          // Number return
+             return ' ravi '     // String return
+             return ;             // void return ( nothing ) 
+
+(  jis function  ko jo bulaya gya vo  function use ko return krega ).
+   jisne jisko bulaya vo usi ko retunt krega.
+
+               A -------> B ---------> C ---------> D ----------> 10
+                        A <---------  b <-------- C <--------- D <-----
+
+  function add ( a, b ) {
+     
+        retunt a+b ;
+  }
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+   22/Sep/2022  
+   ............................
+
+ How is JS is Running 
+ ..............................................
+ 
+  // stackoverflow 
+
+what is different b/w parseInt and number .
+ parseInt -----> camelcase hai. -----> int me convert krta hai.
+
+
+Different Between number and ParseInt () :
+.......................................................................................  
+                                                                
+  Type conversion in JS ,
+  Sometime ( Kabhi Kabhi ) Hmey Jarrorat padti hai
+  type ko apney according convert krney ki.
+  so agar hum chahey to Js mey type ka conversion kar sktey hai using typeConversion.
+
+
+Concept :
+~~~~~~~
+
+  Type convesion are 2 type :
+
+   1.) Implicit type : ( Automatic type conversion )
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      i.) 10 int 20 int but 10+20 => 30 => 1020 Apney App string Ho gya kya kisi ney Js ko bola convert karney ke liye ,
+	       Apney aap Kiya na , so ya ,
+          kehlayga implicit type conversion.
+
+
+    2.)   Explicit Type Conversion :
+     
+     i. ) 1020 , Apney aap mey kya tha string tha , hmney kismey convert karna chahtey hain , int mey to convert kiya Jabardasti ,
+        	 Isko kehtey explicit Type conversion.
+          
+
+QUESTION --->      
+                             
+ Number () -->       convert type according type
+                                "10.2" => Number () => 10.2
+                                "10" => Number() =>10
+                                pascel case 
+
+ parseInt ()  -------->
+                                        convert type to int 
+                                        "10.2" =>parseInt () => 10                                                    
+                                                "10.6" =>parseInt () => 10     
+                                                      "10.6" =>parseInt () => 10     
+                                                    camel case   
+
+
+Question :
+                 x and y  find sum  using formula a(square) -b(square) ,
+                 what should be the value of x and y , so that datatype Id NaN.
+                 i.) x>y     ----> false
+                 ii.) x<y    ---> false
+                 iii.) x=y   ----> true
+                 iv.) x! = y ----->false
+
+            
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+ 23/sep/022
+........................
+
+   eval -------------> number me change karte hai . 
+ 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+   Current Instance or current Object :
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+
+   Hme pta hai , ki js mey sb kuch object hota hai,
+   atah jis bhi element ko aap target kartey vo swayam mey 
+   ek , object hota hai , tat paschat ydi hmey kisi object
+    ke  reference agar koi task ya event perform karna ho ,
+    to hum karaa sktey kaisey , bahut asaan using 
+    to hum karaa sktey kaisey asaan using 
+    document.getElementByName() sey target karkey.
+     ( sameksh mey koi kriya  karani ho to use hum to usi Object key )
+
+
+  but, kabhi kabhi yaha se event trigger hua hai.
+  usey bhi hmey target karna hota hai , or 
+  aisa karney key 2 tarikey --
+1. ) event => function() chaley and ise ko hum id dekey
+                      document.getElementById() ka use karley 
+   For Example :- 
+                          <select onclick = " calculate();"  id = "operator">
+
+2.)   use kare current object ka scope .
+      this : current object of the event .
+      
+      <select onclick="calculate(this);">
+
+
+        function calculate( x ) {
+
+        }                                           
+    
+    ye x = target karega  select object ko .
+
+
+         Taking Decision in JS 
+ **************************************
+
+1.)  If block      :  true 
+2.)  else block  :  false , 
+
+Syntax :-
+             if (take decision){
+              
+            // if wala code will run only if is true.
+
+             }
+           else {
+
+          //else wala code will run only if is false.
+           
+           }  
+
+   Decision vote eligible ho ya nhi hai
+****************************************
+
+ if ( age >=18) {
+            
+            console.log('you are eligible');
+
+ }
+else {
+  console.log ('you are not eligible');
+}
+
+
+
+Q.2  Which case is followed in css :-
+ 
+ 1. ) background-color : red;
+
+ kabab case
+
+ Q:--  how will you  write in js 
+backgroundColor = 'red';
+
+How to disable and enable in js
+...........................................................
+
+copy and paste allow
+allow : retunt true;
+disable : return false ;
+
+Right click is called as contextMenu =>
+In Right click we have bahut sare option
+CTRL+C , CTRLl + V
+inspect
+CTRL +U : view page source.
+but short cut will work.
+
+
+How to do ---
+...............................
+contextMenu : is a part of BOM .
+                         window.contextMenu = return false ;        // disable
+                          window.contextMenu = return true;         // allow
+
+
+contextmenu =>event => oncontextmenu
+it is same as onclick
+
+Functions are classified
+Named and Un-named ( Anonymous ) :-
+
+
+Named function :--- they have name 
+for eg : function function_name () {
+
+
+}
+
+Eg : 
+
+         function add () {
+
+         }
+        function minus () {
+          
+         }
+         function dance () {
+          
+         }
+
+Since  named function have names they , can be called .
+If you can call them you can trigger a event.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+25/sep/022
+.........................
+
+Annonymous Functions
+....................................................
+
+They don't have a name .
+Since they don't have a name you cannot call them, but they can be assigned to a Variable in form a expression hence ,
+Anonymous function are also a part of expresssion .
+hence they require Semicolon when written as a line.
+
+
+For Eg :-
+...............
+Consider a normal function 
+function xyz ( ) {
+
+
+}  ------> calling  ------> xyz ( ) ;
+
+x = function ( ) {
+
+} ; 
+
+// calling  ------> x ( ) ;
+ 
+ Anonymous function they  can be also passed as  parameter 
+ xyz ( 10, 20 );     // number , number
+xyz  ( 10 , ' name'  ) ;        // number , string 
+xyz ( function ( ) { } , 10 , 'name' ) ;
+Annonymous
+function , number , string .
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@222
+
+27/sep/022
+............................
+
+ Timing functions or event 
+ ........................................................
+ Jab bhi koi Event time ke hisab se karna ho, jaisey mai chahta ki generally jab likhey hain ,
+  window.alert( ) ; ----------------> document load --------------> windowload vaisey hai , alert chal jayega
+  I want alert 5 secounds baad chaley Js app timing pass karte hai miliseconds.
+
+    1 sec       --------------> 1000 miliseconds
+   0.5 sec    --------------> 500 miliseconds.
+    2 sec       -------------> 2000 miliseconds
+
+
+setTimeout  => Function
+setInterval   => Function
+
+
+Time, is a thread/process
+
+setTimeout ---> jab jab chalega ---> time ka  thread (process) create hoga 
+setInterval---> jab jab chalega -----> time thread (process) create hoga 
+
+setTimeout => add delay in a any single event once started for one time.
+setInterval   => add delay in a any single event once started for n-th
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+     // youtube = codeherry   ----> javacsript playlist
+        // youtube = technicalthapa ,  ----> javacsript playlist
+        //  youtube = yahoobaba        ----> javacsript playlist
+        // youtube = conding train --
+        //  x
+        //   JS ------> ECMA --------> MozillaFireFox -------> MDN
+       // durga sir
+      //   geekyshows  -- 
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      
+30/sep/2022
+*****************
+
+
+-Timing Functions or Events--
+****************************
+
+Jab bhi hmey ki event  time ke hissab se karana ho, jaise mi cahata hun ki generally jab likhe hain, 
+ window.alert();-->document load--> window load vaisey, alert chaljaega.
+
+
+
+1) i want alert  5second baad chale , aap timing dekate ho in microseconds
+
+1 sec  ----> 1000milliseonds
+0.5sec ----> 500milliseonds
+2sec   ----> 2000milliseonds
+
+setTimeout()--> function-------> ab samay khatam hochuka hai.--> stop timing--> --2events--->timing start, timing stop
+setInterval()--> function------>
+Time is a thread/process.
+
+
+2 )events --> start hone se phle , aur khtam hone ke baad.
+
+
+setTimeout ----->jab jab chalega-->time thread(PROCESS) create.--> Add delay in ny single unit once started for one time once started
+
+setInterval ----->jab jab chalega-->time thread(PROCESS) create.---> Add delay in any single unit once started for one nth time once started
+
+
+WORKING WITHLOCAL STORAGE 
+
+*************************************
+Localstorage:-
+
+-Part of BOM ,responsible for storing data.
+-used to store data locally
+-data in localstorage is stored in form of string
+-is permenenet data storage  , which will remain  even if browser is reloaded 
+   or refreshed ,until removed or browser is uninstall
+- data values are stored in key- value pair.
+
+-Left values keys and right values keys.
+
+KEY-> PROPERTY
+VALUE-->VALUE
+JSON--> (JS OBJECT NOTATION) 
+
+
+
+Example:- student
+name :- "ravi"
+dob:-   15-09-2000
+email:-"soni123@gmail.com"
+passowrd:-47566
+rollno:-666
+marks:-777
+section:-"b"
+
+JSON
+********
+
+JSON--> (JS OBJECT NOTATION) --> not a technology ,nor it is language
+Data rep are format or tareeqa
+
+SGML:-Standard General markup language
+  
+               Two child OF SGML
+
+                     |
+                     |
+_____________________|__________________________________ 
+|                                                                                   |
+Data present                                                  Data store(html)
+(HTML,presentation)                               (XML,extendable markkup ) 
+                
+<html>
+  <head>
+  </head>
+   <body>
+     <h1>httml</h1>
+      <b>httml</b>
+  </body>
+</html>
+
+
+API(APPLICATION PROGRAMMING INTERFACE)
+
+-IMPORTANT  INTERVIEW POINT OF VIEW
+
+In API, world
+1.SOAP--> Simple Object Access Protocol
+2.REST-->Represenation State  Transfer
+
+SOAP VS REST
+
+SOAP--> Simple Object Access Protocol
+REST-->Represenation State  Transfer
+
+
+SOAP-> data stored in form of XML.
+REST-> datastored in  JSON, YML( yant markup | Yet another markup language).
+      JSON --> CURRENT
+      YML --> FUTURE
+
+SOAP -> heavy due to XML
+REST-> light weight due to JSON
+
+
+SOAP follow older convention
+REST follow new convention
+
+
+SOAP managed by w3 standard.
+REST managed by whatwg standard
+
+SOAP hard to manage.
+REST easy to manage.
+
+SOAP data transfer high bandwidth.
+REST data transfer low bandwidth..
+
+
+SOAP--> http/smtp/all types of protocol
+REST --> https secure
+
+
+SOAP--> Network services or protocol service , infrared, bluetooth,hotspot,soap, internet.
+REST--> web services: http, gprs, edge mode, umts, hspa, lte
+
+
+XML VS HTML
+************************
+
+-HTML is not case sensetive.
+-predefined tags
+<h1></H1>-----> ALLOW
+
+-but, XML is case sensetive.
+-Userdefined tags
+<tag><Tag>-----> ERROR
+-<SALEM><SALEM>----> custom tags by user
+ 
+We know that , ultimately , Data store in Database that is( mysql , oracle, ms, sqlserver. mariaDB)--> ROWS AND COLUMN
+
+TABLE--> called relations .So, also called RDMS( RELATIONAL DATABASE MANAGEMENT SYSTEM).
+
+
+TABLES KE FORMAT ME STYDENTBKE DATA STORE KAISE KRE?
+TABLE :- STUDENT
+****************************************************
+   
+   | ID   |  NAME    |   CLASS  |      ROLLNO    |
+ 
+    1      Soni           12TH            1001
+   
+    2      shakil          7TH              1002
+
+    3     Anchal        6TH               1003
+
+    4      Sweta         5TH              1004
+
+
+
+-JSON:- 
+RECORD --> ROW--> OBJECT--> KEY AND VALUES
+
+[
+{
+   id :  1 ,
+   name:- "soni" ,          --------------------------> OBJ1--> INDEX0
+   class :- "12th"
+  rollno  :- 1001
+
+
+},
+
+
+{
+   id :  2 ,
+   name:- "shakil",
+   class :- "7th"               --------------------------> OBJ1--> INDEX1
+  rollno  :- 1002
+
+
+},
+
+{
+   id :  3 ,
+   name:- "Anchal" ,
+   class :- "6th"                 --------------------------> OBJ2--> INDEX2
+  rollno  :- 1003
+
+
+}
+,
+{
+   id :  4 ,
+   name:- "Sweta"
+   class :- "5th" --------------------------> OBJ3--> INDEX3
+  rollno  :- 1004
+
+
+}
+,
+{
+   id :  896 ,
+   name:- "xyz"--------------------------> OBJ4--> INDEX4
+   class :- "12th"
+  rollno  :- 7654356
+
+
+}
+]
+
+
+   RECORD1 :
+************* 
+Student_arr[0].id
+Student_arr[0].name
+Student_arr[0].class
+Student_arr[0].rollno
+
+
+RECORD2 :
+************* 
+Student_arr[1].id
+Student_arr[1].name
+Student_arr[1].class
+Student_arr[1].rollno
+
+RECORD3:
+************* 
+Student_arr[2].id
+Student_arr[2].name
+Student_arr[2].class
+Student_arr[2].rollno
+
+
+
+RECORD4 :
+************* 
+Student_arr[3].id
+Student_arr[3].name
+Student_arr[3].class
+Student_arr[3].rollno
+
+
+ARRAY--> OBJECT
+array of objects called array----> array--> array---> huge then called --> JSON
+
+  
+ i = 0 to i = 2
+ for (){
+
+     student.arr[i].id
+     student.arr[i].name
+     student.arr[i].class           ---------------------> gives 3 records
+      student.arr[i].rollno
+
+       }
+
+
+
+XML
+**********
+
+SAMPLE CODE TO STORE DATA IN XML
+***********************************************
+
+<?xml lang = ""  version="1.0" encoding="UTF-8"?>--------> similiar  to doctype in html
+<xml>
+<student>
+<id>1<id>
+<name>soni</name>
+<class>12th</class>
+<rollno>1001</rollno>
+</student>
+
+<student>
+<id>2<id>
+<name>shakil</name>
+<class>7th</class>
+<rollno>1002</rollno>
+</student>
+
+<student>
+<id>3<id>
+<name>anchal</name>
+<class>6th</class>
+<rollno>1003</rollno>
+</student>
+
+<student>
+<id>4<id>
+<name>Sweta</name>
+<class>5th</class>
+<rollno>1004</rollno>
+</student>
+</xml>
+
+Access:- 
+document.xml.student[0].child(id)
+document.xml.student[0].child(name)
+document.xml.student[0].child(class)
+document.xml.student[0].child(rollno)
+
+
+or
+
+document.xml.student[0].child(id).leftsibling(1);
+document.xml.student[0].child(name).rightsibling(1);
+document.xml.student[0].child(class).rightsibling(2);
+document.xml.student[0].child(rollno).rightsibling(3);
+
+HOW  TO SET LOCAL STORAGE OR SLECT DATA IN LOCAL STORAGE.
+********************************************************
+
+window.localStorage.getItem(keyname);
+
+
+HOW  TO  DELETE SINGLE VALUE  IN LOCAL STORAGE.
+****************************************************************
+
+window.localStorage.setItem(keyname, " ");
+or
+window.localStorage.setItem(keyname, "null");
+
+window.localStorage.removeItem(keyname);
+
+
+HOW  TO CLEAR ALL VALUE IN LOCAL STORAGE.
+*******************************************************
+
+window.localStorage.clear();
+
+______________________________________
+
+Array-->[]
+object-->{}
+string-->" "
+number-->10 or 10.7
+boolean --> true or false
+
+ true - true--> 0
+   1      1
+true + true --> 2--> string
+ 1       1
+true+" "true---> truetrue
+
+
+[{}]--> Array of object-->jab yeh jab badka hojata hai--> JSON
+  IF JSON convert to string --> jsonstring--> "[{},{},{},{}]"---> ENCODING
+
+jsonstring--> array of object then callled --> JSONobject---> DECODING
+
+
+
+ TYPE CONVERSION IN JSON
+***************************************
+
+ASK IN INTERVIEW
+********************
+JSON--> CONVERT TO ---STRING :--->JSON.stringify()
+
+JSONSTRING--> CONVERT TO ---JSON OBJECT :--->JSON.parse()
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+1/Oct/2022
+............................
+
+Looping or Iterations 
+...............................................
+
+Sometime, kabhi kbhi we require to perform task, n of  times.
+in that case we go for Looping or Iteration.
+
+
+* Till now, we had setInterval function which was used to do any time repeatedly after n of times.
+
+setInterval => inside => alert() => it will run that many times
+
+setInterval(function(){
+
+  window.alert();
+
+},2000);
+
+window.alert(); //n times
+
+Loop :-  Cycle at least once.
+              body starting from point a must returned to same point a then it is called as cycle.
+
+In  a loop :-
+.......................
+1.) Starting  :--  counter start
+2.) Ending   :--  counter stop
+3.) Updation ( increment / decrement )
+      counter  =  counter+n 
+        OR
+      counter  = counter-n 
+
+  +-------------------------------------------------------------------------+
+  |     sr no  |  counter  |  n    |  counter+n  |   counter = ( counter + n )   |
+  +......................................................................................................................................+
+  |      1.      |     0          |  2    |       0+2        |      counter = 2                    |    
+ +-------------------------------------------------------------------------+
+  |     2.       |      2         |   2   |      2+2         |      counter = 4                    |
+ +.......................................................................................................................................+
+  |    3.        |      4         |   2   |      4+2         |         counter = 6                 |         
+ +-------------------------------------------------------------------------+
+  |    4.        |      6         |   2   |      6+2         |         counter = 8                 |         
+ +--------------------------------------------------------------------------+
+  
+
+   How to write loop in 4 steps :-
+************************************
+
+1. ) use infinite loop 
+           
+           for ( ; ; ) {
+
+                    //  any code 
+           }
+     while (true ) {
+                //any code 
+          }
+
+
+2. )  Add counter for starting : counter = start ;
+      counter = 0 ;
+
+3. ) Add  last limit  to the loop and break the execution of the loop  at last limit .
+        
+        counter == 10
+
+
+   if ( counter==10) {
+    break ;
+   }
+
+ 4.) Please update counter otherwise loop will be infinite .
+
+ Convert :-
+ .....................
+ 1. counter  starting   : place in its position .
+ 2. counter Updation :  place it in its position .
+ 3. if condition  ka  reverse kariye  :  place it in its position .
+
+ 
+  Excution of program :-
+  ..............................................
+
+  // use of loop without body .
+   var name = "aman";
+   var i = 0;
+   for ( i=0; name[i] !=null ; i=i+1);
+   console.log(i);
+ 
+
+ name = "aman "    i = 0 ;
+
+  +----------------------------------------------------------------------------------------------------------+
+  |     Sr no  |     i    |    name    |        name[ i ]       |    name [ i ] ! = null   |     i + 1        |     i = i + 1       |                           
+  +....................................................................................................................................................................................................+
+  |      1.      |    0     |   aman    |    name [ 0 ] : a     |    a ! = null : true       |    0 + 1 : 1   |      i = 1           | 
+ +----------------------------------------------------------------------------------------------------------+
+  |     2.       |    1     |   aman    |    name [ 1 ] : m    |    m ! = null : true     |    1 + 1 : 2   |      i = 2           |   
+ +.....................................................................................................................................................................................................+
+  |     3.       |    2     |   aman    |    name [ 2 ] : a     |     a ! = null : true      |    2 + 1 : 3  |      i = 3            |        
+ +----------------------------------------------------------------------------------------------------------+
+  |     4.       |    3     |   aman    |    name [ 3 ] : n     |     n ! = null : true     |    3 + 1 : 4   |      i = 4            |       
+ +----------------------------------------------------------------------------------------------------------+
+  |     5.       |    4     |  aman    |    name [ 4 ] :null    |    null ! = null : false |     ------      |      ------          |       
+ +----------------------------------------------------------------------------------------------------------+
+
+Different between For Loop and  While Loop 
+...............................................................................................
+
+i)   Iterations of FOR Loop +1 than other loops .
+ii.)  For Loop can run without body but ,  while loop cannot .
+iii.)  In for loop you can use counter or may not use counter .
+      but  in WHILE loop counter cannot ( impossible )  be added , if body is present . 
+iv.) Updation in for will be when condition is true .
+      Otherwise not.
+      while there is no body , updation not possible .
+ v.)        
+
+
+// use of loop without body to find length of string
+    var name = " aman" ;
+    var i = 0 ;
+    while (name[i++]!=null);
+    console.log(i);
+
+     
+    Date : 
+....................................................
+
+
+WHAT IS SPECIAL ABOUT (INDEX.HTML OR INDEX * OR INDEX.PY OR INDEC.PHP OR INDEX.JS OR INDEX.JSP OR INDEX.ASPX)
+...................................................................................................................................................................................................................................................................
+
+- Always remember that *  is a wild card  character and it has  a special meaning.
+
+for example:- 
+select * from  tablename  in sql  * means ---> everything 
+Similarly in cmd  or file system * means  any file name .
+
+index.html or index. *  : this file  name is  most favriote for  server 
+.......................................
+
+Project  websites :- 
+~~~~~~~~~~~~~
+
+Jaise kisi  project me index page sabse phle launch hota hai, sabse phle launch hoga, toh agr aapke paas
+---> index.html page sabse phle lauch hoga ..
+
+1. home.html
+2.galery.html
+3.contact.html
+4.services.html
+5.login.html
+
+
+ Indexing:- it is a technique to tell server  which page  has highest priority
+~~~~~~~~~
+
+google.com  ===> https://amazon.com--> indexing  page no 1 .
+
+
+
+WORKING WITH document.querySelector()
+************************************************
+
+
+
+1.)  document.querySelector():- single element or child node  single child node or  or fisrt elemnt of node list
+
+2.)  document.querySelectorAll():-muliple element as node list.
+
+IN HTML 
+*************
+
+Single element-->document.getElementById():- object
+
+Multiple element-->Html collection(array)-> object
+
+                    document.getElementByName()
+                    document.getElementClassName()
+
+
+
+<div id = "div" class = "div">
+
+i am div  
+
+</div>
+
+
+document.getElementById('div'):--------> Single  element
+
+document.getElementClassName('div')------------>HTML COLLECTION 1 ELEMENT
+  
+document.getElementTagName('div')---->HTML COLLECTION    1 ELEMENT 
+
+
+
+
+IN CSS
+************
+
+id --> #div
+class ---> .div
+tag -->div
+
+
+document.querySelector('#div')---> select in js using id
+document.getElementById('div')---> select in html using id
+
+document.querySelector('.div') ------>select in js using class
+document.getElementClassName('.div')--> select in html using  class
+
+
+
+document.getElementClassName('div')--> html collection--> all div --> class name ---> .div
+
+
+
+document.querySelector('.div')--> first child of div class----> select first div of body
+
+document.querySelectorAll('.div')--> collection of object. 
+
+
+
+
+HOW TO CREATE ELEMENTS INSIDE BODY USING JS
+--------------------------------------------------------------------
+
+var body = document.body 
+
+var outer = document.createElement('h1');
+body.append(outer);
+console.log(body)
+outer.innerHTML = "hgfydtestrdyfghjkljhgfdsrdfgh"
+
+
+
+
+var b = document.createElement('h6');
+body.append(b);
+b.innerHTML = "hgfydtestrdyfghjkljhgfdsrdfgh"
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ PREVIOUS NOTES 
+_____________________________
+
+-today
+
+-var is variable hoisting
+
+
+
+Two memory :-
+
+
+-Agr strict mode on hai var nii use karenge them , variabe hi niii banega
+
+-Agr strict mode off var nii use karenge them , variabe banega
+
+a= 10 ;   
+if (typeof(a) == 'undefined'){
+
+console.log("a memeory me toh hai , pr value nii hai");
+}
+
+else{
+
+console.log(" a ki value  ",a )
+}
+
+-bina var keyword le use kare is called variable hoisting.
+
+a = 10 ;
+console.log(x)
+---> valid cuz var is variable hoisting.
+
+
+-For bettter code ,write code in strict mode only.
+
+
+-var x --> type undefined aur value bhi undefined
+
+
+-if strict mode not placed in first line then it equal to that ,strict mode is not used.
+
+
+-Strict mode --> se ek question 
+
+
+-Structure  of js
+
+
+
+  Strict mode
+    |
+  Global scope
+    |
+  Local scope
+
+
+
+-INTERVIEW QUESTIONS REALATED TO VAR AND LET
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- if  strict mode is use  , then use in first line.
+
+- if not used  var keyword then  , take varible into global scope.
+
+-Variable hoisting---> default behavior of moving declerations to the top.
+
+
+-console.log(window.x);---> var window me store jata hai
+- window global scope hai
+
+console.log(this.x);---> this means window, window means global scope  so print
+
+ var window me bhi aur this me bhi.
+
+
+
+- agr strict mode --> on ya off var ke scope me koi farq nii padhta .
+ ................................
+
+- agr check krna var aur let then use window.variablename aur this.variablename
+
+
+        STRICT MODE         VAR                                       LET 
+  
+           ON          delacre multiple times (valid)       delacre multiple times   (not valid)     
+
+                             valid                                                    not valid        
+
+                         var x ;   valid                                            let y  valid
+
+
+                   multiple initialozation valid                         multiple initialozation valid
+
+
+
+                        global scope                                            local scope or lexical scope
+
+
+
+
+                      var go to window global scope                  let go to lexical global scope.
+                                                                         andr aur bhar accesss
+
+
+
+-NOTE- var agr function ke adr karenge th wo usi block ke adr use karega variable hoisting,aur block ke andr sabse top pe chala jaega .
+~~~~~~
+
+- tabhi agr var ko ham declare fnction ke andr krte hain, aur console bhar krte hai toh  to referenace error ata hai .
+
+function scope alag hai--> local scope 
+  aur function ke bhar called lexical scope 
+
+aur usle bahr is called as global scope
+
+
+{
+             ---> block scope
+
+}
+
+
+
+-Function ke andr agr koi variable define krte hai---> toh local scpe hoajata hai.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+	   
+	   
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+	   
+	   
+ 

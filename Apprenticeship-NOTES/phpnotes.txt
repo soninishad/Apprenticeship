@@ -1,0 +1,459 @@
+ INTRODUCTON TO PHP  WITH LAREVAL FRAMEWORK
+***********************************************************
+
+1.Programming language
+2. Software technology
+3.Frameworks
+4.Web architecture
+5. Php intro
+6. Pre-requsite of php
+7.Syntax of php 
+
+
+Programming language in general terms :- 
+*********************************************
+
+Programming lang provides us  raw materials for software development.
+
+Programming lang provide  syntaxes (Rules)and smentics (guidelines ) for software development .
+
+By using programming language you can develop diffrent kinds of software , compilers .. etc.
+
+C , C++ , java , python , php  etc ,  are some popular programming languages.
+
+
+Software technology                       (Interview Question )
+**********************
+Software technology  are non - installable softwares ,  but the software developed by using Software technology are installable . 
+
+
+Two types of Software technology
+**********************************
+
+1.Open source Technology
+
+ Source code of Open source Technology is available for software engineers  and  software engineers can make changes in 
+ Open source Technology.
+Examples:- java , php python , react , node , angular ..
+
+2.Closed source Technology 
+
+Source code of    Closed source Technology is not available for software engineers  and so   software engineers cannot make changes in 
+ Closed source Technology
+Examples:-  All Microsoft technology ,  IOS etc 
+
+
+
+
+ 
+NOTE:-
+*******
+-OS made in c or c++ only  , cuz they give hardware interaction permission , python se nii krte kyu ki uske liye addtional h/w use krte hai Raspberry pie which mad on core linux .
+-Assembly lang se isliye nii krte kyu ki user frindly nii hai .
+
+-Windows  made on c++   : owner Microsoft  :- Used in daily life
+-Linux and unix made on c   : owner . . . . .  . . . :- Used by programmers 
+-Android is linux based mobile os system.
+
+UNIX VS LINUX 
+****************
+UNIX VS LINUX   :- me whi diffrence hai jo   DOS aur  Windows me hai
+ DOS(command prompt) :- CUI based operating system. 
+ windows(GUI ):   GUI based 
+
+DOS is a part  Windows, similarly unix is a part of linux ..
+
+
+FRAMEWORK    (INTERVIEW QUESTION)
+********************************************
+
+Frameworks are installble softwares ,  and they provide us pre-designed Architecture . by using framework , you can develop software applications more easily.
+
+PHP 
+1.Laravel
+2.Cake php
+3.Codeigniter
+
+JAVA
+1. JSF
+2. Hibernate
+3. Springboot
+4. Spring
+5. Struts
+
+
+Python
+1. Flask
+2. Django
+
+.NET
+1.MVC
+2. Xamrine
+
+INTRODUCTON TO PHP
+
+C:\wamp64\www\PHP BRIJESH  uske baad
+
+go to new tab ==== = = > localhost/myphp
+
+
+
+***********************************************************************************
+
+PHP  is interpreted language . 
+
+<?php
+$myVar="swati";
+echo "hello".$myVar;
+?>
+*********************************************************************************
+
+NOTE :-
+
+
+Enclosed all code in form tag and set method as post 
+
+like this :-
+
+<?php
+
+//code of php 
+
+?>
+
+
+<form method ="post">
+
+//code 
+</form>
+
+
+
+
+php code to recieve value of input:-
+
+$n1=$_POST["n1"];
+$n2=$_POST["n2"];
+$op=$_POST["op"];
+
+isset():-  isset() function in php is used to cheeck that variable is set 
+(variable is initialized)or not.
+if(isset($_POST["calc"]))
+{
+$n1=$_POST["n1"];
+$n2=$_POST["n2"];
+$op=$_POST["op"];// op me add,sub,mult,div ho sakta hai.
+if($op=="add")
+{
+$res=$n1+$n2; 
+}
+}
+
+Loop Control:-
+
+If you have a block of code which you want to execute repeatedly up to given 
+condition in true. then you can use a loop control. in php there are four types of loop
+controls:-
+
+
+1. while loop
+
+Syntax:-
+
+Initialization of loop counter;
+while(condition)
+{
+// code
+Updation of loop counter;
+}
+
+
+
+2. for loop
+syntax:-
+
+for(Initialization;Condition;Updation)
+{
+//code
+}
+3. do-which loop
+4. foreach loop
+
+
+Array in php:- Array is a collection of different type values in php.
+An array is a special variable, which can hold more than one value at a time.
+
+create an array in php:-In php, the array() function is used to create an array.
+array();
+eg:-
+$arr=array("ram", "shyam","swati");
+$arr[0]="ram";
+$arr[1]="shyam";
+$arr[2]="swati";
+
+
+Types  of array in php:- 
+
+In php there are three types array
+
+1. Indexed Array:- 
+
+Array with numeric index is called indexed array.
+$cars=array("bmw","alto","nano");
+$cars[0]="bmw";
+$cars[1]="alto";
+$cars[2]="nano";
+
+2. Associative array:-
+
+ Array with key and value pair is called Associative array.
+"key"=>"value"
+$employee=array("empid"=>101,"empname"=>"ram","salary"=>50000);
+$employee["empid"]=101;
+$employee["empname"]="ram";
+$employee["salary"]="50000";
+
+
+3. Multidimensinal array:- 
+
+A Multidimensinal array is an array containing one or more arrays.
+$A=array(
+array(1,2,3),
+array(4,5,6),
+array(7,8,9)
+);
+
+A=  0 1 2
+|--      --
+| 1  2  3  |  0       
+| 4  5  6  |  1
+| 7  8  9  |  2
+|          |
+
+
+
+FUNCTIONS IN PHP
+*************************
+
+
+       
+
+
+Constructor in php
+**********************
+
+Constructor is special method which is used to initialize variables , it is called automatically as soon as object is created.
+
+syntax:-
+
+function __construct(if any parameter )
+
+{
+//code   -> to initialize variables
+}
+
+What is Inheritance?
+
+Inheritance in OOP = When a class derives from another class.
+The child class will inherit all the public and protected properties and methods from the parent class. In addition, it can have its own properties and methods.
+An inherited class is defined by using the extends keyword.
+
+
+Protected properties or methods can be accessed within the class and by classes derived from that class. What does that mean?
+
+SOL:- A protected method (intro()) from outside the class, we will receive an error. public methods will work fine!
+
+
+
+Types of inheritance supported in php 
+********************************************
+
+In php , three types of inheritance are supported 
+
+1. Single inheritance
+2. Hierracricahal inhreitance
+3. Multilevel inheritance
+
+
+
+Single inheritance 
+********************
+Single base classs and Single derived class.
+
+Heirarchical inhreitance <===> (Tree data structure)
+**************************************************
+There is  single base classs and  multiple  devried class .
+
+class A {
+//code 
+}
+
+class B extends A {
+// code 
+}
+
+class C extends A {
+// code
+}
+
+Multilevel inheritance (N<==>N)
+**************************************
+There are n base class and n derived class
+
+class A {
+//code 
+}
+
+class B extends A {
+// code 
+}
+
+class C extends B {
+// code
+}
+
+
+
+polymorphism in php
+
+one thing many forms
+
+
+1. method overloading:- can be performed by in php  by function __call()
+
+syntax:-
+
+fuunction __ call($name , $args){
+
+}
+
+
+
+2. method overriding :_
+
+rules:_
+
+1. class must be inherited
+2. base class  method and derived class methods  must be same name
+3. base class method parameters and dervied  class  method parameters  must be same
+
+
+DATABASE CONNECTIVITY IN PHP USING MYSQL:_
+
+msqli_connect: This function is used in php to connect database of mysql with php pplication , in this function we pass four parameters
+
+$con= mysqli_connect("localhost", "root","2000","userdb");
+
+
+
+msqli_query():-  This function is used in php to execute sql statements 
+
+msqli_query($con , "select * from userinfo ");
+
+SQL STATEMENT TO INSERT VALES IN SPECIFIC  COLUMNS
+
+$query = "insert into userinfo (username ,  gender , address ,  contactno , emailaddress ,  password) 
+values ( '$username' , '$gender' , '$address' ,  '$contactno' ; '$emailaddress' ,  '$password' )";
+
+
+
+
+
+List some of the features of PHP7.
+Scalar type declarations
+Return type declarations
+Null coalescing operator (??)
+Spaceship operator
+Constant arrays using define()
+Anonymous classes
+Closure::call method
+Group use declaration
+Generator return expressions
+Generator delegation
+Space ship operator
+
+
+
+
+array()
+array_change_key_case()
+array_chunk()
+count()
+sort()
+array_reverse()
+array_search()
+array_intersect()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

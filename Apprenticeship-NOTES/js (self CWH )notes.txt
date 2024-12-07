@@ -1,0 +1,88 @@
+                                JAVASCRIPT
+                            *******************    
+ 
+ Javascript ka type Runtime me Change ka skte hai  .
+
+ EX : Ager humlog ne ek string banai to hum use string me baad me ,
+       Number , Object , Array  store kar sakte hai isee DYNAMIC TYPICALLY language kahte hai.
+
+STATIC = Phle decleare karna padega kis type ka variable hai eg : float , string ,character check karne baad hi ispar koi Operation perform kar sakte hai .
+               C is a Static type language.
+
+~  JAVASCRIPT IS A DYNAMIC type language .
+
+~ Container  are called a variables .
+     Here , you can put numbersor string ,like a name  collection of numbers of numbers and strings.
+
+
+      LET ,  CONST AND VAR DIFFERENT 
+   __________________________________________
+
+     VAR  : 
+*************    var me ek type ki function many type ki value declarekar sakte hai .
+                        Eg : var a =7;               ------> function = a , value = 7 , "soni"
+                               var a = "soni";                    ( in let we can not declarelike this , in let we can only initialize the values ).
+                        
+
+ES6 se phle Javascript  me kisi bhi variable ko define karne ke liye var  keyword ka use kiya jata hai.
+                                                                                                        ............ 
+But  now var keyword  is not used at all , because some reasons BUG can be introduced in your code .
+so var is found in Pre ES6 . and as rule of thumb we should aoide it . 
+( lekin is tym sabme var ka use nhi karte hai kyuki kuch reason ki vajah se bugs hamare code me enter kar jate hai , to var pre ES6 me paya jata hai or humko as a rule of thumb hamre  avoid karna chahiye .)
+
+
+        CONST
+    **************
+
+~ Const is used to declare constants. 
+~ Constants are those identifires Whose value cannot be changed throughout javascript program .
+
+
+         let  : 
+    **********   
+                     Let me hum ek function me ek se jada type ki value nhi declarekar sakte hai.  But us function another value ko initialize kar sakte hai.
+     
+       Eg :  let b = 31 ;
+                    b = 61 ;    ------> initializethe another value .
+                    b = "soumya"    -----> intialization 
+                      
+   ~ We use Let  , to declare BLOCK SCOPED variable.                  
+   ~ ( Let ka use hum Block scope variable ko declarekarne ke liye karte hai .)
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+PRIMITIVE DATATYPE
+...............................................
+                                              7 type ke primitive data type hote hai .  ( nn bb sss u )
+                                           (  n = null ;
+                                              n = number ;
+                                              b = boolean;
+                                              b = bigInt ;
+                                              s = string ;
+                                              s = Symbols;
+                                              u = undefined ;  )
+
+
+
+ NON PRIMITIVE DATATYPE  -- OBJECTS 
+....................................................................................
+                                                                      Key value pairs bana sakte hai , jisse hum isee lookup aasani se kar sakte hai .
+                                                                      you can create a  dictionary , create a mapping  & you can create mapping  items price 
+                                                                       and name, classroom mapping  . 
+
+
+
+
+
+  Loops  :---        for Loop
+**********            for in Loop    -----> A variant of "for loop" , a modern "for loop".
+                           for of loop     ------>
+
+
+
+
+
+
+

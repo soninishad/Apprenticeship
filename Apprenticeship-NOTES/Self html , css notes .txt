@@ -1,0 +1,635 @@
+   
+------------------------------------------   HTML NOTES ------------------------------------
+   
+ Why learn html?
+~~~~~~~~~~~~~~~
+1.Website/Web pages 
+2.Career as a Webdesigner
+3.Mobile Application Development(Phonegap / Ionic)
+
+---------Heading---------------
+
+ There are 6 types of heading in html / 6 layaers in html :-
+ 
+    <h1>Sabse large</h1>
+    <h2> ...... </h2>
+    <h3> ...... </h3>
+    <h4> ..... </h4>
+    <h5> content here </h5>
+    <h6> This is smallest heading </h6>
+   
+---------------Paragraph   
+
+  For pargraph we use <p> tag.
+ 
+  syntax :-
+               <p> content here </p>
+			   
+------------------ Html text formatting TAGS--------------------			   
+			   
+    <b> :-
+            <b>tag use for use for bold the element.
+		    <b> content </b>
+		   
+    <i> :-
+            <i> use for  use for Italic the element.
+            <i> content here </i>
+     
+	<u> :-
+	         <u> tag use for Underline the element/text.
+			 <u> content here </u>
+			 
+	<s> :-
+             <s> that is use for ( Cut the text /sentance ).	
+			 
+	<Sub script>  :-		 
+                               Chemistry based  ( H2SO₄)
+
+    <Super Script> :-
+	                           That is use for maths formula or Date . (12th)
+	
+	 <Break> :-
+	
+	 <Non-Breaking Space> :-
+
+
+
+   --------------- Property
+   
+ ~Property ko hum <h1> , <p> or any tag jo ki text se related ho , ..... etc us pr hum use kr skte hai.
+   align ko use krte h.
+   
+   <h1 align="center"></h1>
+   
+  * align me hamare pass 4 values hoti h ( left , right , center , justify )
+  * align me by default value left hoti hai  --------->  koi value de ya nhi de value left hi rahegi.
+   
+  * justify ka mtlb dono side se equal. ----------------> Text equal rhega right , left dono taraf se. ------------------> (Line property)
+  * justify basically paragraph par use karte hain.
+     
+    <br> ---> That is using for single next line break.
+    	
+     &nbsp ; ---> Iska mtlb EK SPACE .
+	 
+	 ---------------- Font Tag ---------------------------------
+	 
+	<font> .... </font> ---------> That  tag is use for change the color , face and size.
+	                                          Size => 7 sabse bara h. 
+											  face => arial , verdana ,impact .
+	 
+   ----------------------------------- Listing Tag ......................
+	
+	Odered list :
+   ~~~~~~~~~~~~
+                           <ol type = " " >   
+						   
+						            <li> item 1 </li>
+									<li> item 2 </li>
+									<li> item 3 </li>
+									<li> item 4 </li>
+						   </ol>
+			
+  *   <ol>  me ek or property hoti hai ( start ) ----> jiska mtlb starting kha se hogi.
+                                   
+					       <ol type = " A" start = " 3 " >   
+						   
+						            <li> item 1 </li>
+									<li> item 2 </li>
+									<li> item 3 </li>
+									<li> item 4 </li>
+						   </ol>
+
+
+	 
+ *	 <ol> ke bhi many properties hoti hai
+ 
+     1. ( a ) 
+     2. ( A )  
+     3. ( 1 )	 ( by default value 1,2,3 aayega aap likhe ya nhi  ) 
+	 4. ( i )
+     5. ( I )	
+
+	Unorder list :
+~~~~~~~~~~~~~~~	
+	                             <ul  type = " " >              
+								          <li> ..... </li>
+								          <li> ..... </li>
+								          <li> ..... </li>
+								</ul>
+								 
+  *	<ul> ke andar type ki 3 property hoti hai.
+	
+	 1 . disk  ( disk by default rhti hai.)
+	 2. circle
+	 3. square
+	 
+	 
+	
+	 Discription list : 
+    ~~~~~~~~~~~~~~~   
+									<dl>	 
+											  <dt> heading One </dt>    ( define term)
+											 <dd> dummy text .............................. etc. (  discription data ) </dd>
+									</dl>		 
+									
+	----------------------------- MARQUEE TAG -------------------------
+
+  *  marquee tag html5 se hata diya gaya hai.
+  * 
+               <marquee> .......... </marquee>
+			   
+  *	 marquee tag me hamare pass jo Animation/ behavior property hoti hai vo teen type ki hoti hai.
+	 1. scroll ( default value )
+	 2. slide 
+	 3. alternate
+     
+	 slide ------> Animation sirf ek baar hi chalegi.
+	 alternate -------->  ye vhi se chalegi jaha se start hua tha or last tk jayegi last me touch hoga  phir vapas aa jayega .
+	 scroll ---------> 
+	 
+ 	 	 <marquee behavior = " alternate " > ....animation property ya / behaivior.... </marquee>
+  
+  * marquee tag me ek or property hoti hai speed  badhane ke liye ----  (scroll) => [scrollamount]
+             
+		 <marquee behavior = " alternate "  scrollamount= " 10 " > ....content.... </marquee>						 
+									 
+  * animation sirf left - right nahi hoti ye up, down sb hota hai iske liye isme direction property use krte hai.
+     1. left  ( by default ) ---> de ya na de left hi jaata hai.
+	 2. right
+	 3. up
+	 4. down
+           
+	     <marquee behavior = " alternate "  scrollamount="5"  direction = "right"  > ....content.... </marquee>						 	   
+
+  * animation me ek or property hoti hai delay (scrolldelay) --> jiska mtlb kitne time ( milisecound ) baad start hoga . 
+     scrolldelay --- meaning kitne secound tk  rukegi ( beach me) phir chalegi.
+      
+	     <marquee behavior = " alternate "  scrollamount="10"  direction = "right"  scrolldelay="4" > ....content.... </marquee>
+    
+  *  animation  kitni baar ( 1, 2......... etc ) chalegi phir bnd ho jayegi. [ loop' work ----> kitni baar run krna ( scroll ko) ] .
+        width => kitni width cover karegi.
+  
+  ------->	 <marquee behavior = " alternate "  scrollamount="10"  direction = "right"  loop="2" bgcolor="pink" width="20" height="30" >    .                                                  ....content....
+                                                                                         </marquee>
+
+     ................................. Performated & Horizontal rule tag ................................
+
+     <hr/> ----> line 
+  *	 align property :-
+	 1.left
+	 2.right
+	 3.center => ( by default )
+	 
+	            <hr width="50%" align="left" size="5" color="green"/>
+
+     noshade property :- 
+	 ~~~~~~~~~~~~~~~~   color property ke sath work nhi krti h or iski koi value nhi hoti h .
+	           
+				                       <hr width="50%" align="left" size="5" noshade />
+				 
+   *  <hr/> ki sari properties html5 me band kar di gayi hai.		 
+				 
+				 
+   *	<pre>
+                    hello              world 
+                               soni
+					  
+		         </Pre>	                              
+
+    *   <Pre>tag ka use text ke beach me  jitna mn utna space de skte hain ( GAP ) dene ke liye use krte hai.	
+
+     image tag :
+   ~~~~~~~~~~   <image src=" abc.jpg " width=" " height= " "  alt = " path can't find "  title= " Image of flower"/>  	 
+	   	 
+	 title property ka use image par lge title janne ke liye krte hai.
+	 jab hm mouse ke cursor ko le jate hai image pr to title show karta hai.
+	 
+	 Alt :-	 
+    .......... ka use SEO me bhi hota hai.     	 
+	         Jo SEO hote hai  vo jab hamare side par aayenge ( hum apni side bnane baad SEO par submit karte hai ) or jb vo hamare side ko visit karte hai or agr hmne koi machine ka part ya koi chij aisi  dali hai , vo img ko pd nhi skte kyunki ye ek programmatic robots hote h vhi visit krte hai , to vo sirf alternative ( alt) text padh lete hai , ki imagejo lagi vo kis bare mai hai to ye isliye bhi use hota hai .
+				  
+	Anchor tag : 
+............................ Anchor tag ko hum HYPERLINK bhi kahte hai.
+                         EK website ki Ek page ko dusre webpage se link karna.
+                          
+	1. Anchor tag  - 
+	                   Anchor tag basically 3 type ka hota hai  ----
+						
+                    i.) External Page Link or Other site Link						
+					ii.) Internal page Link		
+					iii.) Mailto Link .
+
+ Explanation :---				
+							
+	i.) External Page Link or Other site Link ---
+                                                	   ( Ek page se dusre page ya hum apni website ko kisi dusri website se link karna chahte hai ,
+													       tb use krenge isse . )
+	ii.) Internal page Link  ---
+							             ( Jab click karenge to same hi page par usko target diya hoga vaha scroll hokar chala jayega apne app , basically is tarah ka Internal page link FAQ page [ Frequently Ask Question ] jaisi sides par link hota hai. )
+	iii.) Mailto Link ---
+							 ( means koi person  / ya hamare client hai / 	ya hum khud hi 	, hum chahte hai ki hamari side par ki link de de or vo    link jaise hi vo person click kare to uska default Editor Open ho jaye / ya uska khud ka Email Id  jo bhi ho jisse vo mail krta , vo open ho jaye . )
+											 
+        HYPERLINK 
+     ..............................		
+                                 
+        href  : ( Hyperlink Referance)  that means ye page kis ko refer kar raha hai.
+       ~~~~~		
+     
+	  1.  firstly we write html basic code .
+	  2.  secoundly we use <a></a> tag .
+             i.)   <a href = " " > Go To Another Page </a>
+             ii.)  <a href = " abc.html "> go to another page </a>
+			 iii.)  Sign of Anchor Tag :  ( go to another... ) ka color apne aap Change ho jayega ,OR iske niche ekk LINE aa jayegi , 
+
+ [ Tips : link pr touch karne par page ke End side par jo bhi another page ko link kiya gaya hai vo vha show krne lgti hai but jab tak uspar ( us link par rhta hai tb tk ) cursor rehta hai . ]
+
+                <a href = " marquee.html "  target= "  _blank "> go to another page </a>	
+	    
+	    1. )  Isme ek property [ target]  hoti hai . 
+		                      target use hota hai ----> ager hum kisi / us linked file ko kisi or , New tab / window me open karna chate , 
+							                                         hai to use karte hai .
+            *  target ki value , " _blank " --
+			                                           hoti hai jiska mtlb , new tab me open hona .
+			*   target ki 2nd value " _self " --
+                                              			hoti hai jiska mtlb , jis window me link hai usi , tab / window  me open hona. ----> or ye value 
+			                                            de   ya na de koi ek hi baat hai .
+            *  target ki value , " _parent " 
+			                                            <iframe></iframe> iska mtlb usi frame me open karna .
+            *   target ki value , " _top " 
+                                                        <iframe></iframe> iska mtlb usi frame ke top ke frame me open karna .  
+
+-----------------------------------------------------
+                                     TABLE TAG 
+								~~~~~~~~~~~~~~~
+								
+*	 Table tag ka use basically tabular form me data ko dikhane ke liye use karte hai.								 
+*    Record any , student / client kisi ka bhi .
+
+Table -- Rows , Column me divide hota h.
+      
+	1.  Table Tag <table>
+	
+        (i).  Table Row <tr>                    ---------------> first row
+       (ii).  a).  Table Data Tag <td>	
+              b).  Table Data Tag <td>
+
+        (i).  Table Row <tr>                   -----------------> second row    
+       (ii).  a).  Table Data Tag <td>	
+              b).  Table Data Tag <td>  
+
+    1. table properties :
+	     i.) border 
+		 ii.) width
+		 iii.) callspacing   --------->  iska matlab ek cell se dusre cell ke bich jo duri hai ( gap ) hota hai.
+		 iv.)  callpadding  -------->cell ke andar jo gap aata hai ------> kitna gap chahiye that mean 4 sideo se gap aayegi barabar ki .
+		  v.)  bgcolor
+		 iv.)  align             ---------> default value left hoti hai. 
+		 
+NOTES : table ke andar HEIGHT naam ki koi property nahi hoti hai.		 
+     
+    <id> tag me :--- vertical alignment ( valign ) jo hota hai vo  default center hota hai.
+                              valign ki 3 value hoti hai , top , bottom , center.
+
+     <tr> me [  colspan  ] property use krte hai 2 column ko merge / mix karne ke liye .   
+	 <td> me [ rowspan ] property use krte hai 2 ROWS ko merge krne ke liye .	
+		
+Example :- --------------------------------------------------  
+   
+		<html>
+		    <head>
+			          <title> TABLE TAG </title>
+		    </head>
+		    <body>
+			            <table border= " 1"  align = " center " width = " 50%" callpadding = " 10px" callspacing= "10px" >
+				  		           <tr align = " right" >
+								        <td valign = " top "> ........ </td>
+										<td> ...... </td>
+								   </tr>		
+						          
+								   <tr>
+								        <td height = " 400px" valign = " top " align = " right" > .....content.... </td>
+										<td> ....... </td>
+								   </tr>		
+					    </table>	
+		    </body>		
+		</html>
+
+
+ EXAMPLE : 2---    table tag me -----> <caption > </caption> property hoti hai . -----> For used heading .
+............................................................................................................................
+
+ 		<html>
+		    <head>
+			          <title> COLSPAN </title>
+		    </head>
+		    <body>
+			            <h1 align = " center " > Colspan </h1>
+			            <table border= " 1"  align = " center " width = " 50%" callpadding = " 10px" callspacing= "0px" >
+						 
+						   <caption> Student Record <caption>
+						   
+				  		           <tr >
+								        <td height = " 100px" > ....A... </td>
+										<td> ...B... </td>
+								   </tr>		
+						        
+				  		           <tr >
+								        <td height = " 100px" calspan = " 2"  > ....C...content .... etc. </td>
+					          				// 	<td> ...D... </td> ------> comment value 
+								   </tr>	
+
+                                  <tr >
+								        <td height = " 100px" > ....E... </td>
+										<td> ...F... </td>
+								   </tr>		
+								   
+					   </table>	
+		     </body>		
+		</html>
+
+
+	EXAMPLE of Rowspan :---
+ ------------------------------------------------------------------------------------------------------------------------------------------
+
+       	  <html>
+     		    <head>
+			          <title> Rowspan Tabulor form data </title>
+	    	    </head>
+		        <body>
+			              <h1 align = " center " > Colspan </h1>
+			              <table border= " 1"  align = " center " width = " 50%" callpadding = " 10px" callspacing= "0px" >
+						             
+                         // thead ( table head )........
+						           // table Heading ( th) ...
+						 
+                            <thead>  						   
+										  <tr>
+												 <th>....heading1...</th>
+												 <th>....heading2.....</th>
+										  </tr>
+							</thead>
+				
+				
+						//  ( tbody ) table Body.................
+				                  //  Data row. [ table data (td)]..............
+                       	     
+							 <tbody>
+                    					  <tr >
+												<td height = " 100px" > ....A... </td>
+												<td> ...B... </td>
+										   </tr>		
+										
+										   <tr >
+												<td height = " 100px" rowspan = " 2"  > ....C...content .... etc. </td>
+													// 	<td> ...D... </td> ------> comment value 
+										   </tr>	
+
+										   <tr >
+												<td height = " 100px" > ....E... </td>
+												<td> ...F... </td>
+										   </tr>		
+                            </tbody>
+
+                    // tfoot (  table footer ) ............................
+
+                            <tfoot>
+                                      <tr>
+                                             <td>....total.....</td>
+                                             <td> ................ </td>											 
+                                      </tr>
+                            </tfoot>
+						
+					   </table>	
+		     </body>		
+		</html>
+
+
+    What  ti learn in this table tag ?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 	
+	* Th
+	* Thead
+	* Tbody
+	* Tfoot
+	
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+      Table Layout 
+	 .............................   
+	 
+	 ......................................................<iframe> tag ................
+	 
+	 <iframe> :
+     ~~~~~~~~    IFRAME ki help se hum ek BOX create karte hai.
+                        Isme hum ek frame create kar dete hai or usme kuch or kar sakte hai.
+	                    Isme hum Other website ( duare kisi ki website dikha skte us frame me ya ) Or Other page of the website ( apne 
+						website ke kisi page ko dikha sakte hai . )
+
+     Attributes of <iframe> :-
+	 ~~~~~~~~~~~~~~~~~~~
+     1. src ( source ) = " https://www.xyz.com"/>
+	 2. frameborder ---------> Isse hum border laga bhi sakte hai or hata bhi skte hai.
+	                                       By default value " 1" hoti hai.
+	 3. height
+     4. width
+	 
+      
+	--------------------------------- AUDIO TAG --------------------------------
+	
+     i.)  Mp3	
+	 ii.) Ogg
+	 iii.) Wav
+	 
+	 Property of Audio Tag 
+	 ~~~~~~~~~~~~~~~~~~
+	 1. controls
+	 2. <source> tag   --------> source ki property [ src = " " ]  ==> <source src = " audio/abc.mp3" type = "audio/mpeg" />
+	 3. Autoplay   -----> Jaise hi page refresh hoga song apne aap hi play hone lageya.
+	 4. Loop   -----> Jaise aap gana play kar doge to vo play hi hota rahega , matlab jab end ho jayega song ka to vo dubara start ho jayega 
+	                        ( again and again ).
+     5.  muted  ---->   Jaise hi hum refresh karenge valume aayegi nahi kyunki isko mute kiya hua hai. ( already muted )
+
+	  
+     Example :
+	                      
+	         <html>
+					   <head>
+								  <title> Audio Tag </title>
+						</head>
+			
+						 <body>
+			                         
+                                    < audio controls autoplay loop muted >
+									         <source src = " audio/abc.mp3 " type = " audio/mpeg"/>
+									</audio>
+									 
+						</body>
+			 </html>
+     
+     --------------------------------- VEDIO TAG ---------------------------- 
+	 
+	  VEDIO tag : 
+	 ~~~~~~~~~~  
+	 
+	 Types of Video Formats :
+	~~~~~~~~~~~~~~~~~~~~~~      
+	1. MP4
+    2. WebM
+    3. Ogg
+
+     Property / attributes :
+	 ~~~~~~~~~~~~~~~~~~~
+	 1. controls  --------> Iske bina vedio chalegi hi nahi bss Ek thumbnail Ban kar aayega or vo play nahi hogi isliye ye 
+	                                property bahut important hai.
+	 2. <source> tag  ----> iska attribute (  src )
+	 3. autoply
+	 4. loop
+	 5. width
+	 6. height
+	 7. muted
+	 8. poster -----> Jaise ki vedio abhi play nahi ki hai , to usse pahle ye dikh rhaa vaha aapko koi image lagani hai ya 
+	                        vedio abhi load nahi hui  hai to vo image dikhti rahegi . Or vedio play hone ke baad apne aap photo hat jayegi.
+	 
+     Example :
+	                        
+		    <html>
+					   <head>
+								  <title> Vedio Tag </title>
+						</head>
+			
+						 <body>
+			                         
+                                    < vedio controls autoplay loop muted  poster = " image/ soni.jpg " >
+									         <source src = " vedio/test.mp4 " type = " vedio/mp4 /webm /ogg "/>
+									</vedio>
+									 
+						</body>
+			 </html>
+
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    ---------------------------------------------- FORM Tag
+   
+   1. <form ></form> tag
+   2. <label> ...Name.. </label>
+   3. <input>
+                  <input type = "text " name= "name" >
+   4.
+   5.
+   6.
+   
+   Property of Form tag :
+   
+   1.  <form  action = " " method = " "   placeholder = " " >
+   
+         action => Jab ye form ban jayega or save par other person click karega to usko kaise save karvana hai , 
+		                 to us file ka code hum ek file me rakhte hai , php /dotnet ka code .... 
+         method => Jo file di jayegi usko bhejne ka method kya hoga.
+		                   Method 2 type ka hota hai.
+						   i.) Get
+						   ii.) Post
+		  placeholder => phle se text likhne ke liye.				   
+						   
+						   
+   2. <input type = " "  name = " "  value = " " />					   
+						    value => Jaise ki hum phle se dikhana chahte hai  , koi text....
+							
+   3.  <input type = "radio"  id = " gender" />          
+			radio => Dono me se ek par choose hoga .
+			
+   4.  <label for = " male " >       
+				   for => ki hum kiske liye label de rahe . Jiske liye denge usi par click karega.
+				   
+   5. <input type = " checkbox"   name = " hobbies"  id = " music" />  <label for = "music" > ....</label>       
+                                 checkbox => multiple select kar sakte hai.
+								 
+   6. <textarea rows = " "    cols = " " >...</textarea>
+                        rows => for height 
+						cols => for width
+   
+   7. <select name = " " size = " "  multiple = " " > 
+                   <option>....</option>
+				   <option>....</option>
+				   <option>....</option>
+        </select>				   
+   8. <select> 
+                <optgroup label = " " >
+								   <option>....</option>
+								   <option>....</option>
+								   <option>....</option>
+				  </optgroup> 
+        </select>	
+   
+   9.  <select> 
+                <input list = " " >
+				        <datalist id = " " >
+										   <option value = " " >
+										   <option value = " " >
+										   <option value = " " >
+						</datalist>		  
+        </select>	
+   
+   9.  <input type = " file"  accept = " image/*"  name = " " />
+                               accept => jo extention ( image) laga sirf uski file upload ho sakti ha.
+							   * => or star ka matlab koi bhi format ho chahe vo jpeg / png/gip kuch bhi ho.
+			[  ( accept = " img/.png" ) -------> / ke baad jab hum likh ( perticular koi format likh dete hai to vhi support karega ,
+                                                         			another format nhi ) dete hai bajay * ke to ye fixed ho jata hai sirf vhi format upload ,
+																	hoga  , Eg = png hi hoga.  ]
+   
+   10.  <input type = "submit" value = " save" />
+   11.  <input type = "reset" />
+   12.  <input type = "button" value = " click" />
+   13.  <input type = "image"  src = " "  width = " "  alt = "  " />
+   14.  <fieldset>.....</fieldset>   -----------> input ke baad use krte h     
+   15. <legend>...... </legend>    -----------> input ke baad use krte h .
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	
+	HTML5 New Input Types 
+	................................................
+	
+	1. color
+	2. Number
+	3. Range
+	4. Date
+	5. Datetime - local
+	6. Month
+	7. Week
+	8. Time
+	9. Email 
+	10. Search
+	11. Tel 
+	12.  Url
+
+
+
+ property :
+ ~~~~~~~~~
+                      <input type= " " />    [ type same rahegi , eg : range ----> type = " range"]
+					  
+ 1. number ------> min , max , step , name , type
+ 2. range  ------> min , max , step , name , type
+ 3. date ------> type , name  ( type = " date" )
+ 4  datetime-local ---> type , name 
+ 5. month ------> type, name 
+ 6. week  -------> type , name 
+ 7. Email  -------> type , name 
+ 8. time  --------> type , name  ( type = "time" name = " "  )
+ 9. url  ----------> type , name
+ 10. search ----> type , name 
+ 11. phone no  -----> ( type = " tel " name = " " )
+ 
+
+_______________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
