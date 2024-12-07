@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.form-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.title-desc {
+    font-size: .9rem;
+    color: grey;
+    margin: 10px 0;
+}
+
+form{
+    background-color: rgb(192, 187, 187);
+    padding: 30px;
+    /* width: 100%; */
+}
+
+.name {
+    font-weight: 600;
+    margin: 7px 0;
+}
+
+.row  {
+    margin-bottom: 50px;
+    color: rgb(31, 28, 28);
+}
+
+.row > span {
+    position: relative;
+}
+.row > span::after {
+    content: attr(field-name);
+    font-size: .8rem;
+    color: grey;
+    padding: 5px 0;
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+}
+
+.row input {
+    padding: 10px 5px;
+}
+
+select {
+    width: 80px;
+    padding: 5px 0;
+
+}
+
+[name='gender']{
+    width: 100px;
+    width: 286px;
+    /* margin-left: 20px; */
+}
+
+.gender-row{
+    width: 100px;
+}
+
+.row-1 {
+    display: flex;
+    gap: 20px;
+}
+
+.row-1 select {
+    color: grey;
+}
+
+.only-one input {
+    width: 100%;
+}
+
+.special-one input{
+    width: 277px;
+}

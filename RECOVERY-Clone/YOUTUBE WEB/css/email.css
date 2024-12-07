@@ -1,0 +1,141 @@
+.body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../photos/bggg.webp');
+   background-repeat: no-repeat;
+   background-size: 100%;
+    background-color: transparent;
+    z-index: -2;
+
+}
+/* 
+.outer {
+    height: 50px;
+    border: 2px solid red;
+ 
+}
+
+.inner {
+    width: 80px;
+    height: 680px;
+    border: 2px solid blue;
+    float: left;
+}
+
+.inner-second {
+    width: 300px;
+    height: 680px;
+    border: 2px solid rgb(34, 255, 0);
+    float: left;
+}
+
+.inner-box {
+    width: 1110px;
+    height: 680px;
+    border: 2px solid rgb(255, 0, 247);
+    float: left;
+}
+
+.search_bar {
+
+    border-radius: 6px;
+    margin-left: 200px;
+    padding-top: 20px;
+    padding-bottom: -10px;
+    font-size: 20px;
+    height: 40px;
+    width: 650px;
+}
+ */
+
+
+
+/* ------------------------------ */
+
+
+.nav{
+    display: flex;    
+}
+
+.select-option{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    /* border: 2px solid rgb(0, 0, 255); */
+}
+
+.touch{
+    height: 30px;
+    margin: 5px;
+    border: 2px solid rgb(236, 236, 236);
+    width: 10px;
+   background-color: rgb(236, 236, 236);
+   font-family: "Roboto","Arial",sans-serif;
+   border-radius: 6px;
+    cursor: pointer;
+}
+
+.pre-next{
+    height: 30px;
+    margin: 5px;
+    border: 2px solid rgb(236, 236, 236);
+    width: 10px;
+   background-color: rgb(236, 236, 236);
+   font-family: "Roboto","Arial",sans-serif;
+   border-radius: 50%;
+    cursor: pointer;
+}
+
+.touch:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.pre-next{
+        background-color: black;
+        color: aliceblue;
+    }
+
+
+
+
+.outer{
+    height: 100%;
+    margin-left: 280px;
+    /* width: 1260px; */
+    /* border: 2px solid rgb(0, 255, 85); */
+}
+
+.dis{
+    padding-bottom: 30px;
+    padding-right: 20px;
+    border-radius: 20px ;
+    /* margin-left: 280px; */
+}
+
+
+.icons{
+    padding-left: 50px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1rem;
+}
+
+.search_bar{
+    padding-left: 250px;
+    width: 950px;
+    border-radius: 50%;
+}
+
+.home{
+    height: 100%;
+    /* width: 600px; */
+    width: 260px;
+    /* border: 2px solid red; */
+    float: left;
+}
+
+
+
+/* ---------------------------- */
+
+

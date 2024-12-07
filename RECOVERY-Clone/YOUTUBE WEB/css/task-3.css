@@ -1,0 +1,66 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg{
+    background-color: #000;
+
+}
+
+.rows{
+    height: 680px;
+    width: 100%;
+    background-image: url("../photos/bg33.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   opacity: 0.5;
+   z-index: 2;
+   }
+   
+   .inner{
+    /* background-color: #0c0c0c; */
+    color: rgb(255, 255, 255);
+    font-family: 'Elephant';
+    padding: 250px;
+    text-align: center;
+   }
+
+   .box {
+    position: fixed;
+    /* position: sticky; */
+    top:15%;
+    right: -2%;
+    left:-100%;
+    float: left;
+  transition: all;
+}
+
+
+.box:hover{
+    right: 0%;
+}
+
+
+.nav{
+    height: 64px;
+    width: 100%;
+    background-color: #038fcc;
+}
+
+.nav-sec{
+    list-style-type: none;
+}
+
+.nav-sec li{
+    display: inline-block;
+    color: rgb(246, 246, 246);
+    font-size: 25px;
+    font-family: 'bold';
+    margin: 8px;
+
+}
+
+
+
