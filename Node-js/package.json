@@ -1,0 +1,15 @@
+{
+    "title": "My first package",
+    "discription": "This is demo package",
+    "license": "MIT" ,
+    "author": "Soni NISHAD",
+    "dependencies": [ ],
+    "scripts": {
+      
+        "dev" : "node p1.js"
+    }
+}
+
+
+
+
