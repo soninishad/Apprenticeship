@@ -1,0 +1,35 @@
+.my-sec{
+    height: 200px;
+    background-image: url('../img/hero_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.my-sec-inner{
+background-color: rgba(255, 0, 0,0.5);
+/* opacity: 0.5; */
+/* color: rgb(255, 250, 250); */
+color: white;
+}
+
+.smi  
+{
+list-style-type: none;
+
+}
+
+.smi li 
+{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+
+.smi li a{
+    color: red;
+}
