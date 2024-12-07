@@ -1,0 +1,61 @@
+Jira :-
+**********
+1. Pms Project management
+2. it is product of Atlassian (Australian Company)
+3. 60,000 Teams and world Wide use 
+4. it is Running on Cloud Server
+5. Jira 
+	1. user => for every new user -> sub-domain create
+	2. Team(Organisation|group) -> sub-domain create
+	
+	Ex:-
+	https://[shankar].atlassian.net(com)
+				|
+				username/organisation-name
+				
+	Organisation name : infosis 
+	https://infosis.atlassian.net(com)
+6. Jira is a paid Software
+7. Jira was launched in 2002
+8. Jira is a Product 
+
+Marketplace of Jira :-
+***********************
+Marketplace : product sell but demo is possible for free
+Jira has 1000+ paid and free software 
+
+Software Categories:-
+********************
+free : always free
+paid : always paid
+propariaty s/w : paid some time free or demo (15 days or 30 days)
+
+products of Jira:-
+******************
+1. Jira Confluence
+2. JiraOps  (Administration) : opsgenie
+3. Jira Service Management : Others like Finance,legal, salary, Support
+etc Jira Service Management.
+
+Jira Confluence : All documents related to SDLC like SRS,licensing
+Audit, security Audit 
+
+JiraOps : Administration level work, user create, user delete, user invite, user block.(Opsgenie)
+Integration Jira <-------Connect---------> GitHUB (marketplace) 
+
+Important links to Jira:-
+************************
+id.atlassian.com : Jira Login Mode => Already Login => Dashboard
+Jira Starting Mode
+******************
+start.atlassian.com
+
+
+
+
+
+
+
+
+
+		

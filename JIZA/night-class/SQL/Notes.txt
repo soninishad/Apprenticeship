@@ -1,0 +1,133 @@
+Agenda SQL :-
+1. database :- data store => database 
+database : lots of data access, manage, we have dbms : database management system
+
+Database Management system
+1. RDBMS (SQL) : term launch EF-Codd.
+    Ef-codd 12 Normalisation Forms.
+	
+	https://www.tutorialspoint.com/dbms/dbms_codds_rules.htm
+	
+	1. oracle.
+	2. mysql. => PHP Technology.
+		1. Stored Procedures.
+	3. postgres SQL.
+	
+2. No Relational database (NOSQL)
+   1. mongodb
+   2. couchdb
+   3. redis
+   4. casendra
+   5. dynamodb
+   etc etc....
+   
+   
+   What is meaning of RDBMS (SQL)
+   ******************************
+   1. Relational Database management System
+      Data store, in form of rows and columns.
+	  
+	  rows and columns => tabular data => tables.
+	  table collections cells 
+	  cells : interconnection verticle and Horizontal Rows.
+	  
+	  Terminology use, in case RDBMS
+	  ******************************
+	  
+	  RDMS => table => relation
+	  columns => attributes or properties or keys
+	  rows => tuples, record 
+	  
+	  Data here in RDBMS is related to one another
+	  1. student table 
+	  2. marks table
+	  3. subject table
+	  4. teacher table
+	  5. employeee table
+	  6. college table
+	  Here one data can derive from multiple, tables that means, one data is related to one another.
+	  A ---------> share -----> B
+				Relation 
+				Brother/sister
+				Frnd
+				gf/bf
+				M/P
+	One table may or may not be connected with one another.
+    if not connected then no issues, but if connected , it becomes a relationship.
+
+    Types of Relationship
+****************************
+    1. 1 data -----------> 1 data related
+    2. 1 data may be related to multiple data 
+    
+    1)one to one relationship
+    one to many relationship
+    2)inverse means
+    3)many to one relationship
+    4)many to many relationship	
+	
+	Only possible in case of RDBMs.
+	
+	why database came into an existance
+	************************************
+	In older times, the data was stored in, Log Books and Register books.
+	
+	Data store => we use to use log books.
+	Hotel => entry maintain.
+	Kirana store data store => khata book. 
+	
+	Data Classification
+	********************
+	1. Data storage in physical log books:-
+	2. Data storage in file system (System Hard-disk)
+	3. Database 
+	4. Data ware house
+	5. Big Data
+	6. Data Structure.
+	
+	Data storage in physical log books : older data write in form books,copies.
+	Disdavantage : manage little typical.
+	Book : Data security any body can access it.
+	2. Data loss.
+	3. physical data preserve, maintain for year and year is very tough
+	library : olds book, and old manuscript, history, article literature.
+	museam : Oldest oldest, store  perticular location place.
+	
+	Data storage in file system
+	***************************
+	Technology upgrade --> computer system ---> data manage ---> excels 
+	and spreadsheet, Ms Access Data manage
+	limited amount data store.
+	Eg:
+	Excel : How many number of rows 10,000 => Rows 
+	Data is Large 1 Crore --> Large number of excel have to maintained.
+	1000 Excel Files, maintain for 1 Crore.
+	
+	Database:- 
+	***********
+	Software => Dbms => mysql and oracles database tools,
+    very large of amount can be managed controls and access very easy,
+    data sharing easy, back up security also maintained.
+	
+	Oracle or mysql => Database => data store in phyiscal server.
+	Oracle install 
+	mysql install your system will become, Server.
+	
+	typically, Database has to be stored at server end.
+	
+	
+   
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	  
+	  
+   
+   
