@@ -1,0 +1,370 @@
+INTRODUCTION TO REACT JS
+*******************************
+
+React js: Two types of Applications 
+
+**Interview ques**
+1.SPA :-single page application  
+2. PWP -: progressive web pages or  progressive web framework (pwf).
+
+
+Technology required /tobe covered in reactjs
+
+1.core and adv js
+2.spa and pwf
+
+SPA VS MPA  [SINGLE PAGE  APP VS  MULTIPAGE APP ]  
+
+
+How to install React-js
+************************
+1. Library :- collections of functios and fucntionalities . 
+lib is light weight scrce code which is prebulit , contains in built fucntions  , help in fucntionilty
+dance -> thk hai  okk , charracter le aao
+
+
+
+tent -> tent
+food -> wala food
+utensils-> utensils wla
+
+2. framework:- collections of  multiple  library
+
+framework is heavy weight,  stationery ki dukaan .
+  dance -> thk hai  okk , charracter bhi valable hoajage.
+
+Event management-- Saaari vaiavastha is avaliable  in here , like bootstrap. 
+
+
+eg:- 
+React -js install  -> services -> create react - app -< bat file 
+using this we install package  using node 
+ folder -> node modules
+
+
+
+frameowk ke andr mul lib and usme 
+ek folder ke  andr --> agr many lib hogi toh wo package bnajata hai 
+aur lib >collections of functios and fucntionalities . 
+
+
+
+
+How to install react -js
+************************
+1. using :- content /cloud cdn 
+2. download install and use 
+ for this we have to use npm 
+
+Questions:-
+Q)we are using react js then why installing node js?
+
+
+ANS )cuz it provides server runtime enivronment 
+
+
+what is meaning of server side runtime environment?
+
+Inorder to reviw we need to review the client  and server architecture , wherever we say 
+client is reuqesting server , it means that request is sent from client to dns server  after that, each request is 
+hopped from one server to  another server
+this way onne server which send request from on eto another server become a client for another server 
+{based on ip address connection made}.
+
+hence any system can be made to behave  as server   but there are some cretiteia.
+hence  our client cannot send the request to server to directly  download /install  packages  form sever .
+hence instead making  the entire  system sever , we try to provide  the enironment  to the sytem.
+hence server  side enivironment  which enbales  the js  as the useed as backend services that runtime enivronmrnt
+is nothing but node js  .
+
+
+
+Architecture of  node 
+*************************
+
+node js is server side , made on vb engine--> it is v8version of which is exe file me generate kiya gya hai 
+use :- virtual changes me kaam hota hai(aise canges which is gernerated in  real time  without allocating memory )
+, non blocking mechanism ( paraeell working )
+
+
+Google chrome : - dev tools -> environment provide dev  , easy develpment
+                                   |
+                                v1 engine-> runtime js and runtime dom , he is physics ka taecher 
+
+
+virtual changes -> virtual dom -> vb dev tool exe --> node js exe 
+
+vb Engine
+
+
+2. Non blocking mechanism in node js  (asynchronous )
+
+
+
+
+HOW TO CHECK NODE INSTALL OR NOT
+open cmd type node -v  -> 18.x
+                      npm - v  --> 8.19.2
+
+
+hw to run using node 
+ node filename .js
+
+
+how to run using npm
+
+
+you cannot directly run js file, for that you have to declare multiple package(modules)
+
+every file in node is module  and collection of one or  more module is caled package and dvery
+ package acn be executed using npm  and package .json
+
+
+questions          intervirw ques
+
+What is package .json
+*************************
+it is special file  which tells svevrything abou package.
+ it is static file.it in cules info like title , description author name,git url , jira url ,it also insvules scripts (use to run commands) , dependcies (other packages) means if
+ one package is depende on another packge 
+if you download one packge all other packgaes ealted to that packages are downloaded.
+
+
+How to make package .json file
+1. make a file package.json
+2. write code in pure json.
+
+eg:_
+
+{
+    "title":"myfirstpackage",
+    "description":"this isd emo package",
+    "lisense":"MIT",
+    "athour":"Salem",
+    "dependencies": [],
+    "scripts": {
+     "dev":"node p1.js"}
+}
+
+
+
+2 method 
+************
+npm init   khud dalo values
+                                                          ----------------> on git bash
+npm init - y - dumy package.json  
+
+you will be asked to fill details  and cmfirm and automatically package.json file will be created .
+
+what are dependecies:-
+1:-these are packages or sub packages which will install as soon as we run npm install command
+dependecy are also called as package which dependent ,other for running
+
+interview question:-
+npm will install 
+************7/12/2022********
+starting first app in react
+**********************************
+in order to make first project of react.
+we need a service called create-react-app.cmd
+or create-react-app bat file for create first app
+gallary page =>gallary.html
+faq page=>page.html
+contact page=>contact.html
+...........
+..........
+..........
+Every project is a app.and every time to build 
+new app you need to download react app from
+scratch()
+ 
+1:-dev=> developer point of view
+2:-out of the box =>by default.
+3:-scratch=> from starting
+4:-boyler plate:-starting template
+(some prexisting them or code)
+5:-hunch=>curiosity
+5:-KT=>knowledge transfer.
+7:-On Bench=> no project alignment
+8:-test=>tester point of view.
+how to install react:-
+npm glowal install craete-react-app<= first time process
+
+how to craete reacte react app
+***********************
+npx create-react-app<app name or project-name>
+what is difference between npm and npx?
+npm:-node package manager
+npx:-node package executable
+
+npm:node package manager:install package from 
+cloud server
+https:/nodejs.org
+and
+https://www.npmjs.com/=>cloud repository
+all packageof node are installed.
+
+npx:node package executable.
+npm---------->p1.js---------->execute
+       npm----> |
+                      |
+                       package.json(declare this js is module)   
+                        npx=>execute this package.
+note:: every time you download app you will
+need internt connection(+data pack) 
+
+_______________________________________________________________________
+***************************9/12/2023*************************
+_______________________________________________________________________
+lets  us postmortem perform of src
+********************************
+
+app.js
+app.css
+index
+
+
+
+secret menu:in devloper tools
+console->right click->
+1:normal reload
+2:hard reload
+3:-empty catch and hard reload
+or
+clear site data menu:-
+ctrl+shift+i or inspect>application > storage
+right hand
+checkbox: including third party cookies clear side data
+
+important extention used during react development
+****************************************************
+1:postman app or thundebird client extention vs code
+2:-react-dev tools in chrom
+3:-cookies editor in chrome
+4:-wappalyzer in chrome
+
+postman app:-worlds biggest tool ,for testing REST-API.
+postman have lot of tools for collaberation,testing,documentation
+security restapi with team.
+it is a heavy tool
+
+thundebird client:-very light weight extension for testing restapi 
+it is lite version (sasta) postman.
+
+difference  virtual dom and real dom
+***********************************************
+1:real dom :actual dom or tags ,predefined tags or dom 
+virtual dom :its uses, custum tags and virtual tags which are
+called component.
+
+2:real dom :foundation=> tags
+virtual dom :foundation =>nodes/components
+
+3.real dom  data transfer->sequential
+virtual dom :data transfer->parent to child.
+this feature is called props.(properties or attributes)
+
+4:real dom: statically changed.
+virtual dom: dynamically change.
+
+5:real dom: data security less
+virtual dom:greater then real dom?
+in order to change choild we need to change parent.
+and in order to change this paraent (single this parent is a called of 
+another paraent you need change that parent and in order
+to change that parent in need this parent........)
+note:- if you want to transfer the data from child to parent
+in react it is not possible ,for that we need ,redux.
+
+6:- real dom use :html syntex
+virtual dom :jsx syntax (js +xml)
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
