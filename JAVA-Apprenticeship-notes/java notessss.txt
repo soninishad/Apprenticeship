@@ -1,0 +1,471 @@
+                             
+							                   JAVA
+                                              ...............
+
+
+Taking input from user by object of scanner class.
+Scanner :- Scanner is a built-in class which is available in java.utill package.
+
+Package : package is a container of classes, interfaces and sub-packages.
+
+
+21/nov/2022
+.......................
+
+Decision controls in java :- Decision controls are used for decision making, in java programming language
+ there  are four type  of decision controls:-
+ 1.if statement
+ 2.if - else statement
+ 3. ladder if - else statement
+ 4.switch statement
+ 
+ 1.if statement:- if is a keyboard
+ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 22/nov/2022@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ Switch :
+              Switch is a keyword , which works as case control . 
+			  It is used to create a menu based program . 
+
+switch(exp)   -------> int,char and float
+
+case1:
+//code1
+break;
+case2:
+//code2
+break;
+default:
+break;
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+Loop control:-
+***********
+If you have a block of code which you want to execute repeatedly up to given condition is true,
+then you can use a loop control.in java programming language  ther are four type of loop controls
+1:-while loop
+2:-for loop
+3:- do while loop
+4:-for each loop
+1:-while loop:- while is keyword which works as loop control
+syntax a while loop:-
+Initilization of loop counter;
+while(condition){
+//code
+updation of loop counter;(3)
+}
+
+for loop:-
+**********
+for is a keyword which works as loop control, working for
+loop is same as while loop but syntax is different.
+syntax:-
+for(Initilization; condition; updation){
+// code
+}
+***************************************24/11/2022********************************
+
+do while loop:-
+__________
+In while loop and for loop first condition is tested when code is executed .so while loop and for loop are known as entry control.
+in do while loop condition is tested after execution of code ,so do while loop  is known as exite control.
+Syntex:-
+Initilization of loop control;
+do{
+//code 
+updation of loop counter;
+}
+while(condition);
+_____________________________________________________________
+**********************25/11/2022******************
+______________________________________________________________
+
+String:-String is sequence of characters.String is a class in java ,the object 
+of String class store sequence of characters.
+String name="prashant";
+
+toUpperCase():-
+_____________
+toUpperCase() method of String class is used to convert String into upper
+case.
+
+toLowerCase:-
+____________
+toLowerCase():- toLowerCase method of string class is used to convert
+String into lower case
+
+length():-
+____________
+length() method of string class find the length of string.
+
+equals():-
+______
+equals() method of string class is used to compare two strings for equality
+this method return boolean value.  if both string  are equal then return 
+true other wise return false.
+
+equalsIgnoreCase():-
+____________________
+this mathod also used to compare  two string for equality. this method 
+work like equals() metod but it avoid case senstivity.
+this method also return boolean value.
+
+split():-(split matlab break /todh dena hota hai)
+----------------------------------------------------------------------------
+split() method of string  class is used to split string into substring 
+from given string.
+split() method return array of String type. 
+
+eg:- String sen="He is a good boy.";   ( split ko todhne ka tarika jaha jaha space hai oh se tut jayega)
+
+       String []  w= sen.split(" ");
+
+ String [] words={"He", "is", "a", "good", "boy."}
+
+replace():-
+-----------------
+replace() method of string class is used to replace one string with another string is given string.
+
+ex:-1
+String str="Hello World";
+ System.out.println (str.replace("World", "Student"));
+
+output:-
+ Hello Students
+
+Method :-
+___________
+
+method is a named block of code which perform specific  task.
+
+why method is use ?
+_____________________
+
+ans:-if you have a blockof code which required ata different locations 
+of program . then you can creat a method of that code  and call it from 
+required locations.by using ypu can avoid to write  same code  over and over
+
+how to creat method:-
+_____________________
+
+syntex:-
+_________
+modifier return type method name(  if need then pass parameters or not){
+// code 
+}
+E.g:-
+public int add(int x,int y){
+return(x+y);
+}
+Note:- in java you can create method inside class outside of main() method.
+
+Eg:-
+class p1 {
+//here you can create method
+public static void main(String[] args){
+}
+//here you can create method
+}
+
+__________________________________________________________
+***********types of metod in java******************
+____________________________________________________________
+
+In java programming language  there are types of method :-
+1:-static method 
+2:-non static method
+_____________________
+
+1:-static method:-
+____________________
+static method is created by using static modifier.
+static method is created by using static modifier.
+there area no need of object to call static method.
+ 
+Note:- static method can call by using object and without using object.
+
+2:-non static method :-
+__________________
+non-static method is created without using static modifier.non static method can call by using
+ object only.
+
+eg:-import java.util.*;
+class p42{
+int area( int x,int y)
+{
+return (x*y);  //formal argument
+}
+public static void main(String[] args){
+int a, b,area;
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the height and width;");
+a=sc.nextInt();
+b=sc.nextInt();
+p42 p=new p42();
+ area=p.area(a,b);//actual argument
+System.out.print("Area of rectangle:"+area);
+}
+}
+____________________________________________________________________________________________ 
+
+************************************27/11/2022****************************
+__________________________________________________________________________________________
+OOPS:-
+____
+oops stands for object oriented programming system,it is a machenism of software development.
+ther are four pillars of oops:-
+1:Abstration:-abstraction is a machenism to show only essential functionalities and hide all other fuctionality of na object.
+___________
+object:-
+_____
+object is a real world entity which has its properties and functionalities.
+
+2:Encapsulation:-  Encapsulation  is machenism to wrap properties and functionalities in a single unite
+that single unit is known as encapsulation.
+_____________
+3:Inherritence:- if you creat a new product by using features of existing  then it is called inherritence.
+
+4:Polymorphism:-
+__________________
+poly+morphs
+the term polymorphism means ons things many form
+
+NOTE:-any programming language which these follows these four pillers of 
+_____
+oops is known as object oriented programming language 
+
+class :-
+___________
+class is a blueprint of  object. the class is container of variable(properties) and methods(functionalities).
+class is created by using 'class' keyword followed by class name .the body of class is enclosed within braces
+within body of class we can create variables and methods.
+
+syntax to create a class:-
+class className{
+// code
+}
+
+Ex :-
+class Employee{
+int empid:   // intance variable
+String empname;  //intance variable
+double salary;  // intance variable
+}
+____________________________________________-
+****************28/11/2022***********
+___________________________________________
+constructor:-
+____________
+constructor is a spacial method ,which is used to 
+initialiaze variables.
+the constructor has a following properties:-
+1:-constructor name is same as class name.
+2:-constructor  dos,t return value.
+3.constructor call automatically as soon as
+object is created.
+
+inherritence:-
+______________
+ in inherritence  you can create a new class by using exiting class . existing class
+is called base/super/parent class and new created class is called derived/sub/child class.
+
+note:- the concept of inherritence is also used reusability.
+ types of inherritence supported in java:-
+in java programming language there are three types of inherritence are sported
+1:- single inherritence
+2:-heirarichical inherritence
+3:-multi lavel inherritence.
+
+1:-single inherritence:-
+______________
+in single inherritence there is a single base class and single derieved class.
+syntex:-
+class A{
+//code
+}
+class B extends A{
+//code
+}
+
+
+2:-heirarichical inheritence:-
+_______________________
+in hierarichical inheritence is a single base class and multiple derieved classes.
+syntex:-
+class A{
+//code
+}
+class B extends A{
+//code
+}
+class C extends A{
+//code
+}
+
+3 multi-level inherritence:-
+______________________
+santax:-
+class A {
+//code
+}
+class B extends A{
+//code
+}
+class C extends B{
+//code
+}
+
+Polymophism:-
+_______________
+polymorphism means one things many form.
+in java programming language ther are two types of polymorphism
+1:- compile time polymorphism(methos overloading)
+2:- run time polymorphism(method overidding)
+
+1: Method overloading:-  In java progrgramming language you  can craete  multiple methods with same name
+same class. but their parameter should be different.
+based on methods parameters it is decided ata compilation
+time that which method call from where.this concept
+is called method overloading.
+method parameter can be different into two types
+
+1:-number of parameter can be different.
+2:- types of parameters can be different.
+
+
+method Overriding:-
+____________
+Re- writting of base class method into derived
+class is called method overridding.
+
+rules to peform method Overridingin java
+1:-Class must be inharited.
+2:-base class method name and derived class 
+method name must be same
+3:-base class method parameters and derived class 
+method parameters must be same. 
+
+
+
+__________________________________________________________________________________________________________________________________
+
+
+  9-12-2022
+  .....................
+  
+       Exception :-
+
+  Exception Handling  in java :-
+  ..........................................................    Exception handling is a mechanism to handle exception to achieve to achive normal exception of program .
+
+        For exception handling in java we use try , catch , finally , throw and throws keyboards .
+	
+	In java you can handle exception in two ways -
+    1.)  By using try-catch blocks .
+    2.)  By using keyword . 
+
+    Exception handlingby using  try-catch blocks :- 
+    
+     try
+        {
+           //  Code which you want to protect 
+        }
+    catch (	ExceptionClass v ariable)
+            {
+             // Code which is used to handle exception (alternate code) 
+            }
+	finally            // ---->Optional		
+            {
+			 // code which you want to excuted always .....
+	        }
+
+    Note :-  For a single try block there can be multiple catch blocks . 
+
+ 
+ __________________________________________________________________________________________________________________________________
+ 
+   10/12/2022
+  .............................                                                 PACKAGE
+
+   Package : package is a collection of classes , interfaces and sub-packages .  
+ 
+  How to create package ?
+  Package is created by using package keyword , followed by package name .
+  
+   
+   for example :-
+   
+    MyUtil.java
+      
+          package mypack;
+          public class myUtil
+		  {
+           public int add(int x , int y)
+             {
+              return (x+y);
+             }
+          }	 
+          
+-----------------> 
+    
+	java -d   .  MyUtil.java
+             |   |
+			 |   |....................................( . ) current folder  [ package ke naam ki  hi directry create hogi ]
+			 |
+			 |
+		  directry /folder 	 
+
+
+                                                                                                                modifiers
+    CONCEPT OF INTERFACE OF JAVA                                                             |
+	.......................................................................                                                 |.............|...........|
+	                                                                                                      |          |        |
+    Interface :--  The interface is container of abstract methods and public static final variables .  
+                                                                                                       ______  _____  _____ 
+																									   
+   Abstract Methods : Abstract Methods are those method which contain only method declaration and no definition .
+   
+    Declare --
+  .................	                 
+		interface it 
+                 {
+                    void m1();        // public abstract void m1() ; ---------> bydefault add ( abstract ) 
+                    void m2();       //  public abstract void m2() ;
+                }					
+	 
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\------------------ 11/12/2022 ---------------------/\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+
+ Interface : 
+
+
+
+
+_______________________________________________________________ 13 /12/2022 _____________________________________________________________________
+
+Multithreading :-  The concept of multithreading is taken from the concept of multitasking.
+
+-> In multitasking System CPU Switchs  between Multiple processes where is multithreading System  CPU Switched between multiple Sub-processes (Threads).
+
+In java you can create thread in two Ways:- 
+1. By EXtending Thread class and overidding run()  method.
+2. By implementing Runnable interface and overridding run()  method.
+
+1.By EXtending Thread class (java.lang) class.
+
+code snippet:-
+class MyThread extends Thread
+{
+// Here we override run() method of thread class 
+public void run()
+{
+// Here you can write code of your thread
+}
+}
+
+
+
+
+
