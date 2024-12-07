@@ -1,0 +1,131 @@
+.my-sec{
+    height: 400px;
+    background-image: url('../images/8.jpg');
+}
+.my{
+    height: 200px;
+    background-color: black;
+}
+.my-sec-inner1{
+    background-color: rgba(255,0,0,0.5);
+
+    /*opacity: 0.5;*/
+    color: white;
+}
+.my-sec-inner{
+    padding-top: 150px;
+}
+.my-sec1{
+    height: 200px;
+    background-image: url('../images/8.jpg');
+    background-attachment: fixed;
+}
+.row1{
+    height:50px;
+    
+}
+.m{
+    height:60px;
+    border-radius: 0px 0px 100px 0px;
+    background: linear-gradient(to right, #33ccff 6%, #00ffff 100%);
+}
+.row2 li{
+	color:white;
+	display:inline;
+	margin:10px;
+}
+.n{
+    height:50px;
+    border:5px solid #8de1e5;
+    background-color: lightgray;
+}
+.x{
+    height:420px;
+    border:5px solid #8de1e5;
+}
+.y{
+    height: 50px;
+    background-color: lightgray;
+}
+.smi{
+    list-style-type: none;
+}
+.smi li{
+    display: inline-block;
+    background-color: white;
+    color: red;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.smi li a{
+    color: red;
+}
+.l{
+    height: 100px;
+    color: #8de1e5;
+}
+.z{
+    height: 400px;
+    padding-top: 80px;
+    color: #33ccff;
+}
+.z1{
+     box-shadow:10px 10px 25px #00ffff;
+}
+p{
+    padding: 25px;
+    font-size: 20px;
+}
+h5{
+    color: #00ffff;
+}
+.v{
+    height: 400px;
+    background: linear-gradient(to right, #0099ff 20%, #00ffff 100%);
+}
+.o{
+    background: linear-gradient(to right, #0099ff 20%, #00ffff 100%);
+    height: 50px;
+    border-radius: 0px 50% 50% 0%;
+}
+.v1{
+    color: white;
+    padding-top: 80px;
+
+}
+.v2{
+    box-shadow:10px 10px 25px black;
+}
+.one{
+	height:250px;
+	width:350px;
+	background-color:#f2f2f2;
+	box-shadow:10px 35px #00ffff;
+    margin-bottom: 70px;
+    color:black;
+}
+.c{
+    height: 125px;
+}
+.u{
+    background-color: #00ffff;
+    height: 300px;
+}
+.u1{
+    background-color: #f2f2f2;
+    height: 250px;
+    margin-top: 20px;
+}
+.q{
+    height: 400px;
+    background-image: url(../images/3.jpg);
+    
+}
+.q1{
+    background-color: rgba(105, 100, 206, 0.557)
+}
+.q2{
+    height: 50px;
+    border: 2px dashed black;
+}
