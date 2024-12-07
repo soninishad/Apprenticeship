@@ -1,0 +1,65 @@
+<!-- 
+
+JavaScript Date Object lets us work with dates:
+
+var d = new Date();
+
+Date objects are based on a time value that is the number of milliseconds since 1 January 1970 UTC.
+
+By default, JavaScript will use the browser's time zone and display a date as a full text string:
+
+3 numbers specify year, month, and day:
+2 numbers specify year and month:
+You cannot omit month. If you supply only one parameter it will be treated as milliseconds.
+
+getFullYear() Get the year as a four digit number (yyyy)
+getMonth() Get the month as a number (0-11)
+getDate() Get the day as a number (1-31)
+
+Universal Coordinated Time (UTC) is the time set by the World Time Standard.
+
+ -->
+
+
+
+ <script type="text/javascript">
+
+          var d = new Date(2023, 0, 24);    // (Y,M,D)
+          document.write(d);
+
+          document.write("<br/>");
+ </script>
+
+
+
+<!-- 
+    GET THE DATE ---
+ -->
+
+ 
+ <script type="text/javascript">
+
+    var dateObj = new Date();
+     var month = dateObj.getUTCMonth();
+     var day = dateObj.getUTCDate();
+     var year = dateObj.getUTCFullYear();
+     document.write( year + "/" + month + "/" + day);
+</script>
+
+
+<!-- 
+    SET THE DATE
+ -->
+
+
+ 
+ <script type="text/javascript">
+
+var d = new Date();
+document.write("<br/>");
+d.setMonth(11);
+d.setFullYear(2023, 02, 24);
+// d.setDate(24);
+document.write(d);
+
+</script>

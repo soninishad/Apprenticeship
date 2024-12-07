@@ -1,0 +1,49 @@
+<!-- 
+
+The window.location object can be used to get the current page address (URL) and to redirect the browser to a new page.The location object contains information about the current URL. The location object is part of the window object and is accessed through the window.location property.
+
+ Window Location Href
+The window.location.href property returns the URL of the current page.
+ window.location.href;
+
+Window Location Hostname
+The window.location.hostname property returns the name of the internet host (of the current page).
+
+Window Location Pathname
+The window.location.pathname property returns the pathname of the current page.
+
+Window Location Protocol
+The window.location.protocol property returns the web protocol of the page.
+Window Location Assign
+The window.location.assign() method loads a new document.
+
+
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window location</title>
+ </head>
+ <body>
+    <h1>Window Location (Page redirection)</h1>
+
+
+    <button onclick="myfun()">Click Me</button>
+
+    <script type="text/javascript">
+        //  document.write(window.location.Hostname);
+
+
+        function myfun() {
+             window.location.assign("https://www.linkedin.com/in/soni-nishad-ab0a32221/");
+        }
+
+    </script>
+
+ </body>
+ </html>

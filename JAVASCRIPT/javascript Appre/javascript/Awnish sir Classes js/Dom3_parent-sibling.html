@@ -1,0 +1,86 @@
+<!-- 
+
+HOW  to access parent-child siblings using DOM methods in JavaScript.
+______________________________________________________________________________
+
+We will also see Relationship between parent-child and siblings. 
+Parent, Child, and Sibling Nodes Any subnode of a given node is called a child node,
+and the given node, in turn, is the child’s parent. 
+Sibling nodes are nodes on the same hierarchical level under the same parent node. 
+Nodes higher than a given node in the same lineage are ancestors and those below it are descendants.
+The terms parent, child, and sibling are used to describe the relationships. 
+In a node tree, the top node is called the root (or root node); Every node has exactly one parent, 
+except the root (which has no parent); A node can have a number of children; 
+Siblings (brothers or sisters) are nodes with the same parent.   Methods are
+parentNode
+childNodes[nodenumber]
+firstChild
+lastChild
+nextSibling
+previousSibling
+
+
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM parent-siblings</title>
+ </head>
+ <body>
+    <h1>Parent-child sibling using DOM method</h1>
+    
+    <p id="news"></p>
+    <p class="welcome"></p>
+    <p class="welcome"></p>
+
+    <ul>
+        <li>Like</li>
+        <li>Share</li>
+        <li>Subscribe</li>
+    </ul>
+
+
+
+    <!--  access children of a body -->
+       <script type="text/javascript">
+           var child = document.body.children;
+           console.log(child);
+
+
+
+     // add a new child in a body
+         var para = document.createElement("p");
+         var textNode = document.createTextNode("This is new para.");
+         para.appendChild(textNode);
+         console.log(para);
+
+
+
+        //  body append
+        document.body.appendChild(para);
+
+
+
+        // access first child and lastchild
+        var list = document.querySelector("ul");
+        console.log(list);
+
+        console.log(list.firstChild);
+        console.log(list.lastChild);
+
+
+        var firstSiblings = news.nextElementSibling.nextElementSibling;
+              console.log(firstSiblings);
+
+
+            //   
+            console.log(list.parentNode);
+       </script>
+
+
+ </body>
+ </html>

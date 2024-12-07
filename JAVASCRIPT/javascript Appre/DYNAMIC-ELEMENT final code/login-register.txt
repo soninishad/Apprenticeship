@@ -1,0 +1,10 @@
+ SessionRoutes.forEach(function(pagename,index){
+                if(page_location ==  getBaseurl(pagename+'.html')){
+                    console.log('check');
+                    let myinfo = $("#myinfo");  
+                    let session = JSON.parse(window.localStorage.getItem('session'));
+                    let name = session.data.name;
+                    let email = session.data.email;
+                   myinfo.innerHTML = "<b> Name :"+name+" <br/> Email :"+email+"</b>";
+                }
+            });

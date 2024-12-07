@@ -1,0 +1,68 @@
+<!-- 
+
+
+JavaScript, methods,  :----    
+JavaScript, methods, and properties are also available to primitive values, 
+because JavaScript treats primitive values as objects when executing methods and properties.
+
+0: The length property returns the length of a string
+1:The charAt() method returns the character at a specified index (position) in a string
+2: Finding a String in a String
+The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string
+3: The lastIndexOf() method returns the index of the last occurrence of a specified text in a string
+Both the indexOf(), and the lastIndexOf() methods return -1 if the text is not found
+4: The replace() method replaces a specified value with another value in a string
+5:A string is converted to upper case with toUpperCase()
+6:A string is converted to lower case with toLowerCase()
+7: concat() joins two or more strings 
+
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods</title>
+ </head>
+ <body>
+   
+   <script type="text/javascript">
+
+      var newreporter = "Welcome to my channel and plz keep loving and smiling";
+      document.write(newreporter.indexOf("t"));
+       
+      // lenght
+      document.write ("<br/>");
+      document.write(newreporter.length);
+
+      //  lastIndexOf()
+      document.write ("<br/>");
+      document.write(newreporter.lastIndexOf("and"));
+
+      // replace
+      document.write ("<br/>");
+      document.write(newreporter.replace("and" , "&"));
+
+      
+      // toUpperCase
+      document.write ("<br/>");
+      document.write(newreporter.toUpperCase());
+
+
+      // toLowerCase
+      document.write ("<br/>");
+      document.write(newreporter.toLowerCase());
+
+
+      // concat()
+      var love = "  I LOVE THIS CHANNEL";
+      document.write ("<br/>");
+      document.write(newreporter.concat(love));
+
+   </script>
+
+
+ </body>
+ </html>

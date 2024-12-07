@@ -1,0 +1,137 @@
+Complete Information About Crud Application
+********************************************************
+
+
+Main files of JS
+1.)  config.JS
+2.) function.js
+3.) session.js
+4.) state.js
+5.) crud.js      => custom JS file : Complete page related code.
+                          Jitney bhi , html code bna hai , eg:-
+                          register.html , login.html , dashboard.html in sabka code .
+                          isi file sey chal raha .
+
+    config.js   => Sari ki sari , project setting isi file likhi Jayegi.
+                      example key taur par , jaisey  
+                      agar apko server ka url , or local ka url jaisey 
+                      setting change karni hai , tohi chalega . isi tareh ki setting save kar sakte ho.
+
+
+
+
+
+    function.js  => Sarey sarey user defined function jinko aap banaogey ek baar and use karengey anek bar , function.js 
+                              yhi kaam.   
+                              kal key din , agar apko our bhi function bananey hain , to kaha isi file banaye .                                       
+
+
+
+    session.js    => Is file Nimana likhit yhi kam hai .
+                     1.  session ka data banana .
+                     2.  ye check karna ki session  exsit kar raha ya nhi exist kar rha hai.
+                     3.  USER ko login sey dashboard pey bhejna , agar user login ho chuka hai.
+                     4.  agar USER LOGOUT kar rha hai , to session ko delete karna bhi isi kaam hai.
+                     5.  ek baar USER ney LOGOUT kar diya to wapas sey dashboard  bina login karey access ni kar saktey .
+                     6.  is file ka sara code ( IIFE  function  ) key behalf par likha gya hai.
+
+
+     state.js    :-
+   **********               
+EG  :  State kya hota hai ?
+          Login sey pehley  -------------> dashboard.html  
+          Login ke  baad     -------------> dashboard.html  
+         laut key buddhu ghar key aye   ---------> wapas aney  ----------> dashboard.html
+         logoutout karney key liye   -------------> dashboard.html
+         logout out kar diya  -------------> dashboard.html
+
+
+  Isi State ko maintain karney key liye :-
+  use HASH parameter  :  window.location.hash
+         login sey pehley ------->dashboard.html       
+         login   key baad  ------->dashboard.html#login-success
+         again open dashboard  ------>dashboard.html#welcome-back  
+         logout karney sey  ------->dashboard.html#log-out
+
+
+bina login open kartey ho dashboard        --------------> dashboard.html#session-expired
+
+to , state.js ka kam kya hai?
+Nimanalikhti hai ........
+1. state => hash key according => success or error alert dikhane .
+2. dashboard ka USER ka data dikhana  => naam , and email knha sey session data .
+
+
+
+file chnage-password.html
+copy paste the code from myprofile to chnage password.
+
+
+
+
+
+Types of form : 
+1. single step form
+2. Multi step form
+
+
+
+ Single step form :-
+
+  -----------------------------
+  |     old password              |
+  -----------------------------
+  |     new pass                     |
+  -----------------------------
+  |     confirm   pass             |
+  -----------------------------           
+
+
+Multi pass :-
+
+attempt => 3
+
+verify urself
+old password .
+
+
+
+//  
+
+Working with files in JAVASCRIPT :-
+**************************************
+
+Always Remeber one point , that due to security feature of the browser you cannot perform file handling in JS . 
+This feature was removed from the browser after ECMA Script updated its standard on 2012 .
+
+
+This , because , using input type file browser button , any one can locate through
+your system files , hence a high security risk is involved and there is a chance of data leakage .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

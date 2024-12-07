@@ -1,0 +1,36 @@
+<!-- 
+
+settimeout and setinterval -----
+ The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds.
+  Tip  :-- 
+         The function is only executed once. 
+         If you need to repeat execution, use the setInterval() method. 
+Tip  :---
+         Use the clearTimeout() method to prevent the function from running.
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetTimeOut</title>
+</head>
+<body>
+  <h2>setTimeout</h2>  
+<button onclick="clearInterval(d)">Click me</button>
+  
+<script type="text/javascript">
+    var d = setTimeout(showalert, 3000);
+
+    function showalert()
+    {
+        alert("Welcome to new channel");
+    }
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+
+ </head>
+ <body>
+    <h1>Events in JS</h1>
+
+    <button onclick="myfun()">Click Me</button>
+
+    <h1>Few more Events </h1>
+    <button onkeypress="mytwitter()">Click [press]</button>
+    <button onkeydown="mywhatsapp()">Click [down]</button>
+    <button onkeyup="myyoutube()">Click [up]</button>
+    <button onseeked="mytelegram()">Click [seeked]</button>
+
+
+
+    <script>
+        function myfun()
+        {
+            // window.alert("Event start ");
+            document.body.style.backgroundColor = '#D2B4DE';
+            document.body.style.color = 'white';
+        }
+    </script>
+
+
+<script>
+    function mytwitter()
+    {
+        // window.alert("Event start ");
+        document.body.style.backgroundColor = '#00aced';
+        document.body.style.color = 'white';
+    }
+</script>
+
+
+<script>
+    function mywhatsapp()
+    {
+        // window.alert("Event start ");
+        document.body.style.backgroundColor = '25D366';
+        document.body.style.color = 'white';
+    }
+</script>
+
+
+<script>
+    function myyoutube()
+    {
+        // window.alert("Event start ");
+        document.body.style.backgroundColor = '#E74C3C';
+        document.body.style.color = 'white';
+    }
+</script>
+
+
+<script>
+    function mytelegram()
+    {
+        document.body.style.backgroundColor = '#F5B041';
+        document.body.style.color = 'white';
+        // document.write("This is telegram page");
+
+    }
+</script>
+
+ </body>
+ </html>

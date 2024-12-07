@@ -1,0 +1,94 @@
+<!-- 
+
+Methods for Accessing Elements in the DOM using Also,
+ DOM:
+Get Elements by ID, Tag, Name, Class, CSS Selector etc. 
+The easiest way to access a single element in the DOM is by its unique ID. 
+We can grab an element by ID with the getElementById() method of the document object. document.getElementById(); 
+In order to be accessed by ID, the HTML element must have an id attribute.getelementbyid 
+
+ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+      <h2>Methods for Accessing Elements in the DOM</h2>
+
+    <p id="soni">This is id [#]</p>
+    <p class="welcome">This is class [ . ] </p>
+
+    <!-- How to access elements by ID  -->
+    <script type="text/javascript">
+        var a = document.getElementById("soni");
+        document.write(a);
+    </script>
+
+
+    <!-- How to access elements by Inner element  -->
+    <script type="text/javascript">
+        document.write("<br/>Inner HTML print <br/>");
+        var b = document.getElementById("soni").innerHTML;
+        document.write(b);
+    </script>
+
+
+    <!-- How to access elements by ClASS Name  -->
+    <script type="text/javascript">
+        document.write(" <br/><br/>Using Class Name : <br/>");
+        var a = document.getElementsByClassName("welcome");
+        document.write(a);
+    </script>
+
+
+<!--  Inner element by using Class  -->
+<script type="text/javascript">
+    document.write(" <br/><br/>Using Class Name : <br/>");
+    var a = document.getElementsByClassName("welcome").innerHTML;
+    document.write(a);
+</script>
+
+
+<!--  -->
+<script type="text/javascript">
+    document.write(" <br/><br/>Using Class Name : <br/>");
+    var a = document.getElementsByClassName("welcome")[0].innerHTML;
+    document.write(a);
+</script>
+
+
+<!--    Using TagName  -->
+<script type="text/javascript">
+    document.write(" <br/><br/>Using Tag Name : <br/>");
+    var tag = document.getElementsByTagName("p");
+    document.write(tag);
+    console.log(tag);
+</script>
+
+
+<!--   how to access first element  -->
+<script type="text/javascript">
+    document.write(" <br/><br/>Access first element : <br/>");
+    var p = document.querySelector("p");
+    document.write(p);
+</script>
+
+
+<!--   how to access first element  -->
+<script type="text/javascript">
+    document.write(" <br/><br/>Access first element value : <br/>");
+    var p = document.querySelector("p").innerHTML;
+    document.write(p);
+</script>
+
+</body>
+</html>

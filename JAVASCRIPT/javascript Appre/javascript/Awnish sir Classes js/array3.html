@@ -1,0 +1,101 @@
+<!-- 
+    
+JavaScript Array Methods :---
+length Sets or returns the number of elements in an array
+
+concat() Joins two or more arrays, and returns a copy of the joined arrays.
+
+indexOf() Search the array for an element and returns its position
+
+isArray() Checks whether an object is an array
+
+pop() Removes the last element of an array, and returns that element
+
+push() Adds new elements to the end of an array, and returns the new length.
+
+ -->
+
+
+
+<script type="text/javascript">
+
+//  Length method
+var array =  ["soni" , "sweta" , "anchal"];
+var length = array.length;
+// alert(length);
+document.write(length);
+document.write("<br/>");
+
+
+
+// Sort Method  ---> they are sort  in Accending Order
+// array.sort();
+// document.write(array);
+// document.write("<br/>");
+
+
+// Push Method
+array.push("SoumyaNishad");
+document.write(array);
+document.write("<br/>");
+
+
+// Pop()
+// array.pop();
+// document.write(array);
+// document.write("<br/>");
+
+
+
+// IN shift() method first element shift the values
+array.shift();
+document.write(array);
+document.write("<br/>");
+
+
+
+//
+array.unshift();
+document.write(array);
+document.write("<br/>");
+
+
+
+// 
+array.unshift("muskan");
+document.write(array);
+document.write("<br/>");
+
+
+
+
+// reverse() method
+// array.reverse();
+// document.write(array);
+// document.write("<br/>");
+
+
+// Check() method
+var group = ["som","monu","ram"];
+var check = Array.isArray(group)
+document.write(check);
+document.write("<br/>");
+
+
+
+// concat() method
+var group = ["som","monu","ram"];
+document.write(array.concat(group));
+document.write("<br/>");
+
+
+
+// indexOf() Method
+var group = ["som","monu","ram"];
+// document.write(group.indexOf("monu"));
+document.write("<br/>");
+
+document.write(array.indexOf("anchal"));
+
+
+</script>
