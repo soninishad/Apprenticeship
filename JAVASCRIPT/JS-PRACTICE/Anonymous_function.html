@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Function</title>
+</head>
+<body>
+    
+<script>
+
+    // Normal function
+    function abc()
+    {
+        let x=20;
+        let y = 30;
+        document.write( "Normal Function = " + x+y + "<br/>");
+    }
+
+    abc();           //--->calling
+
+    
+    // Anonymous Function
+    (function ()
+    {
+        let a=2;
+        let b = 30;
+        document.write(  "Anonymous Function = " + a*b  +"<br/>");
+    }) ();                // ----> calling
+
+
+
+    // Anonymous Function using Varianle
+    var x = function ()
+    {
+        let a=2;
+        let b = 3;
+        document.write("Anonymous Function using Variable = " +  a*b);
+    }
+    
+    x();                // ----> calling
+
+</script>
+
+
+</body>
+</html>

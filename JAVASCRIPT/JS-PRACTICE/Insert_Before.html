@@ -1,0 +1,20 @@
+<ul id="box">
+    <li>Soni</li>
+    <li>Sakku</li>
+</ul>
+
+<script>
+    let box = document.getElementById('box');
+    let li = document.createElement('li');
+    li.textContent = "Vs";
+
+    // let pos = box.firstElementChild;
+    let pos = box.firstElementChild.nextElementSibling;
+    // console.log(pos);
+    box.insertBefore(li, pos);                                // Insert before me Hum position bata sakte hai kaha value insert karana hai......
+
+
+    // append me hmesa last me data insert hota hai.
+    // box.appendChild(li);
+
+</script>

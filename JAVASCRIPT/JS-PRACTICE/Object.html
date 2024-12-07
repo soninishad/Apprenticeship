@@ -1,0 +1,36 @@
+<script>
+
+    var arr = ["Sonalika", "somika", "sakshi"];
+    document.write(arr + "<br/><br/>");
+
+
+    var arr1 =
+    {
+        name: "Neha",
+        fname: "sivkumar",
+        lname: "nishad",
+        age: 20,
+
+        city: ["delhi", "lko"],             // array
+
+        edu:
+        {
+            pg: "M.tech",                  // ---> Object array
+            up: "test"
+        },
+
+        fullname: function () {
+            // return "Vishal Gupta";               //--------> also create a function here ........
+            return this.fname + ' ' + this.lname;
+        }
+
+    };
+
+    document.write(arr1.fname + "<br/>");
+    document.write(arr1.city[1] + " <br/>");
+    document.write(arr1.edu.pg + "<br/>");
+    document.write(arr1.fullname());
+
+
+
+</script>

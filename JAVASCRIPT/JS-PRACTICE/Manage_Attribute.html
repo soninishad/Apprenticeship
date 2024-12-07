@@ -1,0 +1,45 @@
+
+<div id="name" >Soni</div>
+<input type="button" value="Add"  onclick="addAttr()">
+<input type="button" value="Remove"  onclick="removeAttr()">
+<input type="button" value="Get"  onclick="getAttr()">
+<input type="button" value="Has"  onclick="hasAttr()">
+
+
+<script>
+/*
+    setAttribute
+    getAttribute
+    removeAttribute
+    hasAttribute
+*/
+
+function addAttr()
+{
+    let Attribute = document.getElementById('name');
+    Attribute.setAttribute("class","my_class");
+}
+
+
+function removeAttr()
+{
+    let Attribute = document.getElementById('name');
+    Attribute.removeAttribute("class");
+}
+
+
+function getAttr()
+{
+    let Attribute = document.getElementById('name');
+    console.log(Attribute.getAttribute("class"));
+    // document.write(Attribute.getAttribute("class"))
+}
+
+
+function hasAttr()
+{
+    let Attribute = document.getElementById('name');
+    console.log(Attribute.hasAttribute("class"));
+}
+
+</script>

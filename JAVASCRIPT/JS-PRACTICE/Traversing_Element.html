@@ -1,0 +1,78 @@
+<ul id="box">
+    <li>Amit</li>
+    <li>shakil</li>
+    <li>Anchal</li>
+</ul>
+
+
+
+<!--  just opposite -->
+<ul>
+    <li>Amit</li>
+    <li id="box1">shakil</li>
+    <li>Anchal</li>
+</ul>
+
+
+
+<!--  when class is also given -->
+<ul>
+    <li>Amit</li>
+    <li id="box2"   class="li_class">shakil</li>
+    <li>Anchal</li>
+</ul>
+
+
+
+
+<script>
+/*
+firstElementChild
+lastElementChild
+children[0]...
+
+parentElement
+nextElementSibling
+previousElementSibling
+
+*/
+
+
+let frnd = document.getElementById('box');
+console.log(frnd);
+
+// first element required
+console.log(frnd.firstElementChild);
+
+// Last element
+console.log(frnd.lastElementChild);
+
+// Inner data
+console.log(frnd.children[0]);
+
+
+
+
+// -----------       opposite
+let frnds = document.getElementById('box1');
+console.log(frnds.parentElement);
+console.log(frnds.nextElementSibling);
+console.log(frnds.previousElementSibling);
+
+
+
+
+// -------------- Class given...................
+let fd = document.getElementById('box2').getAttribute('class');
+console.log(fd);
+
+
+
+
+
+
+
+
+
+
+</script>

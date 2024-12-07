@@ -1,0 +1,42 @@
+<!----------------------- CLASS 11---------------------->
+
+
+<!Doctype html>
+<html>
+
+<head>
+    <script>
+        // Internal js
+
+        var thread1 ;
+        var counter = 60;
+        function runTimer() {
+            thread1 = setInterval(function(){
+                var spn = document.getElementById('counter');
+                counter = counter-1;
+                var extra_zero = " ";
+                if(String (counter).length==1){
+                    extra_zero = "0";
+                }
+                spn.innerText = "00:"+extra_zero+counter;
+                if(counter<=0){
+                    counter = 0;
+                    clearInterval(thread1);
+                }
+            } ,200);
+        }
+       
+
+    </script>
+
+</head>
+
+<body onload="runTimer();">
+    <h1> Timer:-<span id="counter"></span> </h1>
+    
+<!-- <input type="button" value="start" onclick="startEvent();" /> -->
+
+
+</body>
+</html>
+

@@ -1,0 +1,21 @@
+<ul id="box">
+    <li>Bittu</li>
+    <li>Janvi</li>
+    <li>Neha</li>
+</ul>
+
+<input type="button" onclick="addNewLi()" value="Add More">
+
+<script>
+    function addNewLi(){
+
+        let liBox = document.getElementById("box");
+        let NewLi = document.createElement("li");    
+        let liText = document.createTextNode("Urwashi");
+        NewLi.appendChild(liText);
+
+    
+        liBox.appendChild(NewLi);
+    }
+
+</script>

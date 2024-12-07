@@ -1,0 +1,26 @@
+<Script>
+
+function User(fn,ln)
+{
+    this.fname = fn;
+    this.lname = ln;
+}
+
+// User.prototype.age =10;
+User.prototype.fullname = function ()
+{
+    return this.fname  + " " +this.lname;
+}
+
+
+var obj = new User( "Sonalika" , "gupta");
+var obj1 = new User( "SSSS" , "AAA");
+var obj2 = new User( "S" , "S");
+
+
+console.log(obj);
+console.log(obj1.fullname());
+console.log(obj2);
+
+
+</Script>

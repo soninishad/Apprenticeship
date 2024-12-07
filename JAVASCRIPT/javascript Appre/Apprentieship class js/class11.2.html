@@ -1,0 +1,74 @@
+<!----------------------- CLASS 11---------------------->
+
+
+<!Doctype html>
+<html>
+
+<head>
+
+
+    <script>
+        // Internal js
+
+        // var exp = " ";
+        function calc(v) {
+            var input = document.getElementById('input');
+
+            input.value = input.value + v;
+            input.value = input.value;
+        }
+
+        function solve(v) {
+            var input = document.getElementById('input');
+            input.value = eval(input.value);
+            // input.value = exp;
+        }
+
+        function clearsolve() {
+            var input = document.getElementById('input');
+            input.value = " ";
+            // input.value = exp;
+        }
+
+        function delSingle() {
+            var input = document.getElementById('input');
+            input.value = input.value.slice(0 , -1);
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <input type="text" id="input" readonly/>
+    <br>
+    <button onclick="calc(this.innerText);">0</button>
+    <button onclick="calc(this.innerText);">1</button>
+    <button onclick="calc(this.innerText);">2</button>
+    <br>
+    <button onclick="calc(this.innerText);">3</button>
+    <button onclick="calc(this.innerText);">4</button>
+    <button onclick="calc(this.innerText);">5</button>
+    <br>
+    <button onclick="calc(this.innerText);">6</button>
+    <button onclick="calc(this.innerText);">7</button>
+    <button onclick="calc(this.innerText);">8</button>
+    <br />
+    <button onclick="calc(this.innerText);">9</button>
+    <button onclick="calc(this.innerText);">+</button>
+    <button onclick="calc(this.innerText);">-</button>
+    <br />
+    <button onclick="calc(this.innerText);">/</button>
+    <button onclick="calc(this.innerText);">*</button>
+    <button onclick="calc(this.innerText);">%</button>  
+
+    <button onclick="solve();">=</button> 
+     <br>
+    <button onclick="clearsolve();">Clear</button>
+    <button onclick="delSingle();">Del</button>
+
+
+
+</body>
+
+</html>

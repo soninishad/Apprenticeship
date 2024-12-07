@@ -1,0 +1,79 @@
+<script>
+
+// Animate function in javascript  ----> animation function
+// 1. setInterval ( fun1, 200 )             ------> It has 2 parameter  , 1st is kis code ko execute karana chahte hai ,   2nd is kitne sec tk execute krana hai..
+
+document.write("<h2>Animation function ==> setInterval </h2>");
+
+setInterval(test, 500);
+
+function test()
+{
+    console.log("hello..");
+}
+
+</script>
+
+
+<!--  2..   Value is 1+ as a sequence ...   -->
+
+<div id="counter">1</div>
+
+<script>
+
+setInterval(text, 500);
+let x=1;
+function text()
+{
+    x++;
+    document.getElementById("counter").innerHTML = x ;
+}
+
+
+
+
+
+//  For stop interval
+
+let intCounter = setInterval(soni, 10);
+let y=1;
+
+function soni()
+{
+    if(y==99)
+    {
+        clearInterval(intCounter);
+    }
+    y++;
+    document.getElementById('counter').innerHTML = y;
+}
+</script>
+
+
+
+<!--  Example no 3...........   -->
+
+<script>
+    setInterval(showClock,500);
+
+    function showClock ()
+    {
+        document.getElementById('counter').innerHTML = x; 
+    }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

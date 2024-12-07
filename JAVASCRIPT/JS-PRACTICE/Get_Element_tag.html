@@ -1,0 +1,23 @@
+<div id="box"  style="padding: 100px; border: 4px solid red;">
+Sakku
+</div>
+
+
+<script>
+    // offsetwidth
+    // clientsetwidth
+    let box = document.getElementById('box');
+
+    console.log('client')
+    let cwidth = box.clientWidth;
+    let cheight = box.clientHeight;
+    console.log(cwidth);
+    console.log(cheight);
+
+//  Isme value badh jati hai ----> Ye border ke baad ki value bhi leta hai.
+    console.log('offset')
+    let owidth = box.offsetWidth;
+    let oheight = box.offsetHeight;
+    console.log(owidth);
+    console.log(oheight);
+</script>

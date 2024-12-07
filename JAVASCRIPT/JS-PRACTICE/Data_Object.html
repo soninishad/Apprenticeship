@@ -1,0 +1,58 @@
+<script>
+
+//  Date Object
+
+var d = new Date()
+document.write(d);
+document.write("<br/><br/>");
+
+
+//  month --> 0 se strat hota hai yaha
+// var d = new Date( Y, M, D, Hours, Minutes, Second, Milesecond );
+
+
+// Complete date formate 
+var d1 = new Date("2023-01-05");
+document.write(d1);
+document.write("<br/><br/>");
+
+
+
+
+//  few function for date
+
+// getFullYear
+// get.Month
+// getDate
+// getHours
+// getMinutes
+// getSeconds
+// getDay
+//  getMiliseconds
+
+
+
+// for setting functions
+
+// setDate 
+// setFullYear
+// setMonth
+//  .......... 
+
+document.write(d.getFullYear());
+document.write("<br/><br/>");
+
+document.write(d.getDate());
+document.write("<br/><br/>");
+
+
+d.setFullYear(2020);
+document.write(d);
+document.write("<br/><br/>");
+
+
+d.setDate(d.getDate()+1);
+document.write(d);
+
+
+</script>

@@ -1,0 +1,41 @@
+<script>
+
+// Object do type se create kar sakte hai .
+// 1.   New keyword ki help se
+// 2. Without new keyword use krke
+
+// Type 1
+var obj = new Object();
+obj.name = "janvi" ;
+obj.age = 20;
+
+document.write(obj.name   + "<br/>");
+
+
+
+
+//  Type 2
+var obje = {
+    name : "nikhil" , 
+    age : 20,
+    mobile : 9631495425 
+} 
+delete obje.mobile;
+
+document.write(  obje.name   + "<br/>" );
+document.write(  obje.mobile    + "<br/>" );
+document.write( 'age' in obje );
+
+document.write("<br/><br/>");
+
+// for in loop ka use object ke sath krte hai...
+
+for ( var key in obj )
+{
+    document.write(key + " - " + obj[key]);
+    document.write("<br/>");
+}
+
+
+
+</script>

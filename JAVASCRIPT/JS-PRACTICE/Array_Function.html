@@ -1,0 +1,80 @@
+<script>
+/*
+   
+concat (arr)
+pop ( )
+shift ( )
+push ( )
+unshift ( )
+splice (postion, length)
+indexOf ( )
+Array.isArray
+split ( )
+join ( )
+*/
+
+
+var arr = [ "mansi " , "golu" , "mahek"];
+// arr[0];
+// arr.length=0;
+var arr1 = [ "mahi" , "mohit" ];
+
+
+var result = arr.concat(arr1);
+document.write(result +"<br/>");
+
+
+
+arr.shift();                // ---> left data remove
+document.write(arr + "<br/>");
+
+
+
+arr.pop ();            // -------> Right data remove
+document.write(arr  +"<br/>");
+
+
+
+arr.push("soni");      // ----> last index me data dalna ho to push use krte hai.
+document.write(arr  +"<br/>");
+
+
+
+arr.unshift("komal");       // ---> Starting me data dalna ho to  [  unshift  ] ka use karte hai.
+document.write( arr + "<br/>");
+
+
+
+arr.slice("1","2");       // Bich me se koi record htana ho to  [ slice ]  ka use karte hai.
+document.write( arr  + "<br/>");
+
+
+
+arr.indexOf("soni");
+document.write( arr + "<br/>");
+
+
+
+var arr2 = "Ritesh";               // for checking array or not
+document.write(Array.isArray(arr2) + "<br/>");
+
+
+
+var str = "My name is Soni Nishad";
+var result=str.split( " name " );                //   String ko Array me convert karne ke liye  { Split } ka use karte hai....
+console.log(result);
+
+
+
+var str = [ "manu" , "mmm"];
+var result = arr.join("name") ;              // Array ko String me convert karne ke liye  { join } ka use karte hai.............
+document.write(result);
+
+
+
+
+
+
+
+
+</script>

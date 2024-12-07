@@ -1,0 +1,69 @@
+<script>
+
+// Hoisting     ---------> race karna / pulling
+// function
+// variable
+
+
+hello();
+function hello()
+{
+    document.write( "Hello Sonii"    +"<br/>");
+}
+
+
+/*
+Hello();                                       //====> error show
+var Hello=function()
+{
+    document.write( "Hello janvi"    +"<br/>");                         
+}
+*/
+
+
+var Hello=function()
+{
+    document.write( "Hello janvi"    +"<br/>");                         
+}
+Hello();
+
+
+
+document.write(z   +"<br/>");               //-------->error
+var z = 5;
+
+
+a = 10;
+document.write(a  +"<br/>");
+
+
+
+var x;
+x = "Creating undefined";
+document.write(x  +"<br/>");
+
+
+// ........................ 
+
+"use strict";
+
+// a = 10;                             //  -----> error
+// document.write(a);
+
+
+var x =10;
+document.write ( x  +"<br/>");
+
+
+
+document.write(y   +"<br/>");
+var y = 20;
+
+
+
+let y =30;
+document.write(y);
+
+
+
+</script>

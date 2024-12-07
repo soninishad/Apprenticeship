@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Node</title>
+</head>
+
+<body>
+
+    <ul id="box">
+        <li>Saii</li>
+        <li>Naii</li>
+        <li>Tai</li>
+    </ul>
+
+
+    <script>
+        let box = document.getElementById('box');
+        // let cloneBox = box.cloneNode();
+        // console.log(cloneBox);
+
+
+        // new clone banana  
+        let cloneBox = box.cloneNode(true);
+        document.body.appendChild(cloneBox);
+
+
+        // clone me class or id new add karna
+        cloneBox.id = "new_box";
+        cloneBox.className = "box_class";
+        document.body.appendChild(cloneBox);
+    </script>
+
+</body>
+
+</html>

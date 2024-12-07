@@ -1,0 +1,54 @@
+
+<input type="button" value="Clear/Stop" onclick="clearTi()">
+
+<br>
+<br>
+<br>
+
+
+<form action="">
+    <input type="text" name="" id="name">
+    <input type="button" value="Get" onclick="submitData()">
+</form>
+
+
+<div id="result"></div>
+
+<script>
+
+    setTimeout(test, 1000);
+
+    function test() {
+        console.log("Hello");
+    }
+
+
+
+
+    // Agar khatam bhi karana chahte hai to
+    let timeO = setTimeout(test2, 3000);
+
+    function test2() {
+        console.log("Time out after 3s");
+    }
+
+    function clearTi() {
+        clearTimeout(timeO);
+    }
+
+
+
+
+
+    // for getting data
+    function submitData() {
+        let name = document.getElementById('name').value;
+        if (name == "") {
+            document.getElementById('result').innerHTML = "please enter name";
+        }
+        else {
+            document.getElementById('result').innerHTML = " Hello " + name;
+        }
+    }
+
+</script>

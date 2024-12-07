@@ -1,0 +1,37 @@
+<script>
+
+var obj = 
+{
+    fname : "soni",
+    lname : "nishad",
+
+    // getter write same as a function ....
+    get fullname ()
+    {
+        return this.fname + " " +this.lname;
+    } ,
+
+
+    // setter function
+
+set  setFullName (fn)
+{
+       this.fname = fn;
+    //    this.lname = ln;
+}
+
+} 
+
+ document.write(obj.fullname    +"<br/>");
+
+
+ obj.setFullName = "soniiiiiiii";
+document.write(obj.fullname);
+
+
+
+
+
+
+
+</script>

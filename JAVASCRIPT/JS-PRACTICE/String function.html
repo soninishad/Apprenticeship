@@ -1,0 +1,49 @@
+<script>
+
+    /*
+    
+    name.length
+    name.search
+    name.indexOf()
+    name.lastIndexxOf()
+    name.slice
+    name.substring     ===> negative no not working
+    name.substr
+    name.replace
+    name.toLowerCase
+    name.toUpperCase
+    name.trim    ==> space remove karta hai first and last
+    name.concat
+    name
+
+    */
+
+    var name = '  Soni nishad is a web Developer  ';
+    document.write(typeof(name) + "<br/>");
+    document.write((name.length)  + "<br/>");
+    document.write(name.search("d")  + "<br/>");
+    document.write(name.search(  "program")  + "<br/>" );   // in Output [ -1 ] is show that is not exist.
+   document.write(name.indexOf("nishad")   + "<br/>");
+   document.write(name.lastIndexOf("web") + "<br/>");
+   document.write(name.slice(16 , 20)  +"<br/>");
+   document.write(name.slice( 5)  +"<br/>");
+   document.write(name.slice( -10) +"<br/>");
+   document.write(name.substring( 27)  + "<br/>");
+   document.write(name.substr( 2, 3) + "<br/>") ;      //----> kitne or character chahiye 2 parameter batata hai
+
+   var r=name.replace("web " , "php " );
+   document.write(r + "<br/><br/>") ;
+   
+
+
+   document.write(name.toLowerCase(name) + "<br/>");
+   document.write(name.toUpperCase(name) + "<br/>");
+   document.write((name.trim()).length   + "<br/>");
+
+
+   var name2 = " not a developer itt is a programmer.";
+   document.write(name.concat("", name2)  , "<br/>");
+
+   document.write(name[23]);
+
+</script>

@@ -1,0 +1,39 @@
+<!----------------------- CLASS 8---------------------->
+
+
+<!Doctype html>
+<html>
+
+<head>
+    <script>
+        // Internal js
+
+
+        function disable() {
+            window.oncontextmenu = function () {
+                return false;
+            };
+        }
+
+        function enable() {
+            window.oncontextmenu = function () {
+                return true;
+            };
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+    <h1>Hide Right Click Button Disable and Enable </h1>
+    <!-- <input type="password" id="pass" value="123"> -->
+
+    <button onclick="disable();">Disable Right click</button>
+    <button onclick="enable();">Enable Right click</button>
+
+
+</body>
+
+</html>

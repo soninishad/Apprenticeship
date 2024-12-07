@@ -1,0 +1,21 @@
+<ul id="box">
+    <li>Pallak</li>
+    <li>Pagal</li>
+    <li>Papa</li>
+</ul>
+
+
+<script>
+
+// removeChild
+let boxElement = document.getElementById('box');
+// let liBox  = boxElement.firstElementChild;
+let liBox  = boxElement.firstElementChild.nextElementSibling;
+// let liBox  = boxElement.lastElementChild;
+// console.log(liBox);
+
+boxElement.removeChild(liBox);
+
+// document.body.removeChild(boxElement);
+
+</script>
