@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Ludo design</title>
+<style>
+    .outer{
+        height: 750px;
+        width: 750px;
+    border: 1px solid black;
+margin: 0px auto;    
+}
+.box_row{
+    height: 300px;
+    width: 750px;
+    background-color: aqua;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+    border:50px solid red;
+    float: left;
+    /* margin-right: 70px; */
+
+}
+.second_row{
+    height: 150px;
+    width: 750px;
+    background-color: blueviolet;
+}
+.box2{
+    height:150px ;
+    width: 300px;
+    background-color: pink;
+}
+.row2{
+    height:150px ;
+    width: 150px;
+    background-color: hotpink;
+}
+.lastchild{
+    height: 50px;
+width: 150px;
+border: 1px solid ;
+}
+</style>
+
+    </head>
+    <body>
+        <div class="outer">
+    <!-----------------------------------------    classname = .box_row +Enter   --------------------------------->
+    <div class="box_row">
+<div  class="box"></div>
+<div class="box"   style="  float: right; border-color: rgb(37, 37, 206); "></div>
+
+<div class="row2" style="float:left">
+<div class="lastchild"></div>
+</div>
+<div class="row2"  style="float:right"></div>
+
+    </div>
+
+    <!-------------- Second Row ------------------ -->
+<div class="second_row">
+    <div class="box2" style="float:left"></div>
+    <div class="box2"  style="float:right"></div>
+</div>
+
+<!--------------------------------- Third row --------------- -->
+<div class="box_row">
+    <div class="box" style="float:left; border-color:rgb(39, 223, 39)"></div>
+        <div class="box" style="float: right; border-color: yellow;"></div>
+  
+
+        <div class="row2" style="float:left"></div>
+<div class="row2"  style="float:right"></div>
+</div>
+
+
+<!----------------------------------------        outer close - --------------------------->
+        </div>
+    
+    </body>
+</html>

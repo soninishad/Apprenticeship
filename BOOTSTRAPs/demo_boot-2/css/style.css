@@ -1,0 +1,36 @@
+.ravi{
+    height: 500px;
+    /* width: 300px; */
+    
+}
+.ravi-row{
+    height: 200px;
+}
+
+.ravi-row2{
+    height: 100px;
+}
+
+/* ---------------------------------- testimonal------------------ */
+
+#mg img{
+
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    /* border-radius: 50%; */
+    margin-top: -50px;
+}
+
+#icon li{
+  list-style-type: none;
+  /* display: inline-block; */
+  display: inline;
+
+}
+
+#quote{
+    font-size: 45px;
+color: aqua;
+}
+

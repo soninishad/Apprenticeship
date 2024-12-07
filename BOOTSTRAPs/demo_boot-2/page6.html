@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Headline demo</title>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <!-- <link href="css/style.css" rel="stylesheet"/> -->
+
+<style>
+
+    .ravi{
+        height: 500px;
+        /* background-color: aqua; */
+        /* background: linear-gradient( to top,  red ,aqua);               */
+                /* background-image: linear-gradient(  -45deg, red, pink);  */
+                /* background-image: radial-gradient(  red, pink);  */
+                /* background-image: radial-gradient(  red,green,yellow,blue,purple);  */
+                        background-image: linear-gradient( to left, yellow,purple,green,blue,red); 
+
+
+        /* background-image: linear-gradient(red, aqua);  */
+
+
+/*                  default=to top
+                  to say = kis side
+clip-path: polygon ( 0% 0% , 100% 0% , 96% 100% ,0% 100% )
+*/
+  }
+</style>
+
+
+
+  </head>
+  <body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-9 bg-info"  style="height : 55px ;  clip-path: polygon(0% 0% ,100% 0% ,96% 100%, 0% 100%);"></div>
+        <div class="col-sm-3"  style="height : 40px ; border-bottom: 2px solid black;"></div>
+    </div>
+
+
+<div class="row">
+    <div class="col-sm-12 ravi"></div>
+</div>
+
+
+</div>
+</body>
+</html>
