@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+                                                  <!--THIS is a Internal CSS-->
+
+          <!--this is a Element selector-->
+
+   <style>
+        p{ 
+            color:rgb(210, 228, 13); 
+           border:3px solid rebeccapurple;
+        }
+   </style>
+
+          <!--This is a ID Selector-->
+          <!--ID selector is used when "one particular" element should need -->
+
+<!--  <style>
+        #secondPara{
+              color:rgb(27, 240, 27);
+           }
+      </style>-->
+
+           <!--This is Class Selector-->
+           <!--Class selector is used when a "sepicific desing need anymore element" then use-->
+
+<!--  <style>
+             .pinkElement{
+                   color:palevioletred;
+            }
+            .bgBlue{
+                background-color: aqua;
+            }
+      </style> -->
+
+               <!--In this all are in one and in above (in comment line) all are in single-single-->
+
+     <style>                                 /* This is use for CSS Comment  & shortcut (ctrl +/) */ 
+                         /* Id selector */
+        #secondPara{
+            color:rgb(27, 240, 27) ;
+        }
+             
+                       /* Class selector */
+        .bgBlue{
+            color: palevioletred;
+            background-color: aqua;
+        }
+
+                    /* Grouping selector */
+        footer, span{
+            background-color: brown;
+        }
+     </style>
+
+</head>
+<body>
+
+    <h3>CSS Selector</h3>
+         <p>This is a simple paragraph to demonstrate css selectors</p>
+         <p id="secondPara ">This is a another simple paragraph to demonstrate css selectors</p>
+         <p id="thirdPara" class="pinkElement  bgBlue">This is a simple paragraph to demonstrate css selectors</p>
+
+    <div>
+        <p>This is a another simple paragraph inside div to demonstrate css selectors</p>
+        <span>This is span</span>
+
+    </div>
+             <footer>This is footer</footer>
+</body>
+</html>

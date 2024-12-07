@@ -1,0 +1,33 @@
+             
+    
+    /*                         WHAT IS CSS?  
+
+CSS gives style to row HTML.
+CSS stands for Cascading Style Sheets.
+CSS is used to gives style to our web pages.
+HTML is used to structure a websites.
+CSS takes responsibility of design.
+CSS which is known as CSS is a style sheet language that used to handel the presentation of web page containing HTML.
+It makes our websides beautiful and mordern looking.
+ 
+ 
+
+
+/*                                 CSS SYNTEX               */
+
+                    P { COLOR: Blue};               
+
+
+         P = SELECTOR
+         COLOR = PROPERTY
+         BLUE = VALUE  
+         
+         
+                         THREE WAYS TO ADD CSS TO THE MARKUP
+
+INLINE CSS =  CSS Is add to the elements directly using attribute.
+INTERNAL CSS = CSS is kept inside the head tags in <style> tags.
+EXTERNAL CSS = CSS is kept separately inside a .CSS STYLE SHEET.
+
+
+    

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> javascript SetTimeout and ClearTimeout </title>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        Time now is <span id="time"></span>
+    </div>
+    <script>
+        console.log('This is tutorial 58');
+
+        // setTimeOut --> Allows us run the function once interval of time
+
+        // clearTimeout --> Allows us to run the function repeatedly after the interval of time
+
+
+        //    type 1:-
+        //    function greet(){
+        //    console.log("Hello Good Morning");
+        //     }
+        //     greet();  
+
+
+        //    type:-2
+        //     function greet(name) {
+        //     console.log("Hello Good Morning " + name);
+        //      }
+        //   setTimeout(greet, 3000, "Soni");   //3sec
+
+
+        // type : 3
+        function greet(name, byeText) {
+            console.log("Hello Good Morning " + name + " " + byeText);
+        }
+        // setTimeout(greet, 5000, "Soni", "Take Care");  //5sec
+
+        // Timeout = setTimeout(greet, 5000, "Soni", "Take Care");
+        // console.log(Timeout);
+
+        // clearTimeout(Timeout);
+
+// setTimeout (greet(), 12000);  --> Wrong as it is calling the function inside setTimeout
+
+
+// setInterval(greet, 1000 , "soni" ," good night");
+
+// intervalId = setInterval(greet, 1000 , "soni" ," good night");
+// clearInterval(intervalId);
+
+
+           //  Clock ,time making
+
+function displayTime(){
+    time = new Date();
+    console.log(time);
+    document.getElementById('time').innerHTML = time;
+
+}
+setInterval(displayTime, 1000);
+
+    </script>
+</body>
+
+</html>

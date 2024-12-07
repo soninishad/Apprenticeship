@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Arrow Functions </title>
+</head>
+
+<body>
+    <div class="container">
+        This is ARRow function tutorial
+    </div>
+    <script>
+
+        //type 1,
+        // ARRow function
+        // greet = () => {
+        //     console.log('good morning');
+        // }
+
+
+        let greet = () => console.log("good night");
+
+        //type 2:
+        // function greet() {
+        //     console.log('good morning');
+        // }
+        // greet();
+
+
+        // 3:-
+        // let sum =(a,b)=>{
+        //     return a+b;
+        // };
+
+        greet();
+
+        let sum = (a, b) => a + b;
+        let half = a => a / 2;          // use for only one argument (a,b....)
+
+        setTimeout(() => {
+            console.log("we are inside settimeout");
+        }, 3000);
+
+        let obj1={
+            greeting:"good morning",
+            name:["soni", "anchal" , "Akru" , "payal"],
+            speak(){
+              //  this.name.forEach( function s ( student){     // ye apne andar hi function ko dhundhega or undefined show kr dega 'LEctical this'
+               this.name.forEach((student)=>{                      // obj ke andar ka apne parent ka this lega
+                console.log(this.greeting + " kukdoo ku " + student);
+            });
+        }
+        }
+obj1.speak();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Arrays and Objects</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        Simple SI html
+    </div>
+
+    <script>
+        let myVar = 34;
+        let myVar2 = "String";
+        let myVar3 = null;
+        let myVar4 = true;
+        let myVar5 = undefined;
+        console.log(myVar)
+
+
+        //type 2   obj  
+
+        let student = {
+            name: "Soni",
+            course: "B.tech",
+            branch: 'CSE',
+            fees: 90000,
+            subjects: 'WD',
+        }
+        console.log(student);
+
+        // array
+
+        let names = [1, 2, 4, "SONI", undefined];
+        console.log(names);
+        console.log(names[1]);       // [  INDEX ]
+
+        // Create obj in array using new keyword
+        let name = new Array(45, 21, 5, "SONI nishad", undefined);
+        console.log(name.length);
+        name = name.sort();
+        name.push ("this is pushed");
+        console.log(name);
+
+
+        // let Name = new Array(23,50);
+        let Name = new Array(23);
+        console.log(Name.length);
+        Name = Name.sort();
+        Name.push ("this is pushed");
+        console.log(Name)
+
+    </script>
+</body>
+
+</html>

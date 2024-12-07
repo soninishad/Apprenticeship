@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Javascript | strings and string methods </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div id="content";></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt tempora excepturi ratione tenetur quas
+            blanditiis qui illo cupiditate temporibus delectus assumenda expedita, nobis voluptates?</p>
+    </div>
+    <script>
+        //  var string="this";
+        //    var string='this';
+        //  var string="thi's";
+        var string = 'thi"s';
+        console.log(string);
+
+        var name = "Soni";
+        var learn = " web development";
+        var message = '  she is a good web developer ';
+        var temp = `  ${name} is a "good" girl and  'she' is learn 
+                            a ${learn} `;
+        // console.log(  string + name + learn  + message);
+        console.log(temp);
+
+        var len = name.length
+        console.log(`  length of name is ${len} `);
+
+// Escapesequence character
+//  \\n , \n ,\t ,\\
+console.log( " Hello\ \nWorld\nSoni\tand\\WD ");
+
+//  Second method making String by constructor
+var y= new String ( "this ");
+console.log(y);
+
+document.getElementById('content').innerHTML = '<h3>this is an h3 heading </h3>'
+
+    </script>
+
+</body>
+</html>

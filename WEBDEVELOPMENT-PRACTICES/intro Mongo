@@ -1,0 +1,34 @@
+
+
+//                         MONGO DB
+
+
+/*            What is Mongodb ?  
+
+*    No SQL Database .
+*   Document oriented .
+*   Open-Source , Cross-platform-oriented database 
+     written in C++  .
+*   Salient features.
+*   Develop Faster.
+*   Deploy Easier.
+*   Scale Bigger.
+*   MongoDb devlopment started in 2007.
+*   MongoDB 2.4.9 was the latest and stable version - released
+    on January 10, 2014.
+
+
+
+                         Document Oriented Database ?
+
+
+*      MongoDB stores data as document ,so it is known as document oriented database.
+*      Data is store as BSON
+*      If you come from Relational DBMS bg
+         *   Database = Database
+         *   Tables      =  Collections 
+         *   Rows      =   Documents
+         
+
+
+*/

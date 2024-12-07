@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Box shadow and text shadow </title>
+<style>
+              .container{
+                display: flex;
+              }
+               .card{
+                padding: 23px 12px;
+                margin: 22px 12px;
+                /* border: 2px solid red; */
+                background-image:url( "walpaper.jpg.jpg");
+                z-index: -1;
+                color: white;
+
+                /* box-shadow:  Offset-x      Offset-y     Color; */
+                /* box-shadow:  Offset-x     Offset-y     Blur- radius          Color  ; */
+                /* box-shadow:    Offset-x    Offset-y    Blur-radius    Spread- radius   Color; */
+
+                /* box-shadow:   8px 9px green ; */
+                /* box-shadow:  -10pz -13px green; */
+                 /* box-shadow:  7px 8px 10px green ; */
+                  /* box-shadow: -7px -8px 10px  green ; */
+                  /* box-shadow:  -7px -5px 10px 4px green; */
+                  /* box-shadow:  -7px -5px 10px 34px   rgba( 71, 172, 172, 0.5); */
+                     
+
+                  /* FOR INSIDE added shadow in box */
+                    
+                  box-shadow: inset 3px 5px green;
+                  box-shadow: 3px 5px green ,4px 6px red ;
+               }
+               .card h2{
+                /* text-shadow:  2px 2px red; */
+                text-shadow: 3px 2px rgb(241, 98, 15);
+               }
+            .card h3{
+                text-shadow: 1px 1px rgb(114, 182, 201);
+            }
+</style>
+
+</head>
+<body>
+                  <div class="container">
+                  <div class="card" id="card-1">
+                    <h2>This is C++ Course</h2>
+                    <p><h4> I  have started C++ course which does not mean that we will continue this course to completion .</h4>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequuntur temporibus consectetur
+                        quia necessitatibus dolor ipsam molestias qui! Eius provident libero ab consequuntur
+                        repellendus laborum optio. Blanditiis ad doloribus velit?
+                    </p>
+                  </div>
+                  <div class="card" id="card-2">
+                    <h2>This is HTML Course</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequuntur temporibus consectetur
+                        quia necessitatibus dolor ipsam molestias qui! Eius provident libero ab consequuntur
+                        repellendus laborum optio. Blanditiis ad doloribus velit?
+                    </p>
+                  </div>
+                  <div class="card" id="card-3">
+                    <h2>Card3</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequuntur temporibus consectetur
+                        quia necessitatibus dolor ipsam molestias qui! Eius provident libero ab consequuntur
+                        repellendus laborum optio. Blanditiis ad doloribus velit?
+                    </p>
+                  </div>
+                </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color : khaki;
+            height:  745px;
+        }
+
+                         /* CSS position: static ( default ),absolute,relative,fixed,sticky */
+.box{
+    display: inline-block;
+    border: 5px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+}
+#box3{
+            
+                                                     /* position: relative; */
+                                                     
+     /* when we use Position : Relative , then we use    TOP,BOTTOM,LEFT,RIGHT   that  properties   and  when we need 
+                                        old position GAP ,then use this position property */
+    /* relative: positions to the element relative to its normal position and will leave a gap at its normal position */
+     /* top: 34px ; */
+     /* left:34px;  */
+
+                                                    /* position: static;   (same as default) */
+
+                                                  /* position: absolute; */
+    
+    /* absolute : positions to the elementrelative to the position of its first parent */
+    /* absolute :relative (that is relative to the parent) */
+    /* absolute : relative to its normal position  */
+   
+   /* top:34px; */
+   /* left:34px; */
+   
+   
+                                                     /* position: fixed; */
+
+   /* fixed : position the element relative to the browser window;  */
+    /* right: 4px; */
+    /* bottom: 2px; */
+
+
+                                                      /* sticky */
+                                                      
+    position : sticky;
+
+}
+    </style>
+</head>
+<body>                                     <!--  (  div.box#box*4 ) = ye type krne se 4 box mil jayega with [class and id  ] like as below line   -->
+    <div class="container">                                <!--that is a patent--> 
+    <div class="box" id="box1">1</div>                                  
+    <div class="box " id =" box2">2</div>
+    <div class="box " id =" chat with us">3</div>
+    <div class="box " id =" box4">4</div>
+</div>
+</body>
+</html>
