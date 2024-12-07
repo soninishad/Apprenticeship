@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>p3</title>
+  </head>
+  <body>
+
+    <!--  Js priority => first -->
+    <!--  jquery 2nd (then)  -->
+    <!-- This is for linkig -->
+       <script type="text/javascript" src="jquery.js"></script>
+       
+       
+       <!-- this is for local -->
+          
+
+
+       <script>
+
+           let soni = $;
+           console.log('function');
+
+        $(document).ready(function(){
+            // window.alert('jQuery Loaded locally 1');
+            console.log('loaded form 1');
+
+        });
+
+      
+        jQuery(document).ready(function(){
+            // window.alert('jQuery Loaded locally 2');
+            console.log('loaded form 2');
+
+        }); 
+
+
+        soni(document).ready(function(){
+            // window.alert('jQuery Loaded locally 3');
+            console.log('loaded form 3');
+
+        }); 
+
+
+        $(function(){
+            // window.alert('jQuery Loaded locally 4')
+            console.log('loaded form 4');
+
+        }); 
+
+
+
+        (function(){
+            
+            console.log('loaded form ');
+
+        }); 
+
+        (function(){
+            // window.alert('jQuery Loaded locally 2')
+            console.log('This is Ifee function ');
+
+        }) (); 
+
+
+       </script>
+
+  </body>
+</html>

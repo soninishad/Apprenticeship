@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUp</title>
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <style>
+        .measure {
+            width: 600px;
+            height: 200px;
+            border: 2px solid rgb(221, 26, 26);
+            background-color: blue;
+        }
+    </style>
+
+<body>
+
+    <div class="measure"></div>
+    <br><br>
+    <button id="showWidthHeight">Check</button>
+    <br><br>
+
+    <input type="text" name="" id="width">
+    <input type="text" name="" id="height">
+
+
+    <script>
+        $(document).ready(function(){
+        $('#showWidthHeight').click(function(){
+            var x = " ";
+            var y = " ";
+
+            x += "The width of div is " + $('.measure').width() + "px." ;
+            Y += "The height of div is " + $('.measure').height() + "px." ;
+
+            $('#width').val(x);
+            $('#height').val(x);
+
+        });
+        });
+    </script>
+
+</body>
+</html>

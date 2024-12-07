@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    <h1>Demo 9 | Hide and show </h1>
+    <input type="password" name="" id="input_1">
+    <button id="btn_1">Show</button>
+    <button id="btn_2">Show/hide</button>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js">
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#input_1");
+        });
+
+
+        var btn1 = document.querySelector('#btn_1');
+        var input1 = document.querySelector('#input_1');
+
+        btn1.addEventListener('click', function () {
+            // console.log('btn is clicked');
+
+            if (btn1.innerText == 'show') {
+                input1.type = "text";
+                btn1.innerText = "hide";
+            } else {
+                input1.type = "password";
+                btn1.innerText = "show";
+            }
+        });
+
+
+
+        // JQUERY 
+        $(document).ready(function () {
+            $('#btn_2').click(function(){
+                if($('#input_1').attr('type')=='password'){
+                              $('#input_1').attr('type','text');
+                              $('#input_1').css('border','2px solid red');
+                              $('#btn_2').text('hide password');
+                }
+                else
+                {
+                    $('#input_1').attr('type','password');
+                    $('#input_1').css('border','2px solid green');
+                    $('#btn_2').text('show password');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

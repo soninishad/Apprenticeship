@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade toggle Effect</title>
+
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <style>
+        .centerdiv {
+            width: 500px;
+            height: 350px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #firstdiv {
+            width: 200px;
+            height: 100px;
+            background-color: red;
+        }
+
+        #firstdiv2 {
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+        }
+
+        #firstdiv3 {
+            width: 200px;
+            height: 100px;
+            background-color: rgb(31, 179, 40);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">With JQuery you can fade an element in and out of visibility.</h1>
+
+    <div class="centerdiv">
+
+        <button id="btnfadeout">Fading</button>
+        <hr>
+
+        <div id="firstdiv"></div>
+        <br>
+        <div id="firstdiv2"></div>
+        <br>
+        <div id="firstdiv3"></div>
+        <br><br><br>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#btnfadeout').click(function () {
+                $('#firstdiv').fadeToggle('');
+                $('#firstdiv2').fadeToggle('slow');
+                $('#firstdiv3').fadeToggle(3000);
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

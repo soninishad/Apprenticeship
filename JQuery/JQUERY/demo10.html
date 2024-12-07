@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    <h1>Demo 10  </h1>
+    Enter no 1:
+<input type="text" name="" id="num_1">
+<br>
+Enter no 2:
+<input type="text" name="" id="num_2">
+<br>
+Result :
+<input type="text" name="" id="result">
+<br>
+<button id="addbtn">Add</button>
+
+
+
+    <script type="text/javascript" 
+    src="https://code.jquery.com/jquery-3.6.3.js">
+    </script>
+
+
+    <script>
+
+   $(document).ready(function(){ 
+//     // var addbtn = $('#addbtn');
+//     var addbtn = ;
+//     var num_1 = $('#num_1');
+//     var num_2 = $('#num_2');
+//     var result = $('#result');
+
+//     // Koi bhi kaam event par karaya jata hai.
+//     $('#addbtn').click(function(){
+//              console.log("Btn is clicked")
+//     });
+
+
+
+// 2..........
+//  $(document).ready(function( ){ 
+//     $('#addbtn').click(function() {
+//            let result =Number( $('#num_1').val()) +Number( $('#num_2').val())
+//            $('#result').val($result);
+            
+//     });
+//  });
+
+
+ $(document).ready(function( ){ 
+    $('#addbtn').click(function() {
+           $('#result').val(Number( $('#num_1').val()) +Number( $('#num_2').val()));
+           $('#result').css('border','5px solid green');
+    });
+ });
+
+
+});
+    </script>
+
+</body>
+
+</html>

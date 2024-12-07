@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DatePicker</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+
+    <script type="text/javascript" src="jquery.js"></script>
+
+
+<body>
+
+    <h1 style="text-align: center;text-transform: uppercase;">Enter your BioData</h1>
+
+    <form action="">
+        <fieldset>
+            <legend align="bottom" style="text-transform: uppercase;font-size: 1.6em;">BioData</legend>
+            Name :
+            <input type="text" name="" size="30" class="form-control" placeholder="username" id="">
+            <br><br>
+            Email :
+            <input type="email" name="" size="30" class="form-control" placeholder="abc@gmail.com" id="">
+            <br><br>
+            D O B :
+            <input type="date" name="" size="30" class="form-control" id="DatePicker">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#DatePicker').datepicker({
+            // dateFormat : "dd-mm-yy";
+            dateFormat : "yy-mm-dd" ,
+            changeMonth : true ,
+            changeYear : true,
+            maxDate : '3M' ,
+            MinDate : '-3M'
+        });
+    });
+    </script>
+
+
+</body>
+
+</html>

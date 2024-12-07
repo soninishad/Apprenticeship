@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse event</title>
+
+    <script type="text/javascript" src="jquery.js"></script>
+
+<body>
+
+<h2>focus () vs blur()</h2>
+
+
+<input type="text" name="" id="textbox">
+
+<span id="showdata">Welcome</span>
+<span id="showdataforblur">Byyy</span>
+
+
+
+<script>
+
+$(document).ready(function(){
+$('span').css('display', 'none');
+
+
+$('#textbox').focus(function(){
+$('#showdata').css('display' , 'inline').fadeOut(4000);
+});
+
+
+
+$('#textbox').blur(function(){
+$('#showdataforblur').css('display' , 'inline').fadeOut(4000);
+});
+
+});
+
+</script>
+
+</body>
+
+</html>

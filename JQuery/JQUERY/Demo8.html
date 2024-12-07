@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js">
+    </script>
+
+    <script>
+
+        // Note : : JQuery : target => window
+        // Note : : JQuery : target => document
+        // It is fast as javascript => window Object => DOMContentLoaded.
+
+
+        //   JQuery  code..... 
+        $(document).ready(function () {
+            console.log("Ready function of JQuery");
+        });
+
+        // JS code.......
+        window.addEventListener('DOMContentLoaded', function () {
+            ready();
+        })
+
+        function ready() {
+            console.log("Ready function of Javascript");
+        }
+    </script>
+
+</head>
+
+
+<body>
+    <h1>Demo 8 | JQuery and JS</h1>
+    <div id="div">This is div</div>
+</body>
+
+</html>

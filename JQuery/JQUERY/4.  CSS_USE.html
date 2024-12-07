@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS use</title>
+
+    <script type="text/javascript" src="jquery.js"></script>
+
+</head>
+
+<body>
+
+    <a href="#" class="anchor">Welcome to my portfolio</a>
+    <br>
+    <br>
+    <button id="querycss">Click</button>
+
+
+    <script>
+
+        $(document).ready(function () {
+            $('#querycss').click(function () {
+
+                // for use Single CSS property use 
+                // $('.anchor').css('textDecoration', "none");
+
+
+                // For many CSS property use
+                $('.anchor').css({
+                 "textDecoration" : "none" ,
+                 "backgroundColor" : "Yellow" ,
+                 "color" : "red",
+                });
+
+            });
+        });
+
+    </script>
+
+
+</body>
+</html>

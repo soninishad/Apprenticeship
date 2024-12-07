@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction  Hide Button</title>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+
+<body>
+
+<div id="test">I am going to hide you.</div>
+<button id="hide" onclick="hideandseek">Click</button>
+
+<script>
+    // document.getElementById('test').innerHTML = "Hello world ! by javascript";
+
+    // function hideandseek()
+    // {
+    //     document.getElementById('test').style.display = "none";
+    // }
+
+
+
+    // $(document).ready(function(){
+    //         $('#test').text('hello world!by jquery');       
+    // });
+
+
+    $(document).ready(function (){
+        $('#hide').click(function(){
+           $('#test').hide();
+        });
+    });
+
+
+</script>
+
+</body>
+    </html>

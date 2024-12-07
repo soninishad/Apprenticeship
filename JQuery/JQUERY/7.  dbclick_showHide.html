@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using DBClick Show and Hide</title>
+
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <style>
+        .main {
+            display: flex;
+        }
+
+        .red {
+            height: 200px;
+            width: 100px;
+            border: 1px solid black;
+        }
+
+        .blue {
+            height: 200px;
+            width: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="blue"></div>
+        <div class="blue"></div>
+    </div>
+    <br>
+    <button id="btn_id">Show/Hide</button>
+
+    <script>
+
+        $(document).ready(function () {
+            $('#btn_id').click(function () {
+                $('.red').css("backgroundColor", "red");
+            });
+
+
+
+            $('#btn_id').dblclick(function () {
+                $('.blue').css("backgroundColor", "blue");
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>

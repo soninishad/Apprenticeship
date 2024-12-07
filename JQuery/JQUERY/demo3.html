@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 3 | JQuery</title>
+</head>
+<body>
+    <h1>Skeleton of JQuery Script</h1>
+
+    <p id="para">This is paragraph</p>
+    <div class="div">This is div</div>
+
+    <script type="text/javascript"  src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+
+    <script>
+    //   Javascript  => normal way target
+     console.log(document.querySelector('h1'));   //heading
+     console.log(document.querySelector('#para')); //paragraph
+     console.log(document.querySelector('.div'));   // division
+
+
+    //  My Function  => target  --> khud ka function banakar target kiya gaya hai
+     function $(a='')
+     {
+        // console.log(document.querySelector(a));
+        // console.log(typeof(document.querySelector(a)));
+        return document.querySelector(a);
+
+     }
+   console.log($('h1'));
+   console.log($('.div'));
+   console.log($('#para'));
+ 
+</script>
+
+</body>
+</html>
