@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Text Colors in Tailwind CSS</title>
+
+    <!-- CDN add here  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- customize designn link Add  -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+
+                extend: {
+             
+                                 // jabki yaha hum new or old sare colors use kar skte hai
+                    colors: {
+                        soni: '#0058F5',
+                        soni2: 'pink',
+                        'white': '#ffffff',
+                    'purple': '#3f3cbb',
+                    'midnight': '#121063',
+                    'metal': '#565584',
+                    'tahiti': '#3ab7bf',
+                    'silver': '#ecebff',
+                    'bubble-gum': '#ff77e9',
+                    'bermuda': '#78dcca',
+                    }
+                }
+      
+                }
+            }
+        
+        
+    </script>
+
+</head>
+
+<body>
+    <!--  COLOR = text-colorname-number(400)  that is weight [ kitna mota color k aran hona chahiye ]   -->
+    <h1 class= "text-3xl px-5 "> Defautl and NEW both color are add </h1>
+    <h2 class="  text-3xl   text-center   py-10   text-green-800 "> This is working (text-green-800) </h2>
+    <h2 class="  text-3xl   text-center   py-10   text-purple "> This is  working beacuse it is define in extends .</h2>
+
+    <h2 class="  text-3xl   text-center    text-[orange] "> Third way to add the colors & that type working (
+        text-[orange]) </h2>
+
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template Columns Tutorial in Tailwind CSS</title>
+
+    <!-- CDN add here  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- customize designn link Add  -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+
+                screens: {
+                    'sm': '567px',
+                    // => @media (min-width: 640px) { ... }
+
+                    'md': '768px',
+                    // => @media (min-width: 768px) { ... }
+
+                    'lg': '1024px',
+                    // => @media (min-width: 1024px) { ... }
+
+                    'xl': '1280px',
+                    // => @media (min-width: 1280px) { ... }
+
+                    '2xl': '1300px',
+                    // => @media (min-width: 1536px) { ... }
+                },
+
+                extend: {
+
+                    // jabki yaha hum new or old sare colors use kar skte hai
+                    colors: {
+                        soni: '#0058F5',
+                        soni2: 'pink',
+                        'white': '#ffffff',
+                        'purple': '#3f3cbb',
+                        'midnight': '#121063',
+                        'metal': '#565584',
+                        'tahiti': '#3ab7bf',
+                        'silver': '#ecebff',
+                        'bubble-gum': '#ff77e9',
+                        'bermuda': '#78dcca',
+                    }
+                }
+
+            }
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <!--  gap property work only grid  -->
+    <div class="max-w-[1200px]   py-5 text-white mx-auto  grid lg:grid-cols-4   md:grid-cols-2  sm:grid-cols-2  gap-5 ">
+
+        <div class="bg-[green] py-5 text-center  ">Coloum devided</div>
+        <div class="bg-[green] py-5 text-center  ">Coloum 1 </div>
+        <div class="bg-[green] py-5 text-center ">Coloum 2</div>
+        <div class="bg-[green] py-5 text-center ">Coloum 3</div>
+        <div class="bg-[green] py-5 text-center ">Coloum 4 </div>
+        <div class="bg-[green] py-5 text-center ">Coloum 5</div>
+        <div class="bg-[green] py-5 text-center ">Coloum 6</div>
+        <div class="bg-[green] py-5 text-center ">Coloum 7</div>
+        <div class="bg-[green] py-5 text-center ">Coloum 8</div>
+        <div class="bg-[green] py-5 text-center ">Coloum 9</div>
+        <div class="bg-[green] py-5 text-center ">Coloum 10</div>
+        <div class="bg-[green] py-5 text-center ">Coloum 11</div>
+
+    </div>
+
+
+</body>
+
+</html>

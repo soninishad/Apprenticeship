@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Customize Screen and Breakpoints </title>
+       <script src="https://cdn.tailwindcss.com"></script>
+
+       <!-- customize designn link Add  -->
+       <script>
+        tailwind.config = {
+          theme: {
+
+            screens: {
+      'sm': '567px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+            
+            extend: {
+              colors: {
+
+                soni: '#0058F5',
+                soni2: 'pink',
+                soni3: 'brown',
+                soni4: 'yellow',
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+<body>
+      
+      <!-- <h1 class="  text-3xl  lg:text-center text-soni "> large color and center the text </h1><br/><hr/><br/> -->
+      <!-- <h2 class="  text-3xl    xl:text-left  lg:text-center soni ">for using extra large </h2><br/><hr/><br/> -->
+      <!-- <h3 class="  text-3xl    sm:text-center   text-soni2 ">for mobile work </h3><br/><hr/><br/> -->
+      <!-- <h4 class="  text-3xl    text-right   text-soni3 ">all screen same work </h4><br/><hr/><br/> -->
+      <!-- <h2 class="  text-3xl    sm:text-left  lg:text-center  py-10 text-soni4 ">padding top </h2><hr/> -->
+      <!-- <h2 class="  text-3xl    sm:text-left  lg : text-center py-5 lg:py-10  soni4 ">lg screen  me padding 10px call karega or baki screens me 5px ko. , mobile work </h2><hr/> -->
+      <h2 class="  text-3xl    sm:text-center  lg : text-center py-5 lg:py-10  soni4 "> customize screen size like that sm size change here according own </h2><hr/>
+
+
+</body>
+</html>

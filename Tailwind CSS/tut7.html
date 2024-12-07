@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Text Colors in Tailwind CSS</title>
+
+    <!-- CDN add here  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- customize designn link Add  -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+
+                //  Yaha par hum only purane color hi add kar sakte hai new colors nhi 
+                colors: {
+                    transparent: 'transparent',
+                    current: 'currentColor',
+                    'white': '#ffffff',
+                    'purple': '#3f3cbb',
+                    'midnight': '#121063',
+                    'metal': '#565584',
+                    'tahiti': '#3ab7bf',
+                    'silver': '#ecebff',
+                    'bubble-gum': '#ff77e9',
+                    'bermuda': '#78dcca',
+                },
+
+                // that is used for added the screen size / change the screen size
+                extend: {
+                    screens: {
+                        // here we add always as a OBJECT and also define min and max values...
+                        'xs': { 'min': '320px', 'max': '567' },
+                        // => @media (min-width: 992px) { ... }
+                    },
+
+
+                    // jabki yaha hum new or old sare colors use kar skte hai
+                    // colors: {
+                    //     soni: '#0058F5',
+                    //     soni2: 'pink',
+                    // }
+                }
+            }
+        }
+        
+    </script>
+
+</head>
+
+<body>
+    <!--  COLOR = text-colorname-number(400)  that is weight [ kitna mota color k aran hona chahiye ]   -->
+<h1> Only that (default) color add</h1>
+    <h2 class="  text-3xl   text-center   py-10   text-green-800 "> This is not working (text-green-800) </h2>
+    <h2 class="  text-3xl   text-center   py-10   text-green "> This is also not working (text-green)</h2>
+
+    <h2 class="  text-3xl   text-center    text-[orange] "> Third way to add the colors & that type working (
+        text-[orange]) </h2>
+
+
+</body>
+
+</html>

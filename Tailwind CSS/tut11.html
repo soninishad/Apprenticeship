@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Span Grid Template Columns</title>
+
+    <!-- CDN add here  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- customize designn link Add  -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+
+                screens: {
+                    'sm': '567px',
+                    // => @media (min-width: 640px) { ... }
+
+                    'md': '768px',
+                    // => @media (min-width: 768px) { ... }
+
+                    'lg': '1024px',
+                    // => @media (min-width: 1024px) { ... }
+
+                    'xl': '1280px',
+                    // => @media (min-width: 1280px) { ... }
+
+                    '2xl': '1520px',
+                    // => @media (min-width: 1536px) { ... }
+                },
+
+                extend: {
+
+                    // jabki yaha hum new or old sare colors use kar skte hai
+                    colors: {
+                        soni: '#0058F5',
+                        soni2: 'pink',
+                        'white': '#ffffff',
+                        'purple': '#3f3cbb',
+                        'midnight': '#121063',
+                        'metal': '#565584',
+                        'tahiti': '#3ab7bf',
+                        'silver': '#ecebff',
+                        'bubble-gum': '#ff77e9',
+                        'bermuda': '#78dcca',
+                    }
+                }
+
+            }
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+    <div
+        class="max-w-[1200px]   py-5 text-white mx-auto  grid lg:grid-cols-4   md:grid-cols-2  sm:grid-cols-2  gap-5 ">
+
+        <!--    COL-Start-2    -->
+        <div class="bg-[green]  text-[pink]    col-start-2   py-5 text-center  ">Coloum devided ...... Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Deleniti quaerat consectetur, amet quo suscipit eius eos alias quos eum veritatis.</div>
+
+        <div class="bg-[green]  py-5 text-center  ">Coloum 1 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam vel facere consequuntur laudantium. Numquam totam, tempora expedita minus sint quibusdam.</div>
+
+       <!--  .......................  jaha se End karte hai ek number phle rukta hai  ............... sizing change           -->
+        <div class="bg-[green]         col-start-1      col-end-4          py-5 text-center ">Coloum 2 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Tempore reiciendis odio enim sint doloremque aperiam debitis consectetur dolorum doloribus dolorem.</div>
+
+        <div class="bg-[green] py-5 text-center ">Coloum 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            minima adipisci consectetur eveniet, animi sequi dolores facilis placeat fugiat culpa!</div>
+
+            <!-- lastt........ -->
+        <div class="bg-[green]         col-start-2      col-end-5     py-5 text-center ">Coloum 4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            at enim animi sit maxime? Magni cupiditate laudantium unde voluptas nulla. </div>
+
+        <div class="bg-[green] py-5 text-center ">Coloum 5 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Odio sint voluptatibus, nisi quos praesentium facilis quam sit repudiandae recusandae incidunt!</div>
+
+        
+        <div class="bg-[green]            py-5 text-center ">Coloum 6 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Accusantium officia minus neque eligendi dicta quis dolorum, quam tempora iste aliquam!</div>
+
+        <div class="bg-[green] py-5 text-center ">Coloum 7 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab
+            dicta reiciendis enim accusamus nisi quae nobis ad iusto corrupti minima.</div>
+
+        <div class="bg-[green] py-5 text-center ">Coloum 8 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Laboriosam earum cumque qui eveniet impedit necessitatibus facilis odio doloremque deserunt id.</div>
+
+            
+    </div>
+
+</body>
+
+</html>

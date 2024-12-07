@@ -1,0 +1,27 @@
+nav {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+nav ul li {
+  display: inline-block;
+}
+
+
+
+.class-a {
+  color: rgb(236, 204, 193);
+}
+
+.class-b {
+  color: blue;
+  background-color: pink;
+}
+
+.class-c {
+  background-color: pink;
+}/*# sourceMappingURL=style.css.map */
