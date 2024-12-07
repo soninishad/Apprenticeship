@@ -1,0 +1,39 @@
+<!----------------------- CLASS 10---------------------->
+
+
+<!Doctype html>
+<html>
+
+<head>
+    <script>
+        // Internal js
+
+        var colors = [ 'red' , 'black ' , 'green' , 'pink', 'aqua', 'yellow'];
+ 
+        function startEvent() {
+
+            var i = 0 ;
+            var thread1 = setInterval(function () {
+                document.getElementById('body');
+                body.style.backgroundColor = colors[i];
+                i++;
+                // console.log('changing =' , i);
+                if(colors.length ==i ){
+                    i=0;
+                }
+            },3000) ;
+        }
+       
+
+    </script>
+
+</head>
+
+<body id="body">
+    <h1>Example of  setInterval </h1>
+<input type="button" value="start" onclick="startEvent();" />
+
+
+</body>
+</html>
+

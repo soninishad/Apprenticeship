@@ -1,0 +1,42 @@
+<!-- CLASS 5-->
+
+<!Doctype html>
+<html>
+
+<head>
+  <script>
+
+    // Internal js
+
+    function set_karo() {     
+
+        console.log( " full Syntax ") ;
+        console.log (document.getElementById('tb_1').value);
+        console.log (document.getElementById('tb_1').className);
+        console.log (document.getElementById('tb_1').id);
+        console.log (document.getElementById('tb_1').type);
+        console.log (document.getElementById('tb_1').name);
+
+
+     console.log('variable wala syntax');
+     var tb = document.getElementById('tb_1') ;
+                  console.log(tb.value);
+                  console.log(tb.className);
+                  console.log(tb.id);
+                  console.log(tb.type);
+                  console.log(tb.name);
+    }
+  </script>
+
+</head>
+
+<body>
+  <h1> syntax </h1>
+  <input type="text" id="td_1" /><br />
+  <input type="text" id="td_2" /><br />
+  <button onclick="set_karo();">set</button>
+
+
+</body>
+
+</html>

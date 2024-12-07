@@ -1,0 +1,78 @@
+<!----------------------- CLASS 8---------------------->
+
+
+<!Doctype html>
+<html>
+
+<head>
+    <script>
+        // Internal js
+
+
+        function hide() {
+            var div = document.getElementById('div');
+            //  [ "  (' ' )  " ]  , [ ' ( "" ) ' ]
+            div.style = "display:none";
+
+        }
+
+        function show() {
+            var div = document.getElementById('div');
+            div.style = "display:block";
+        }
+
+        // function toggle() {
+        //     var div = document.getElementById('div');
+        //     if (div.style.display == "none") {
+        //         show();
+        //     }
+        //     else {
+        //         hide();
+        //     }
+        // }
+
+    //  function toggle(btn){
+    //     var div = document.getElementById("div");
+    //         if (div.style.display == 'none' ) {
+    //             div.style.display = 'block';
+    //             btn.style.display = 'show'; 
+    //         }else
+    //        {
+    //             div.style.display = 'block';
+    //             btn.style.display = 'hide'; 
+    //  }
+    // }
+
+
+     function toggle(btn){
+        var div = document.getElementById("div");
+            if (div.style.display == 'block' ) {
+                div.style.display = 'none';
+                btn.style.display = 'show'; 
+            }else
+           {
+                div.style.display = 'block';
+                btn.style.display = 'hide'; 
+     }
+    }
+
+
+    </script>
+
+</head>
+
+<body>
+    <h1> Hide and Show </h1>
+
+    <div id="div" style="display:block;">
+        <h1>I am a div</h1>
+    </div>
+
+    <button onclick="hide();">Hide</button>
+    <button onclick="show();">Show</button>
+
+    <button onclick="toggle(this);">show</button>
+
+
+</body>
+</html>

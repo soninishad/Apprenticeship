@@ -1,0 +1,66 @@
+<!-- CLASS 7-->
+
+<!Doctype html>
+<html>
+
+<head>
+    <style>
+        #first {
+            height: 150px;
+            width: 150px;
+            border: 2px solid yellow;
+            background-color: yellow;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 45px;
+        }
+
+        #second {
+            height: 150px;
+            width: 150px;
+            border: 2px solid rgb(0, 8, 255);
+            background-color: rgb(0, 13, 255);
+        }
+    </style>
+
+    <script>
+        // Internal js
+
+        function swap() {
+            //  console.log("chal raha or not.")
+            var first = document.getElementById("first");
+            console.log(first.innerHTML);
+
+            var second = document.getElementById("second");
+            console.log(second.innerHTML);
+   
+
+            var temp = document.getElementById("temp");
+    
+        // temp =first.innerHTML;
+        // first.innerHTML=second.innerHTML;
+        // second.innerHTML=temp;
+
+    //    [ first.innerHTML = second.innerHTML];
+
+        }
+    </script>
+
+</head>
+<body>
+    <h1>Different between innerHTML and innerText</h1>
+    <div id="first">
+        <h1>hy</h1>
+    </div>
+    <button onclick="swap();" style="margin-bottom:20px; margin-top: 20px; margin-left: 35px;">Swap</button>
+
+    <div id="second">
+        <h1>hello</h1>
+    </div>
+
+    <div id="tepm"></div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!-- CLASS 7-->
+
+<!Doctype html>
+<html>
+
+<head>
+    <script>
+        // Internal js
+
+        function inner() {
+            //  console.log("chal raha or not.")
+            var para = document.getElementById("para");
+            console.log(para.innerText);
+        }
+
+        function html() {
+            //  console.log("chal raha or not.")
+            var para = document.getElementById("para");
+            console.log(para.innerHTML);
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <h1>Different between innerHTML and innerText</h1>
+    <p id="para">
+        <b>
+            <u>Some value</u>
+        </b>
+    </p>
+
+    <button onclick="inner();">innerText</button>
+    <button onclick="html();">innerHTML</button>
+
+</body>
+
+</html>

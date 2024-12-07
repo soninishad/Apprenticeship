@@ -1,0 +1,93 @@
+<!----------------------- CLASS 11---------------------->
+
+
+<!Doctype html>
+<html>
+
+<head>
+    <style>
+        .success {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            border: 2px solid green;
+            background-color: lightgreen;
+            border-radius: 5px;
+            color: green;
+
+        }
+
+        .error {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            border: 2px solid red;
+            background-color: pink;
+            border-radius: 5px;
+            color: red;
+
+        }
+    </style>
+
+
+    <script>
+        // Internal js
+
+        function success() {
+            var body_collection = document.getElementsByTagName("body");
+            // console.log(body_collection[0]);
+            var bodyElement = body_collection[0];
+            var spn = "<p><span id='spn'></span></p>";
+
+            var previousContent = bodyElement.innerHTML;
+            bodyElement.innerHTML = previousContent + spn;
+
+            var spn = document.getElementById('spn');
+            spn.innerHTML = 'User Create Successfully !';
+            spn.className = "success";
+
+            var thread = setTimeout(function () {
+                // spn.style.display = 'none';
+                window.location.reload();           //reload
+            }, 2000);
+
+        }
+
+        function error() {
+            var body_collection = document.getElementsByTagName("body");
+            // console.log(body_collection[0]);
+            var bodyElement = body_collection[0];
+            var spn = "<p><span id='spn'></span></p>";
+
+            var previousContent = bodyElement.innerHTML;
+            bodyElement.innerHTML = previousContent + spn;
+
+            var spn = document.getElementById('spn');
+            spn.innerHTML = 'User can not be created !';
+            spn.className = "error";
+
+
+            var thread = setTimeout(function () {
+                // spn.style.display = 'none';
+                window.location.reload();           //reload
+
+            }, 2000);
+        }
+
+// bodyElement.innerHTML = spn;   --- > override
+//  Override : replace older data and add new data .
+// Append  :  add new data + older data .
+          // append mode : pre  + post .
+
+    </script>
+
+</head>
+
+<body>
+    <button onclick="success();">Success</button>
+    <button onclick="error();">Error</button>
+
+
+</body>
+
+</html>
