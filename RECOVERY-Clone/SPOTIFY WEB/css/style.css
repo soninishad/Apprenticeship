@@ -1,0 +1,15 @@
+
+.searching{
+    height: 30px;
+    margin-left: 300px;
+    width: 100%;
+    border: 2px solid red;
+    /* background-coslor: aqua; */
+}
+
+.home {
+    height: 100%;
+    width: 300px;
+    border: 2px solid rgb(0, 123, 255);
+    /* background-coslor: aqua; */
+}
