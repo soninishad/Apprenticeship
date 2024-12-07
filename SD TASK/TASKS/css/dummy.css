@@ -1,0 +1,18 @@
+.b{
+    height: 700px;
+    /* width: 1500px; */
+    /* height: 550; */
+    width: 1450px;
+    background-color: #dccdb6;
+    margin: 20px;
+    margin-left: 40px;
+}
+.b_2{
+    height: 550px;
+    width: 1350px;
+    /* margin-left: 500px; */
+    /* width: 900px; */
+    border: 2px solid white;
+    margin: 50px;
+    float: left;
+}

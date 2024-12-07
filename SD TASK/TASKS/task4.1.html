@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+
+<script>
+        // Internal js
+        var Images = [ '3 (3).jpg' , '3 (6).jpg' ,  '12 (2).jpg' ,  '12 (3).jpg' ];
+        // function runslider() {
+            window.onload = function () {
+                var i = 0 ;
+            var thread1 = setInterval(function () {
+                document.getElementById('img');
+                // img.src = +Images[i];
+             img.src = 'img/' +Images[i];
+                i++;
+                // console.log('changing =' , i);
+                if(Images.length ==i ){
+                    i=0;
+                }
+            },2000) ;
+            }
+</script>
+
+    <style>
+#list{
+    list-style-type: none;    
+}
+#list li{
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+    font-family:Elephant;
+}
+#list li:hover{
+    font-size: 30px;
+    background-color: rgb(255, 0, 238);
+  cursor: pointer;
+}
+#img2:hover{
+    background-image: url(../TASKS/img/3\ \(3\).jpg) ;
+    height: 600px;
+    width: 49%;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+
+<body>
+<div id="navbar" style="height: 60px; width:100%; border: 2px solid rgb(239, 232, 232); background-color: aqua; ">
+<ul id="list">
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Contact Us </li>
+    <li>Gallery</li>
+    <li>Services</li>
+</ul>
+</div>
+
+<div id="ig"  style="height:600px; ; margin-top: 25px;">
+<img src="img/12 (3).jpg"  id="img" height="600px" width="50%" />
+<img src="img/3 (1).jpg"  id="img2"  height="600px" width="49.5%" />
+
+</div>
+
+
+</body>
+</html>
